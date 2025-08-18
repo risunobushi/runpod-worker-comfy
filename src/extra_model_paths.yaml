@@ -8,6 +8,7 @@ runpod_worker_comfy:
   vae: models/vae/
   clip: models/clip/
   unet: models/diffusion_models/ # Use the actual subfolder name for unet models
+  upscale_models: models/upscale_models/ # Add for upscaler models
 
   # Add other standard types if their subfolders exist under /runpod-volume/ComfyUI/models/
   # checkpoints: models/checkpoints/
