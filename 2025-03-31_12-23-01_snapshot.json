@@ -8,6 +8,10 @@
         "https://github.com/risunobushi/ComfyUI_FaceMesh_Eyewear_Mask.git": {
             "hash": "e57b08540f3064aabed854a429f9329b61a61ed8",
             "disabled": false
+        },
+        "https://github.com/risunobushi/ComfyUI_sm4llSeg.git": {
+            "hash": "a720df69f24289f0ce1dea97b8745be8c7387994",
+            "disabled": false
         }
     },
     "cnr_custom_nodes": {
@@ -24,6 +28,10 @@
         }
     ],
     "pips": {
+        "iglovikov-helper-functions": "",
+        "wandb": "",
+        "segmentation-models-pytorch": "",
+        "pytorch-lightning": "",
         "detectron2==0.6": "",
         "pytorch3d==0.7.6": "",
         "submitit==1.5.1": "",

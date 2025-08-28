@@ -71,6 +71,15 @@ RUN chmod +x /start.sh /restore_snapshot.sh
 # Optionally copy the snapshot file
 ADD *snapshot*.json /
 
+# Add GitHub token support for private repositories
+# Support both build arg (for local builds) and environment variable (for RunPod)
+ARG GITHUB_TOKEN
+ENV GITHUB_TOKEN_ENV=${GITHUB_TOKEN}
+RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
+        TOKEN=${GITHUB_TOKEN_ENV:-$GITHUB_TOKEN}; \
+        git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/"; \
+    fi
+
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
 

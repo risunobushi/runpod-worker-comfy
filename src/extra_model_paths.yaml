@@ -9,6 +9,7 @@ runpod_worker_comfy:
   clip: models/clip/
   unet: models/diffusion_models/ # Use the actual subfolder name for unet models
   upscale_models: models/upscale_models/ # Add for upscaler models
+  Sm4llSeg: models/Sm4llSeg/ # Add custom Segmentation models path
 
   # Add other standard types if their subfolders exist under /runpod-volume/ComfyUI/models/
   # checkpoints: models/checkpoints/
