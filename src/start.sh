@@ -41,12 +41,12 @@ if [ -d "$COMFYUI_DIR" ]; then
     echo "No GITHUB_TOKEN found - skipping private repo authentication"
   fi
 
-  # Create symbolic link for Sm4llSeg models from network volume to local ComfyUI
-  echo "Creating symbolic link for Sm4llSeg models..."
+  # Copy Sm4llSeg models from network volume to local ComfyUI
+  echo "Copying Sm4llSeg models..."
   if [ -d "/runpod-volume/ComfyUI/models/Sm4llSeg" ]; then
     mkdir -p /comfyui/models/Sm4llSeg
-    ln -sf /runpod-volume/ComfyUI/models/Sm4llSeg/* /comfyui/models/Sm4llSeg/ 2>/dev/null || true
-    echo "Symbolic link created for Sm4llSeg models"
+    cp -v /runpod-volume/ComfyUI/models/Sm4llSeg/* /comfyui/models/Sm4llSeg/ 2>/dev/null || echo "Copy completed (some files may have been skipped)"
+    echo "Sm4llSeg models copied to local directory"
     echo "Listing Sm4llSeg models in local directory:"
     ls -la /comfyui/models/Sm4llSeg/
   else
