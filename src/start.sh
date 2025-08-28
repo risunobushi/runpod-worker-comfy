@@ -29,6 +29,18 @@ if [ -d "$COMFYUI_DIR" ]; then
   cat extra_model_paths.yaml
   echo "--- END DEBUG ---"
 
+  # Configure git authentication for private repos at runtime
+  if [ -n "$GITHUB_TOKEN" ]; then
+    echo "Configuring git authentication for private repositories..."
+    git config --global url."https://${GITHUB_TOKEN}:@github.com/".insteadOf "https://github.com/"
+    
+    # Re-run snapshot restoration to get any private repos that failed during build
+    echo "Re-running snapshot restoration for private repositories..."
+    /restore_snapshot.sh || echo "Snapshot restoration completed (some failures may be expected)"
+  else
+    echo "No GITHUB_TOKEN found - skipping private repo authentication"
+  fi
+
   # Start ComfyUI in the background
   echo "Starting ComfyUI server in background..."
   # Use python3 explicitly if needed, adjust flags as necessary
