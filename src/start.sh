@@ -41,6 +41,18 @@ if [ -d "$COMFYUI_DIR" ]; then
     echo "No GITHUB_TOKEN found - skipping private repo authentication"
   fi
 
+  # Create symbolic link for Sm4llSeg models from network volume to local ComfyUI
+  echo "Creating symbolic link for Sm4llSeg models..."
+  if [ -d "/runpod-volume/ComfyUI/models/Sm4llSeg" ]; then
+    mkdir -p /comfyui/models/Sm4llSeg
+    ln -sf /runpod-volume/ComfyUI/models/Sm4llSeg/* /comfyui/models/Sm4llSeg/ 2>/dev/null || true
+    echo "Symbolic link created for Sm4llSeg models"
+    echo "Listing Sm4llSeg models in local directory:"
+    ls -la /comfyui/models/Sm4llSeg/
+  else
+    echo "Warning: /runpod-volume/ComfyUI/models/Sm4llSeg not found"
+  fi
+
   # Start ComfyUI in the background
   echo "Starting ComfyUI server in background..."
   # Use python3 explicitly if needed, adjust flags as necessary
