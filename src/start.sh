@@ -50,7 +50,7 @@ if [ -d "$COMFYUI_DIR" ]; then
     echo "Listing Sm4llSeg models in local directory:"
     ls -la /comfyui/models/Sm4llSeg/
   else
-    echo "Warning: /runpod-volume/ComfyUI/models/Sm4llSeg not found"
+    echo "Warning: /runpod-volume/ComfyUI/models/Sm4llSeg not found where it should be"
   fi
 
   # Start ComfyUI in the background
