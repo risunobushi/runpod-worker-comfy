@@ -38,14 +38,14 @@ RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
 # Clean up to reduce image size
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
-# Install comfy-cli
-RUN pip install comfy-cli
-
-# Install ComfyUI
-RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 11.8 --nvidia --version nightly --commit ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
-
-# Change working directory to ComfyUI
+# Install ComfyUI from specific commit
+RUN git clone https://github.com/comfyanonymous/ComfyUI.git /comfyui
 WORKDIR /comfyui
+RUN git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
+
+# Install ComfyUI requirements
+RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Install runpod
 RUN pip install runpod requests
