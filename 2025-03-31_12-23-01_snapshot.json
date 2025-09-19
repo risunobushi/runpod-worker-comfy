@@ -13,6 +13,10 @@
             "hash": "a720df69f24289f0ce1dea97b8745be8c7387994",
             "disabled": false
         }
+        "https://github.com/gaspard-macelin/talent_zero.git": {
+            "hash": "f4b23f2cd17ddd738bf179bcbb3719eb2569e8e9",
+            "disabled": false
+        }
     },
     "cnr_custom_nodes": {
         "comfyui_controlnet_aux": "1.0.7",
