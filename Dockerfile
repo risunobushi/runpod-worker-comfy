@@ -1,5 +1,5 @@
 # Stage 1: Base image with common dependencies
-FROM nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04 as base
+FROM nvidia/cuda:12.8.0-cudnn-runtime-ubuntu22.04 as base
 
 # Prevents prompts from packages asking for user input during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -38,17 +38,17 @@ RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
 # Clean up to reduce image size
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
-# Pre-install PyTorch 2.10 nightly with CUDA 12.6 support
-RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu126 --no-cache-dir
+# Pre-install PyTorch 2.10 nightly with CUDA 12.8 support (required for RTX 50 series)
+RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir
 
-# Install comfy-cli
-RUN pip install comfy-cli
-
-# Install ComfyUI (latest version)
-RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 12.6 --nvidia
-
-# Change working directory to ComfyUI
+# Install ComfyUI from git (latest)
+RUN git clone https://github.com/comfyanonymous/ComfyUI.git /comfyui
 WORKDIR /comfyui
+# Install ComfyUI requirements (will use pre-installed PyTorch 2.10 cu128)
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install comfy-cli for snapshot restoration
+RUN pip install comfy-cli
 
 # Install runpod
 RUN pip install runpod requests
