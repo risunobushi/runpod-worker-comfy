@@ -1,5 +1,5 @@
 # Stage 1: Base image with common dependencies
-FROM nvidia/cuda:12.8.0-cudnn9-runtime-ubuntu22.04 as base
+FROM nvidia/cuda:12.8.0-cudnn-runtime-ubuntu22.04 as base
 
 # Prevents prompts from packages asking for user input during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -38,8 +38,8 @@ RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
 # Clean up to reduce image size
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
-# Pre-install PyTorch 2.8 with CUDA 12.8 support (nightly build)
-RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir
+# Pre-install PyTorch 2.10 nightly with CUDA 12.8 support (from working 5090 setup)
+RUN pip install --pre torch==2.10.0.dev20251030+cu128 torchaudio==2.10.0.dev20251031+cu128 torchvision==0.25.0.dev20251031+cu128 --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir
 
 # Install comfy-cli
 RUN pip install comfy-cli
