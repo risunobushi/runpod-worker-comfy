@@ -11,6 +11,7 @@ fi
 
 echo "runpod-worker-comfy: restoring snapshot: $SNAPSHOT_FILE"
 
-comfy --workspace /comfyui node restore-snapshot "$SNAPSHOT_FILE" --pip-non-url
+# Use --skip-prompt to avoid interactive tracking prompt in Docker builds
+comfy --skip-prompt --no-enable-telemetry node restore-snapshot "$SNAPSHOT_FILE" --pip-non-url
 
 echo "runpod-worker-comfy: restored snapshot file: $SNAPSHOT_FILE"
