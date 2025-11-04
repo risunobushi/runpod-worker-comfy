@@ -47,8 +47,8 @@ RUN git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install runpod
-RUN pip install runpod requests
+# Install runpod and comfy-cli
+RUN pip install runpod requests comfy-cli
 
 # Install other required python packages that were previously in the large install list
 RUN pip install accelerate==1.6.0 numba scikit-image onnxruntime-gpu yacs
