@@ -38,14 +38,14 @@ RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
 # Clean up to reduce image size
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
-# Pre-install PyTorch 2.10 nightly with CUDA 12.8 support (from working 5090 setup)
-RUN pip install --pre torch==2.10.0.dev20251030+cu128 torchaudio==2.10.0.dev20251031+cu128 torchvision==0.25.0.dev20251031+cu128 --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir
+# Pre-install PyTorch 2.10 nightly with CUDA 12.6 support
+RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu126 --no-cache-dir
 
 # Install comfy-cli
 RUN pip install comfy-cli
 
 # Install ComfyUI (latest version)
-RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 12.8 --nvidia
+RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 12.6 --nvidia
 
 # Change working directory to ComfyUI
 WORKDIR /comfyui
