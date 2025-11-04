@@ -443,18 +443,26 @@ def handler(job):
                 print("--- End listing /comfyui/output ---")
 
                 # Process the outputs to potentially upload to S3 or return base64
+                COMFY_OUTPUT_PATH = os.environ.get("COMFY_OUTPUT_PATH", "/comfyui/output")
+
                 for node_id, node_output in prompt_history['outputs'].items():
                     if 'images' in node_output:
                         for image in node_output['images']:
                             print(f"runpod-worker-comfy - {image['type']}/{image['subfolder']}/{image['filename']}") # Log expected path structure
-                            image_path = f"/comfyui/{image['type']}/{image['subfolder']}/{image['filename']}" # Construct full path
+                            # Construct full path using COMFY_OUTPUT_PATH and subfolder if present
+                            subfolder = image.get('subfolder', '')
+                            if subfolder:
+                                image_path = os.path.join(COMFY_OUTPUT_PATH, subfolder, image['filename'])
+                            else:
+                                image_path = os.path.join(COMFY_OUTPUT_PATH, image['filename'])
 
                             # Check if file exists before trying to process
                             if os.path.exists(image_path):
                                 image_data = base64_encode(image_path) # Encode the existing image
                                 output_images[image['filename']] = {"image": image_data} # Return base64
+                                print(f"runpod-worker-comfy - Successfully encoded image: {image_path}")
                             else:
-                                print(f"runpod-worker-comfy - the image does not exist in the output folder")
+                                print(f"runpod-worker-comfy - the image does not exist at: {image_path}")
                                 # Decide how to handle missing files - return error or skip?
                                 # Example: Returning an error indicator for this file
                                 output_images[image['filename']] = {"error": "Output image file not found after execution."}

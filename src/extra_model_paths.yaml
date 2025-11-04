@@ -5,6 +5,8 @@ runpod_worker_comfy:
   base_path: /runpod-volume/ComfyUI  # Base path BEFORE the 'models' directory
 
   # Paths relative to the base_path
+  text_encoders: models/text_encoders
+  loras: models/loras
   vae: models/vae/
   clip: models/clip/
   unet: models/diffusion_models/ # Use the actual subfolder name for unet models
