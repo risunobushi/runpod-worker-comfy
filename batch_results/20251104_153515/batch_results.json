@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-11-04T15:54:48.559619",
+  "summary": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "elapsed_time_seconds": 1173.186583995819
+  },
+  "results": [
+    {
+      "person": "t1.png",
+      "garment": "1.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t1__x__1.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "2.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t1__x__2.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "3.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t1__x__3.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "4.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t1__x__4.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "1.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t2__x__1.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "2.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t2__x__2.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "3.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t2__x__3.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "4.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t2__x__4.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "1.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t3__x__1.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "2.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t3__x__2.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "3.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t3__x__3.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "4.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t3__x__4.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "1.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t4__x__1.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "2.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t4__x__2.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "3.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t4__x__3.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "4.webp",
+      "success": true,
+      "output": "batch_results/20251104_153515/t4__x__4.png"
+    }
+  ]
+}

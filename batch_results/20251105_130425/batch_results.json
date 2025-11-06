@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-11-05T13:21:10.219623",
+  "summary": {
+    "total": 28,
+    "successful": 28,
+    "failed": 0,
+    "elapsed_time_seconds": 1004.6911990642548
+  },
+  "results": [
+    {
+      "person": "t1.png",
+      "garment": "1.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__1.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "2.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__2.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "5.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__5.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "6.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__6.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "7.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__7.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "7.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__7.png"
+    },
+    {
+      "person": "t1.png",
+      "garment": "8.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t1__x__8.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "1.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__1.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "2.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__2.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "5.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__5.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "6.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__6.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "7.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__7.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "7.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__7.png"
+    },
+    {
+      "person": "t2.png",
+      "garment": "8.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t2__x__8.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "1.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__1.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "2.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__2.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "5.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__5.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "6.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__6.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "7.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__7.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "7.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__7.png"
+    },
+    {
+      "person": "t3.jpg",
+      "garment": "8.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t3__x__8.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "1.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__1.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "2.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__2.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "5.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__5.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "6.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__6.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "7.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__7.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "7.png",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__7.png"
+    },
+    {
+      "person": "t4.png",
+      "garment": "8.jpg",
+      "success": true,
+      "output": "batch_results/20251105_130425/t4__x__8.png"
+    }
+  ]
+}

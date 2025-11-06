@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-11-05T16:51:48.471999",
+  "summary": {
+    "total": 10,
+    "successful": 10,
+    "failed": 0,
+    "elapsed_time_seconds": 259.9154329299927
+  },
+  "results": [
+    {
+      "person": "51aSm8C09aL.jpg",
+      "garment": "84b5ab3b-c096-4fe0-bbe6-a2465ef6c622.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/51aSm8C09aL__x__84b5ab3b-c096-4fe0-bbe6-a2465ef6c622.png"
+    },
+    {
+      "person": "51aSm8C09aL.jpg",
+      "garment": "9cf073dd-abba-499f-a7e3-ca2cb2659a58.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/51aSm8C09aL__x__9cf073dd-abba-499f-a7e3-ca2cb2659a58.png"
+    },
+    {
+      "person": "51aSm8C09aL.jpg",
+      "garment": "9f5c7d97-6d90-4489-81dc-75fd9987b39f.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/51aSm8C09aL__x__9f5c7d97-6d90-4489-81dc-75fd9987b39f.png"
+    },
+    {
+      "person": "51aSm8C09aL.jpg",
+      "garment": "b0320320-5a71-4b21-b571-e44e64dc75dc.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/51aSm8C09aL__x__b0320320-5a71-4b21-b571-e44e64dc75dc.png"
+    },
+    {
+      "person": "51aSm8C09aL.jpg",
+      "garment": "e034862f-9f68-480f-9efd-44aabd15e6ca.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/51aSm8C09aL__x__e034862f-9f68-480f-9efd-44aabd15e6ca.png"
+    },
+    {
+      "person": "rock 8-cf-cropped-40-0-552-416.jpg",
+      "garment": "84b5ab3b-c096-4fe0-bbe6-a2465ef6c622.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/rock 8-cf-cropped-40-0-552-416__x__84b5ab3b-c096-4fe0-bbe6-a2465ef6c622.png"
+    },
+    {
+      "person": "rock 8-cf-cropped-40-0-552-416.jpg",
+      "garment": "9cf073dd-abba-499f-a7e3-ca2cb2659a58.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/rock 8-cf-cropped-40-0-552-416__x__9cf073dd-abba-499f-a7e3-ca2cb2659a58.png"
+    },
+    {
+      "person": "rock 8-cf-cropped-40-0-552-416.jpg",
+      "garment": "9f5c7d97-6d90-4489-81dc-75fd9987b39f.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/rock 8-cf-cropped-40-0-552-416__x__9f5c7d97-6d90-4489-81dc-75fd9987b39f.png"
+    },
+    {
+      "person": "rock 8-cf-cropped-40-0-552-416.jpg",
+      "garment": "b0320320-5a71-4b21-b571-e44e64dc75dc.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/rock 8-cf-cropped-40-0-552-416__x__b0320320-5a71-4b21-b571-e44e64dc75dc.png"
+    },
+    {
+      "person": "rock 8-cf-cropped-40-0-552-416.jpg",
+      "garment": "e034862f-9f68-480f-9efd-44aabd15e6ca.png",
+      "success": true,
+      "output": "batch_results/20251105_164728/rock 8-cf-cropped-40-0-552-416__x__e034862f-9f68-480f-9efd-44aabd15e6ca.png"
+    }
+  ]
+}
