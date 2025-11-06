@@ -20,3 +20,13 @@ else
     echo "runpod-worker-comfy: Continuing with base ComfyUI installation..."
     exit 0
 fi
+
+# List custom_nodes directory contents after restoration
+echo "runpod-worker-comfy: --- Listing custom_nodes directory after snapshot restoration ---"
+if [ -d "/comfyui/custom_nodes" ]; then
+    echo "Contents of /comfyui/custom_nodes:"
+    ls -lA /comfyui/custom_nodes/
+else
+    echo "WARNING: /comfyui/custom_nodes directory not found"
+fi
+echo "runpod-worker-comfy: --- End custom_nodes directory listing ---"

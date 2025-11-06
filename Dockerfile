@@ -83,6 +83,16 @@ RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
 
+# List custom_nodes directory after snapshot restoration
+RUN echo "--- Listing /comfyui/custom_nodes after snapshot restoration (build time) ---" && \
+    if [ -d "/comfyui/custom_nodes" ]; then \
+        echo "Contents of /comfyui/custom_nodes:"; \
+        ls -lA /comfyui/custom_nodes/; \
+    else \
+        echo "WARNING: /comfyui/custom_nodes directory not found"; \
+    fi && \
+    echo "--- End custom_nodes listing ---"
+
 # Start container
 CMD ["/start.sh"]
 

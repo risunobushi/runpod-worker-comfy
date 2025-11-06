@@ -378,6 +378,7 @@ def handler(job):
     list_directory_contents("/runpod-volume/ComfyUI/models/vae/") # Check VAE folder on volume
     list_directory_contents("/comfyui/models/") # Check models folder in container
     list_directory_contents("/comfyui/models/vae/") # Check VAE folder in container
+    list_directory_contents("/comfyui/custom_nodes/") # Check custom_nodes after snapshot restoration
     print("--- End Directory Listing Debug ---")
 
 
