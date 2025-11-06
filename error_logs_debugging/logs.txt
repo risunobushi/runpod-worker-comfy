@@ -1,0 +1,267 @@
+2025-11-06T15:02:12.885499861Z ==========
+2025-11-06T15:02:12.885502165Z == CUDA ==
+2025-11-06T15:02:12.885503047Z ==========
+2025-11-06T15:02:12.888895629Z CUDA Version 11.8.0
+2025-11-06T15:02:12.889654710Z Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+2025-11-06T15:02:12.891510104Z This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+2025-11-06T15:02:12.891512739Z By pulling and using the container, you accept the terms and conditions of this license:
+2025-11-06T15:02:12.891514503Z https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+2025-11-06T15:02:12.891518690Z A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+2025-11-06T15:02:12.899951940Z Current directory: /comfyui
+2025-11-06T15:02:12.899985513Z --- DEBUG: Listing relevant model directories ---
+2025-11-06T15:02:12.899987387Z Listing /runpod-volume/ComfyUI/models/...
+2025-11-06T15:02:12.918038475Z total 20705
+2025-11-06T15:02:12.918073210Z drwxrwxrwx 2 root root 3001581 Aug 21 12:48 SEEDVR2
+2025-11-06T15:02:12.918075254Z drwxrwxrwx 3 root root 2055417 Sep 16 16:47 Sm4llSeg
+2025-11-06T15:02:12.918076206Z drwxrwxrwx 2 root root       1 May  6  2025 checkpoints
+2025-11-06T15:02:12.918077158Z drwxrwxrwx 2 root root 3001352 Nov  4 12:02 clip
+2025-11-06T15:02:12.918080203Z drwxrwxrwx 2 root root       1 May  6  2025 clip_vision
+2025-11-06T15:02:12.918081145Z drwxrwxrwx 2 root root 1002269 May  6  2025 configs
+2025-11-06T15:02:12.918082007Z drwxrwxrwx 2 root root       1 May  6  2025 controlnet
+2025-11-06T15:02:12.918082958Z drwxrwxrwx 2 root root       1 May  6  2025 diffusers
+2025-11-06T15:02:12.918083710Z drwxrwxrwx 3 root root 3022513 Nov  6 14:38 diffusion_models
+2025-11-06T15:02:12.918084531Z drwxrwxrwx 2 root root       1 May  6  2025 embeddings
+2025-11-06T15:02:12.918085363Z drwxrwxrwx 2 root root       1 May  6  2025 gligen
+2025-11-06T15:02:12.918086134Z drwxrwxrwx 2 root root       1 May  6  2025 hypernetworks
+2025-11-06T15:02:12.918086986Z drwxrwxrwx 2 root root 3000158 Nov  4 12:23 loras
+2025-11-06T15:02:12.918087657Z drwxrwxrwx 2 root root       1 May  7  2025 onnx
+2025-11-06T15:02:12.918088719Z drwxrwxrwx 2 root root       1 May  6  2025 photomaker
+2025-11-06T15:02:12.918089400Z drwxrwxrwx 2 root root 2035766 May  7  2025 sams
+2025-11-06T15:02:12.918090142Z drwxrwxrwx 2 root root       1 May  6  2025 style_models
+2025-11-06T15:02:12.918090853Z drwxrwxrwx 3 root root       1 Nov  4 15:01 text_encoders
+2025-11-06T15:02:12.918091534Z drwxrwxrwx 2 root root       1 May  6  2025 unet
+2025-11-06T15:02:12.918092546Z drwxrwxrwx 2 root root 2000859 Aug 18 15:47 upscale_models
+2025-11-06T15:02:12.918093218Z drwxrwxrwx 3 root root 2072172 Nov  4 11:35 vae
+2025-11-06T15:02:12.918094019Z drwxrwxrwx 2 root root       1 May  6  2025 vae_approx
+2025-11-06T15:02:12.918377580Z Listing /runpod-volume/ComfyUI/models/vae/...
+2025-11-06T15:02:12.925406611Z total 739043
+2025-11-06T15:02:12.925442779Z -rw-rw-rw- 1 root root 335306212 Jul 21 07:59 ae-fill.safetensors
+2025-11-06T15:02:12.925445183Z -rw-rw-rw- 1 root root 167666902 Feb 21  2025 ae.safetensors
+2025-11-06T15:02:12.925446175Z -rw-rw-rw- 1 root root         0 May  6  2025 put_vae_here
+2025-11-06T15:02:12.925447017Z -rw-rw-rw- 1 root root 253806246 Nov  4 11:35 qwen_image_vae.safetensors
+2025-11-06T15:02:12.925616614Z Listing /runpod-volume/ComfyUI/models/clip/...
+2025-11-06T15:02:12.929195906Z total 14184327
+2025-11-06T15:02:12.929206556Z -rw-rw-rw- 1 root root  246144152 Aug  1  2024 clip_l.safetensors
+2025-11-06T15:02:12.929207878Z -rw-rw-rw- 1 root root          0 May  6  2025 put_clip_or_text_encoder_models_here
+2025-11-06T15:02:12.929210393Z -rw-rw-rw- 1 root root 9384670680 Nov  4 12:02 qwen_2.5_vl_7b_fp8_scaled.safetensors
+2025-11-06T15:02:12.929211114Z -rw-rw-rw- 1 root root 4893934904 Aug  1  2024 t5xxl_fp8_e4m3fn.safetensors
+2025-11-06T15:02:12.929334065Z Listing /runpod-volume/ComfyUI/models/diffusion_models/...
+2025-11-06T15:02:12.932683456Z total 236073650
+2025-11-06T15:02:12.932696831Z -rw-rw-rw- 1 root root 11902519936 Jul 30 17:52 dressVTON_wl2-fp8-release.safetensors
+2025-11-06T15:02:12.932712591Z -rw-rw-rw- 1 root root 11902519936 Jul 29 07:58 eyeVTON_wl-2-fp8-release.safetensors
+2025-11-06T15:02:12.932713332Z -rw-rw-rw- 1 root root 11904639672 Nov  6 14:39 flux1-krea-dev_fp8_scaled.safetensors
+2025-11-06T15:02:12.932713893Z -rw-rw-rw- 1 root root 23804921664 Sep 17 10:47 lookVTON_men_v1.safetensors
+2025-11-06T15:02:12.932715045Z -rw-rw-rw- 1 root root 23804921664 Sep 17 10:58 lookVTON_women_v1.safetensors
+2025-11-06T15:02:12.932715606Z -rw-rw-rw- 1 root root 11902519936 Aug  2 10:48 pantsVTON_wl2-fp8-release.safetensors
+2025-11-06T15:02:12.932716257Z -rw-rw-rw- 1 root root           0 May  6  2025 put_diffusion_model_files_here
+2025-11-06T15:02:12.932716919Z -rw-rw-rw- 1 root root 20476513632 Nov  4 11:47 qwenVTON-multi.safetensors
+2025-11-06T15:02:12.932717610Z -rw-rw-rw- 1 root root 40861031488 Nov  5 10:48 qwenVTON-release-b3.safetensors
+2025-11-06T15:02:12.932718221Z -rw-rw-rw- 1 root root 40861031488 Nov  4 18:04 qwenVTON-single-bf16.safetensors
+2025-11-06T15:02:12.932719003Z -rw-rw-rw- 1 root root 20476513632 Nov  4 11:40 qwenVTON-single.safetensors
+2025-11-06T15:02:12.932719483Z -rw-rw-rw- 1 root root 11902519936 Aug  2 10:39 shoeVTON_wl2-fp8-release.safetensors
+2025-11-06T15:02:12.932720024Z -rw-rw-rw- 1 root root 11902519936 Jul 30 08:53 topVTON_wl2-fp8-release.safetensors
+2025-11-06T15:02:12.932720736Z -rw-rw-rw- 1 root root    37240140 May  7  2025 wget-log
+2025-11-06T15:02:12.932826313Z --- END DEBUG ---
+2025-11-06T15:02:12.932831193Z --- DEBUG: Listing /comfyui directory before launching ComfyUI ---
+2025-11-06T15:02:12.934155001Z total 336
+2025-11-06T15:02:12.934175700Z drwxr-xr-x 1 root root   137 Nov  6 11:33 .ci
+2025-11-06T15:02:12.934177433Z drwxr-xr-x 1 root root    59 Nov  6 11:33 .git
+2025-11-06T15:02:12.934178555Z -rw-r--r-- 1 root root    60 Nov  6 11:33 .gitattributes
+2025-11-06T15:02:12.934180409Z drwxr-xr-x 1 root root    45 Nov  6 11:33 .github
+2025-11-06T15:02:12.934181841Z -rw-r--r-- 1 root root   339 Nov  6 11:33 .gitignore
+2025-11-06T15:02:12.934182984Z -rw-r--r-- 1 root root  1092 Nov  6 11:33 CODEOWNERS
+2025-11-06T15:02:12.934183745Z -rw-r--r-- 1 root root  1882 Nov  6 11:33 CONTRIBUTING.md
+2025-11-06T15:02:12.934184627Z -rw-r--r-- 1 root root 35149 Nov  6 11:33 LICENSE
+2025-11-06T15:02:12.934185298Z -rw-r--r-- 1 root root 21365 Nov  6 11:33 README.md
+2025-11-06T15:02:12.934186139Z drwxr-xr-x 1 root root    65 Nov  6 11:33 api_server
+2025-11-06T15:02:12.934186841Z drwxr-xr-x 1 root root  4096 Nov  6 11:33 app
+2025-11-06T15:02:12.934187522Z drwxr-xr-x 1 root root  4096 Nov  6 11:33 comfy
+2025-11-06T15:02:12.934188664Z drwxr-xr-x 1 root root   121 Nov  6 11:33 comfy_execution
+2025-11-06T15:02:12.934189396Z drwxr-xr-x 1 root root  4096 Nov  6 11:33 comfy_extras
+2025-11-06T15:02:12.934190047Z -rw-r--r-- 1 root root  3533 Nov  6 11:33 cuda_malloc.py
+2025-11-06T15:02:12.934190738Z drwxr-xr-x 1 root root    37 Nov  6 11:33 custom_nodes
+2025-11-06T15:02:12.934191379Z -rw-r--r-- 1 root root 39907 Nov  6 11:33 execution.py
+2025-11-06T15:02:12.934192091Z -rw-r--r-- 1 root root  1211 Nov  6 11:32 extra_model_paths.yaml
+2025-11-06T15:02:12.934192802Z -rw-r--r-- 1 root root  1480 Nov  6 11:33 extra_model_paths.yaml.example.bak
+2025-11-06T15:02:12.934193854Z -rw-r--r-- 1 root root   946 Nov  6 11:33 fix_torch.py
+2025-11-06T15:02:12.934194655Z -rw-r--r-- 1 root root 14775 Nov  6 11:33 folder_paths.py
+2025-11-06T15:02:12.934195337Z drwxr-xr-x 2 root root    33 Nov  6 11:33 input
+2025-11-06T15:02:12.934196088Z -rw-r--r-- 1 root root  4191 Nov  6 11:33 latent_preview.py
+2025-11-06T15:02:12.934196769Z -rw-r--r-- 1 root root 11306 Nov  6 11:33 main.py
+2025-11-06T15:02:12.934197471Z drwxr-xr-x 1 root root    49 Nov  6 11:33 models
+2025-11-06T15:02:12.934198412Z -rw-r--r-- 1 root root  1261 Nov  6 11:33 new_updater.py
+2025-11-06T15:02:12.934199114Z -rw-r--r-- 1 root root   960 Nov  6 11:33 node_helpers.py
+2025-11-06T15:02:12.934199775Z -rw-r--r-- 1 root root 90145 Nov  6 11:33 nodes.py
+2025-11-06T15:02:12.934200887Z drwxr-xr-x 2 root root    41 Nov  6 11:33 notebooks
+2025-11-06T15:02:12.934201578Z drwxr-xr-x 2 root root    53 Nov  6 11:33 output
+2025-11-06T15:02:12.934202270Z -rw-r--r-- 1 root root   227 Nov  6 11:33 pytest.ini
+2025-11-06T15:02:12.934211096Z -rw-r--r-- 1 root root   221 Nov  6 11:33 requirements.txt
+2025-11-06T15:02:12.934211808Z -rw-r--r-- 1 root root   384 Nov  6 11:33 ruff.toml
+2025-11-06T15:02:12.934212449Z drwxr-xr-x 1 root root    79 Nov  6 11:33 script_examples
+2025-11-06T15:02:12.934213070Z -rw-r--r-- 1 root root 35782 Nov  6 11:33 server.py
+2025-11-06T15:02:12.934213691Z drwxr-xr-x 1 root root    94 Nov  6 11:33 tests
+2025-11-06T15:02:12.934214523Z drwxr-xr-x 1 root root  4096 Nov  6 11:33 tests-unit
+2025-11-06T15:02:12.934215655Z drwxr-xr-x 1 root root    88 Nov  6 11:33 utils
+2025-11-06T15:02:12.934216406Z drwxr-xr-x 8 root root  4096 Nov  6 11:33 web
+2025-11-06T15:02:12.934219963Z --- END DEBUG ---
+2025-11-06T15:02:12.934221215Z --- DEBUG: Displaying extra_model_paths.yaml contents ---
+2025-11-06T15:02:12.934735839Z # Custom paths from the RunPod volume mount
+2025-11-06T15:02:12.934745877Z # Config based on the example structure from the original repo
+2025-11-06T15:02:12.934747130Z runpod_worker_comfy:
+2025-11-06T15:02:12.934748382Z   base_path: /runpod-volume/ComfyUI  # Base path BEFORE the 'models' directory
+2025-11-06T15:02:12.934750707Z   # Paths relative to the base_path
+2025-11-06T15:02:12.934751468Z   vae: models/vae/
+2025-11-06T15:02:12.934752239Z   clip: models/clip/
+2025-11-06T15:02:12.934752941Z   unet: models/diffusion_models/ # Use the actual subfolder name for unet models
+2025-11-06T15:02:12.934753692Z   upscale_models: models/upscale_models/ # Add for upscaler models
+2025-11-06T15:02:12.934754423Z   Sm4llSeg: models/Sm4llSeg/ # Add custom Segmentation models path
+2025-11-06T15:02:12.934755756Z   # Add other standard types if their subfolders exist under /runpod-volume/ComfyUI/models/
+2025-11-06T15:02:12.934756748Z   # checkpoints: models/checkpoints/
+2025-11-06T15:02:12.934757459Z   # clip_vision: models/clip_vision/
+2025-11-06T15:02:12.934758531Z   # configs: models/configs/
+2025-11-06T15:02:12.934759563Z   # controlnet: models/controlnet/
+2025-11-06T15:02:12.934760194Z   # embeddings: models/embeddings/
+2025-11-06T15:02:12.934760906Z   # loras: models/loras/
+2025-11-06T15:02:12.934761557Z   # upscale_models: models/upscale_models/
+2025-11-06T15:02:12.934762990Z # ComfyUI should append the type subfolder (e.g., 'vae', 'clip') to these base paths
+2025-11-06T15:02:12.934763631Z # and look for the model file within that combined path.
+2025-11-06T15:02:12.934764993Z # Add other types if needed, ensure they point to the correct subfolder under /runpod-volume/ComfyUI/models/
+2025-11-06T15:02:12.934766095Z # Example:
+2025-11-06T15:02:12.934766757Z # loras:
+2025-11-06T15:02:12.934767428Z #  - /runpod-volume/ComfyUI/models/loras
+2025-11-06T15:02:12.934768099Z # checkpoints:
+2025-11-06T15:02:12.934768891Z #  - /runpod-volume/ComfyUI/models/checkpoints
+2025-11-06T15:02:12.934803666Z --- END DEBUG ---
+2025-11-06T15:02:12.934826328Z Configuring git authentication for private repositories...
+2025-11-06T15:02:12.937477893Z Re-running snapshot restoration for private repositories...
+2025-11-06T15:02:12.940552620Z runpod-worker-comfy: restoring snapshot: /2025-03-31_12-23-01_snapshot.json
+2025-11-06T15:02:13.523423108Z ComfyUI-Manager not found: /comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py
+2025-11-06T15:02:13.719417893Z runpod-worker-comfy: WARNING - snapshot restoration failed with exit code 1
+2025-11-06T15:02:13.719444793Z runpod-worker-comfy: This may indicate the snapshot is incompatible with the current installation path
+2025-11-06T15:02:13.719447538Z runpod-worker-comfy: Continuing with base ComfyUI installation...
+2025-11-06T15:02:13.719579415Z Copying Sm4llSeg models...
+2025-11-06T15:02:14.886624563Z '/runpod-volume/ComfyUI/models/Sm4llSeg/bottom_segm_v2_29.pth' -> '/comfyui/models/Sm4llSeg/bottom_segm_v2_29.pth'
+2025-11-06T15:02:14.886661563Z '/runpod-volume/ComfyUI/models/Sm4llSeg/segm_bottom-1.pth' -> '/comfyui/models/Sm4llSeg/segm_bottom-1.pth'
+2025-11-06T15:02:14.886667644Z '/runpod-volume/ComfyUI/models/Sm4llSeg/segm_top-1.pth' -> '/comfyui/models/Sm4llSeg/segm_top-1.pth'
+2025-11-06T15:02:14.886685808Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_1.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_1.pth'
+2025-11-06T15:02:14.886686990Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v2_ep34.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v2_ep34.pth'
+2025-11-06T15:02:14.886688092Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v2_ep51.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v2_ep51.pth'
+2025-11-06T15:02:14.886688603Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v3_ep20.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v3_ep20.pth'
+2025-11-06T15:02:14.886689124Z '/runpod-volume/ComfyUI/models/Sm4llSeg/top_segm_v2_97.pth' -> '/comfyui/models/Sm4llSeg/top_segm_v2_97.pth'
+2025-11-06T15:02:14.887122055Z Sm4llSeg models copied to local directory
+2025-11-06T15:02:14.887136502Z Listing Sm4llSeg models in local directory:
+2025-11-06T15:02:14.888351938Z total 567492
+2025-11-06T15:02:14.888371945Z drwxr-xr-x 2 root root     4096 Nov  6 15:02 .
+2025-11-06T15:02:14.888374670Z drwxr-xr-x 1 root root       30 Nov  6 15:02 ..
+2025-11-06T15:02:14.888375792Z -rw-r--r-- 1 root root 75224995 Nov  6 15:02 bottom_segm_v2_29.pth
+2025-11-06T15:02:14.888379018Z -rw-r--r-- 1 root root 75227654 Nov  6 15:02 segm_bottom-1.pth
+2025-11-06T15:02:14.888380060Z -rw-r--r-- 1 root root 75222682 Nov  6 15:02 segm_top-1.pth
+2025-11-06T15:02:14.888380952Z -rw-r--r-- 1 root root 75220884 Nov  6 15:02 shoes_segm_1.pth
+2025-11-06T15:02:14.888381663Z -rw-r--r-- 1 root root 54525952 Nov  6 15:02 shoes_segm_v2_ep34.pth
+2025-11-06T15:02:14.888382365Z -rw-r--r-- 1 root root 75225766 Nov  6 15:02 shoes_segm_v2_ep51.pth
+2025-11-06T15:02:14.888383126Z -rw-r--r-- 1 root root 75225766 Nov  6 15:02 shoes_segm_v3_ep20.pth
+2025-11-06T15:02:14.888383978Z -rw-r--r-- 1 root root 75222682 Nov  6 15:02 top_segm_v2_97.pth
+2025-11-06T15:02:14.888414545Z Starting ComfyUI server in background...
+2025-11-06T15:02:14.888512077Z Waiting 15s for ComfyUI to initialize...
+2025-11-06T15:02:14.927144351Z Adding extra search path vae /runpod-volume/ComfyUI/models/vae/
+2025-11-06T15:02:14.927187773Z Adding extra search path clip /runpod-volume/ComfyUI/models/clip/
+2025-11-06T15:02:14.927189847Z Adding extra search path unet /runpod-volume/ComfyUI/models/diffusion_models/
+2025-11-06T15:02:14.927190858Z Adding extra search path upscale_models /runpod-volume/ComfyUI/models/upscale_models/
+2025-11-06T15:02:14.927193564Z Adding extra search path Sm4llSeg /runpod-volume/ComfyUI/models/Sm4llSeg/
+2025-11-06T15:02:14.927754213Z Adding extra search path vae /runpod-volume/ComfyUI/models/vae/
+2025-11-06T15:02:14.927792876Z Adding extra search path clip /runpod-volume/ComfyUI/models/clip/
+2025-11-06T15:02:14.927796202Z Adding extra search path unet /runpod-volume/ComfyUI/models/diffusion_models/
+2025-11-06T15:02:14.927797164Z Adding extra search path upscale_models /runpod-volume/ComfyUI/models/upscale_models/
+2025-11-06T15:02:14.927798997Z Adding extra search path Sm4llSeg /runpod-volume/ComfyUI/models/Sm4llSeg/
+2025-11-06T15:02:15.999590786Z Total VRAM 24091 MB, total RAM 126396 MB
+2025-11-06T15:02:15.999823512Z pytorch version: 2.7.1+cu118
+2025-11-06T15:02:16.000001816Z Set vram state to: NORMAL_VRAM
+2025-11-06T15:02:16.000362852Z Device: cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync
+2025-11-06T15:02:16.843203390Z Using pytorch attention
+2025-11-06T15:02:17.824749836Z ****** User settings have been changed to be stored on the server instead of browser storage. ******
+2025-11-06T15:02:17.824784671Z ****** For multi-user setups add the --multi-user CLI argument to enable multiple user profiles. ******
+2025-11-06T15:02:17.824835536Z [Prompt Server] web root: /comfyui/web
+2025-11-06T15:02:18.221314221Z Import times for custom nodes:
+2025-11-06T15:02:18.221317727Z    0.0 seconds: /comfyui/custom_nodes/websocket_image_save.py
+2025-11-06T15:02:18.226018849Z Starting server
+2025-11-06T15:02:18.226236317Z To see the GUI go to: http://0.0.0.0:8188
+2025-11-06T15:02:29.889288125Z Starting RunPod handler...
+2025-11-06T15:02:31.200644678Z --- Starting Serverless Worker |  Version 1.7.13 ---
+2025-11-06T15:02:31.832418461Z {"requestId": null, "message": "Jobs in queue: 1", "level": "INFO"}
+2025-11-06T15:02:31.832443949Z {"requestId": null, "message": "Jobs in progress: 1", "level": "INFO"}
+2025-11-06T15:02:31.832522676Z {"requestId": "acb243d3-e2d6-4c2b-839c-b355174ff163-e1", "message": "Started.", "level": "INFO"}
+2025-11-06T15:02:31.832537193Z --- Running Directory Listing Debug ---
+2025-11-06T15:02:31.832539457Z --- Listing contents of: /runpod-volume/ComfyUI/models/ ---
+2025-11-06T15:02:31.836298045Z total 20705
+2025-11-06T15:02:31.836311751Z drwxrwxrwx 2 root root       1 Aug 21 12:47 .ipynb_checkpoints
+2025-11-06T15:02:31.836312742Z drwxrwxrwx 2 root root 3001581 Aug 21 12:48 SEEDVR2
+2025-11-06T15:02:31.836313464Z drwxrwxrwx 3 root root 2055417 Sep 16 16:47 Sm4llSeg
+2025-11-06T15:02:31.836314025Z drwxrwxrwx 2 root root       1 May  6  2025 checkpoints
+2025-11-06T15:02:31.836314626Z drwxrwxrwx 2 root root 3001352 Nov  4 12:02 clip
+2025-11-06T15:02:31.836315568Z drwxrwxrwx 2 root root       1 May  6  2025 clip_vision
+2025-11-06T15:02:31.836316319Z drwxrwxrwx 2 root root 1002269 May  6  2025 configs
+2025-11-06T15:02:31.836316820Z drwxrwxrwx 2 root root       1 May  6  2025 controlnet
+2025-11-06T15:02:31.836317301Z drwxrwxrwx 2 root root       1 May  6  2025 diffusers
+2025-11-06T15:02:31.836317772Z drwxrwxrwx 3 root root 3022513 Nov  6 14:38 diffusion_models
+2025-11-06T15:02:31.836318243Z drwxrwxrwx 2 root root       1 May  6  2025 embeddings
+2025-11-06T15:02:31.836318734Z drwxrwxrwx 2 root root       1 May  6  2025 gligen
+2025-11-06T15:02:31.836319205Z drwxrwxrwx 2 root root       1 May  6  2025 hypernetworks
+2025-11-06T15:02:31.836319675Z drwxrwxrwx 2 root root 3000158 Nov  4 12:23 loras
+2025-11-06T15:02:31.836320146Z drwxrwxrwx 2 root root       1 May  7  2025 onnx
+2025-11-06T15:02:31.836320697Z drwxrwxrwx 2 root root       1 May  6  2025 photomaker
+2025-11-06T15:02:31.836321799Z drwxrwxrwx 2 root root 2035766 May  7  2025 sams
+2025-11-06T15:02:31.836322290Z drwxrwxrwx 2 root root       1 May  6  2025 style_models
+2025-11-06T15:02:31.836322831Z drwxrwxrwx 3 root root       1 Nov  4 15:01 text_encoders
+2025-11-06T15:02:31.836323372Z drwxrwxrwx 2 root root       1 May  6  2025 unet
+2025-11-06T15:02:31.836323843Z drwxrwxrwx 2 root root 2000859 Aug 18 15:47 upscale_models
+2025-11-06T15:02:31.836324344Z drwxrwxrwx 3 root root 2072172 Nov  4 11:35 vae
+2025-11-06T15:02:31.836324815Z drwxrwxrwx 2 root root       1 May  6  2025 vae_approx
+2025-11-06T15:02:31.836325867Z --- End of listing for: /runpod-volume/ComfyUI/models/ ---
+2025-11-06T15:02:31.836326408Z --- Listing contents of: /runpod-volume/ComfyUI/models/vae/ ---
+2025-11-06T15:02:31.838456867Z total 739044
+2025-11-06T15:02:31.838463479Z drwxrwxrwx 2 root root         1 Jul 21 08:02 .ipynb_checkpoints
+2025-11-06T15:02:31.838464582Z -rw-rw-rw- 1 root root 335306212 Jul 21 07:59 ae-fill.safetensors
+2025-11-06T15:02:31.838465523Z -rw-rw-rw- 1 root root 167666902 Feb 21  2025 ae.safetensors
+2025-11-06T15:02:31.838466225Z -rw-rw-rw- 1 root root         0 May  6  2025 put_vae_here
+2025-11-06T15:02:31.838466876Z -rw-rw-rw- 1 root root 253806246 Nov  4 11:35 qwen_image_vae.safetensors
+2025-11-06T15:02:31.838468098Z --- End of listing for: /runpod-volume/ComfyUI/models/vae/ ---
+2025-11-06T15:02:31.838468739Z --- Listing contents of: /comfyui/models/ ---
+2025-11-06T15:02:31.839215227Z total 8
+2025-11-06T15:02:31.839232209Z drwxr-xr-x 2 root root 4096 Nov  6 15:02 Sm4llSeg
+2025-11-06T15:02:31.839234503Z drwxr-xr-x 2 root root   42 Nov  6 11:33 checkpoints
+2025-11-06T15:02:31.839235926Z drwxr-xr-x 2 root root   50 Nov  6 11:33 clip
+2025-11-06T15:02:31.839237168Z drwxr-xr-x 2 root root   41 Nov  6 11:33 clip_vision
+2025-11-06T15:02:31.839238280Z drwxr-xr-x 2 root root 4096 Nov  6 11:33 configs
+2025-11-06T15:02:31.839239322Z drwxr-xr-x 2 root root   50 Nov  6 11:33 controlnet
+2025-11-06T15:02:31.839240344Z drwxr-xr-x 2 root root   39 Nov  6 11:33 diffusers
+2025-11-06T15:02:31.839241276Z drwxr-xr-x 2 root root   44 Nov  6 11:33 diffusion_models
+2025-11-06T15:02:31.839242388Z drwxr-xr-x 2 root root   71 Nov  6 11:33 embeddings
+2025-11-06T15:02:31.839243500Z drwxr-xr-x 2 root root   44 Nov  6 11:33 gligen
+2025-11-06T15:02:31.839244472Z drwxr-xr-x 2 root root   36 Nov  6 11:33 hypernetworks
+2025-11-06T15:02:31.839306518Z drwxr-xr-x 2 root root   28 Nov  6 11:33 loras
+2025-11-06T15:02:31.839321306Z drwxr-xr-x 2 root root   48 Nov  6 11:33 photomaker
+2025-11-06T15:02:31.839324472Z drwxr-xr-x 2 root root   38 Nov  6 11:33 style_models
+2025-11-06T15:02:31.839325453Z drwxr-xr-x 2 root root   41 Nov  6 11:33 text_encoders
+2025-11-06T15:02:31.839326395Z drwxr-xr-x 2 root root   41 Nov  6 11:33 unet
+2025-11-06T15:02:31.839327367Z drwxr-xr-x 2 root root   62 Nov  6 11:33 upscale_models
+2025-11-06T15:02:31.839328499Z drwxr-xr-x 2 root root   26 Nov  6 11:33 vae
+2025-11-06T15:02:31.839331134Z drwxr-xr-x 2 root root   62 Nov  6 11:33 vae_approx
+2025-11-06T15:02:31.839335252Z --- End of listing for: /comfyui/models/ ---
+2025-11-06T15:02:31.839337085Z --- Listing contents of: /comfyui/models/vae/ ---
+2025-11-06T15:02:31.839999195Z total 0
+2025-11-06T15:02:31.840009524Z -rw-r--r-- 1 root root 0 Nov  6 11:33 put_vae_here
+2025-11-06T15:02:31.840011247Z --- End of listing for: /comfyui/models/vae/ ---
+2025-11-06T15:02:31.840011979Z --- Listing contents of: /comfyui/custom_nodes/ ---
+2025-11-06T15:02:31.840543183Z total 12
+2025-11-06T15:02:31.840553392Z drwxr-xr-x 2 root root   50 Nov  6 15:02 __pycache__
+2025-11-06T15:02:31.840555296Z -rw-r--r-- 1 root root 6798 Nov  6 11:33 example_node.py.example
+2025-11-06T15:02:31.840556378Z -rw-r--r-- 1 root root 1220 Nov  6 11:33 websocket_image_save.py
+2025-11-06T15:02:31.840558873Z --- End of listing for: /comfyui/custom_nodes/ ---
+2025-11-06T15:02:31.840560045Z --- End Directory Listing Debug ---
+2025-11-06T15:02:31.840561458Z runpod-worker-comfy - Waiting for ComfyUI API at http://127.0.0.1:8188/object_info to be ready...
+2025-11-06T15:02:31.855788228Z runpod-worker-comfy - ComfyUI API is ready.
+2025-11-06T15:02:31.855919574Z runpod-worker-comfy - image(s) upload
+2025-11-06T15:02:31.870981034Z runpod-worker-comfy - image(s) upload complete
+2025-11-06T15:02:31.871963434Z got prompt
+2025-11-06T15:02:31.872372299Z invalid prompt: {'type': 'invalid_prompt', 'message': 'Cannot execute because node talent_zero_combine does not exist.', 'details': "Node ID '#20'", 'extra_info': {}}
+2025-11-06T15:02:32.017472560Z {"requestId": "acb243d3-e2d6-4c2b-839c-b355174ff163-e1", "message": "Finished.", "level": "INFO"}
