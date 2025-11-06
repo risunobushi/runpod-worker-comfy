@@ -5,25 +5,18 @@
             "hash": "9cd088feb0ace5d5b528e6e7b297c43da0561392",
             "disabled": false
         },
-        "https://github.com/risunobushi/ComfyUI_FaceMesh_Eyewear_Mask.git": {
-            "hash": "3c031d2ca4dd37bf9c180391f0f9720cfe858df3",
-            "disabled": false
-        },
-        "https://github.com/risunobushi/ComfyUI_sm4llSeg.git": {
-            "hash": "a720df69f24289f0ce1dea97b8745be8c7387994",
-            "disabled": false
-        },
         "https://github.com/gaspard-macelin/talent_zero.git": {
             "hash": "01d0c2e126bf218b6c32e79bde08798139acd1e9",
             "disabled": false
+        },
+        "https://github.com/cubiq/ComfyUI_essentials": {
+            "hash": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
+            "disabled": false
+        },
+        "https://github.com/kijai/ComfyUI-KJNodes": {
+            "hash": "c661baadd9683c0033cd2a6ad90157c6d099a6c2",
+            "disabled": false
         }
-    },
-    "cnr_custom_nodes": {
-        "comfyui_controlnet_aux": "1.0.7",
-        "comfyui-kjnodes": "1.1.0",
-        "comfyui_essentials": "1.1.0",
-        "comfyui-inpainteasy": "1.0.2",
-        "comfyui-easy-use": "1.3.0"
     },
     "file_custom_nodes": [
         {
