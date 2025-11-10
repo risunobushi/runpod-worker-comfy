@@ -40,7 +40,7 @@
       "vibe": "",
       "model": "google/gemini-2.5-flash",
       "max_tokens": 1000,
-      "extra_guidance": "white background",
+      "extra_guidance": "the woman is tired and she is standing in front of a huge banana tree",
       "api_key_file": "",
       "image": [
         "11",
@@ -90,7 +90,7 @@
   },
   "243": {
     "inputs": {
-      "clip_name1": "t5xxl_fp16.safetensors",
+      "clip_name1": "t5xxl_fp8_e4m3fn.safetensors",
       "clip_name2": "clip_l.safetensors",
       "type": "flux",
       "device": "default"
@@ -179,9 +179,9 @@
     }
   },
   "353": {
-    "inputs": {
+    "inputs": { 
       "text": [
-        "365",
+        "20",
         0
       ],
       "clip": [
@@ -222,7 +222,7 @@
   },
   "359": {
     "inputs": {
-      "model_name": "4xPurePhoto-Span.pth"
+      "model_name": "4xPurePhoto-span.pth"
     },
     "class_type": "UpscaleModelLoader",
     "_meta": {
@@ -240,15 +240,6 @@
     "class_type": "SaveImage",
     "_meta": {
       "title": "Save Image"
-    }
-  },
-  "361": {
-    "inputs": {
-      "value": ""
-    },
-    "class_type": "PrimitiveString",
-    "_meta": {
-      "title": "User_Prompt"
     }
   },
   "362": {
@@ -291,40 +282,6 @@
     "class_type": "ConditioningZeroOut",
     "_meta": {
       "title": "ConditioningZeroOut"
-    }
-  },
-  "364": {
-    "inputs": {
-      "string_a": [
-        "20",
-        1
-      ],
-      "string_b": [
-        "361",
-        0
-      ],
-      "delimiter": ""
-    },
-    "class_type": "StringConcatenate",
-    "_meta": {
-      "title": "Concatenate"
-    }
-  },
-  "365": {
-    "inputs": {
-      "string_a": [
-        "364",
-        0
-      ],
-      "string_b": [
-        "20",
-        3
-      ],
-      "delimiter": ""
-    },
-    "class_type": "StringConcatenate",
-    "_meta": {
-      "title": "Concatenate"
     }
   }
 }

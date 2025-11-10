@@ -40,12 +40,12 @@ RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # Install ComfyUI and ComfyUI-Manager using comfy-cli
 # This ensures ComfyUI-Manager is properly initialized before snapshot restoration
+# The snapshot will handle the specific ComfyUI commit version
 RUN pip install comfy-cli
 RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 11.8 --nvidia 2>&1 || true
 
-# Checkout specific ComfyUI commit after installation
+# Change working directory to ComfyUI
 WORKDIR /comfyui
-RUN git fetch origin ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6 && git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6 || true
 
 # Install runpod and other dependencies
 RUN pip install runpod requests
