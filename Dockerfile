@@ -47,10 +47,9 @@ RUN mkdir -p /comfyui/.torch_cache && chmod 777 /comfyui/.torch_cache
 RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir || \
     pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
 
-# Install ComfyUI from specific commit
+# Install ComfyUI (latest)
 RUN git clone https://github.com/comfyanonymous/ComfyUI.git /comfyui
 WORKDIR /comfyui
-RUN git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
 
 # Install ComfyUI requirements (uses pre-installed PyTorch)
 RUN pip install --no-cache-dir -r requirements.txt
