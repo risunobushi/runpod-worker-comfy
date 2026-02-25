@@ -80,6 +80,9 @@ RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
         git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/"; \
     fi
 
+# Install comfy-cli (required by restore_snapshot.sh)
+RUN pip install comfy-cli
+
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
 
