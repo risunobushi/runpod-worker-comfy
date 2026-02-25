@@ -1,5 +1,5 @@
 # Stage 1: Base image with common dependencies
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04 as base
+FROM nvidia/cuda:12.6.3-cudnn-runtime-ubuntu22.04 as base
 
 # Prevents prompts from packages asking for user input during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -44,7 +44,7 @@ WORKDIR /comfyui
 RUN git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
 
 # Install ComfyUI requirements
-RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install runpod
