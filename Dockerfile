@@ -87,6 +87,9 @@ RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
         git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/"; \
     fi
 
+# Install ComfyUI-Manager (required by comfy-cli restore-snapshot)
+RUN comfy --skip-prompt --workspace /comfyui node install ComfyUI-Manager
+
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
 
