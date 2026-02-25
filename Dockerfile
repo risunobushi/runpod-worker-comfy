@@ -1,5 +1,5 @@
 # Stage 1: Base image with common dependencies
-FROM nvidia/cuda:12.6.3-cudnn-runtime-ubuntu22.04 as base
+FROM nvidia/cuda:12.8.0-cudnn-runtime-ubuntu22.04 as base
 
 # Prevents prompts from packages asking for user input during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -38,14 +38,21 @@ RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
 # Clean up to reduce image size
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
+# Install PyTorch nightly with CUDA 12.8 support for Blackwell (SM_120)
+ENV CUDA_VISIBLE_DEVICES=0
+RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir || \
+    pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
+
 # Install ComfyUI from specific commit
 RUN git clone https://github.com/comfyanonymous/ComfyUI.git /comfyui
 WORKDIR /comfyui
 RUN git checkout ee9547ba31f5f2c1de0211a09c3fb829bd8e25e6
 
-# Install ComfyUI requirements
-RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+# Install ComfyUI requirements (uses pre-installed PyTorch)
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Install comfy-cli (required by restore_snapshot.sh)
+RUN pip install comfy-cli
 
 # Install runpod
 RUN pip install runpod requests
@@ -79,9 +86,6 @@ RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
         TOKEN=${GITHUB_TOKEN_ENV:-$GITHUB_TOKEN}; \
         git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/"; \
     fi
-
-# Install comfy-cli (required by restore_snapshot.sh)
-RUN pip install comfy-cli
 
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
