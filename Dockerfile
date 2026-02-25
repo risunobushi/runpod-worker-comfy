@@ -40,6 +40,10 @@ RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # Install PyTorch nightly with CUDA 12.8 support for Blackwell (SM_120)
 ENV CUDA_VISIBLE_DEVICES=0
+# PyTorch nightly initializes inductor cache at import time via tempfile.gettempdir()
+# Pre-set the cache dir to avoid FileNotFoundError when /tmp is unavailable
+ENV TORCHINDUCTOR_CACHE_DIR=/comfyui/.torch_cache
+RUN mkdir -p /comfyui/.torch_cache && chmod 777 /comfyui/.torch_cache
 RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir || \
     pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
 
