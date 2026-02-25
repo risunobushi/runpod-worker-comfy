@@ -87,8 +87,9 @@ RUN if [ -n "$GITHUB_TOKEN_ENV" ] || [ -n "$GITHUB_TOKEN" ]; then \
         git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/"; \
     fi
 
-# Install ComfyUI-Manager (required by comfy-cli restore-snapshot)
-RUN comfy --skip-prompt --workspace /comfyui node install ComfyUI-Manager
+# Clone ComfyUI-Manager directly so cm-cli.py is available for snapshot restoration
+RUN git clone https://github.com/ltdrdata/ComfyUI-Manager.git /comfyui/custom_nodes/ComfyUI-Manager && \
+    pip install -r /comfyui/custom_nodes/ComfyUI-Manager/requirements.txt
 
 # Restore the snapshot to install custom nodes
 RUN /restore_snapshot.sh
