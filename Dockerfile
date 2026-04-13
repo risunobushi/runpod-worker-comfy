@@ -54,9 +54,6 @@ WORKDIR /comfyui
 # Install ComfyUI requirements (will use pre-installed PyTorch 2.10 cu128)
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install comfy-cli for snapshot restoration
-RUN pip install comfy-cli
-
 # Install runpod
 RUN pip install runpod requests
 
