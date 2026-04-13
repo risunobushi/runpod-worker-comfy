@@ -1,0 +1,388 @@
+2026-02-25T16:43:20.840294667Z ==========
+2026-02-25T16:43:20.840308887Z == CUDA ==
+2026-02-25T16:43:20.840309857Z ==========
+2026-02-25T16:43:20.842313079Z CUDA Version 12.8.0
+2026-02-25T16:43:20.842950953Z Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+2026-02-25T16:43:20.843424109Z This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+2026-02-25T16:43:20.843427249Z By pulling and using the container, you accept the terms and conditions of this license:
+2026-02-25T16:43:20.843429439Z https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+2026-02-25T16:43:20.843433719Z A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+2026-02-25T16:43:20.849240095Z Current directory: /comfyui
+2026-02-25T16:43:20.849251395Z --- DEBUG: Listing relevant model directories ---
+2026-02-25T16:43:20.849253145Z Listing /runpod-volume/ComfyUI/models/...
+2026-02-25T16:43:20.853761354Z total 21613
+2026-02-25T16:43:20.853775613Z drwxrwxrwx 2 root root 3001581 Aug 21  2025 SEEDVR2
+2026-02-25T16:43:20.853776773Z drwxrwxrwx 3 root root 2055417 Sep 16 16:47 Sm4llSeg
+2026-02-25T16:43:20.853777613Z drwxrwxrwx 2 root root       1 Nov  7 18:31 audio_encoders
+2026-02-25T16:43:20.853778373Z drwxrwxrwx 2 root root       1 May  6  2025 checkpoints
+2026-02-25T16:43:20.853779013Z drwxrwxrwx 2 root root 3001352 Nov  4 12:02 clip
+2026-02-25T16:43:20.853779973Z drwxrwxrwx 2 root root       1 May  6  2025 clip_vision
+2026-02-25T16:43:20.853780633Z drwxrwxrwx 2 root root 1002269 May  6  2025 configs
+2026-02-25T16:43:20.853781453Z drwxrwxrwx 2 root root       1 May  6  2025 controlnet
+2026-02-25T16:43:20.853782013Z drwxrwxrwx 2 root root       1 May  6  2025 diffusers
+2026-02-25T16:43:20.853782824Z drwxrwxrwx 3 root root 3022505 Nov 25 15:03 diffusion_models
+2026-02-25T16:43:20.853783393Z drwxrwxrwx 2 root root       1 May  6  2025 embeddings
+2026-02-25T16:43:20.853783993Z drwxrwxrwx 2 root root       1 May  6  2025 gligen
+2026-02-25T16:43:20.853784564Z drwxrwxrwx 2 root root       1 May  6  2025 hypernetworks
+2026-02-25T16:43:20.853785133Z drwxrwxrwx 3 root root 3001376 Feb 20 13:11 loras
+2026-02-25T16:43:20.853785693Z drwxrwxrwx 2 root root       1 Nov  7 18:31 model_patches
+2026-02-25T16:43:20.853786264Z drwxrwxrwx 2 root root       1 May  7  2025 onnx
+2026-02-25T16:43:20.853786833Z drwxrwxrwx 2 root root       1 May  6  2025 photomaker
+2026-02-25T16:43:20.853787413Z drwxrwxrwx 2 root root 2035766 May  7  2025 sams
+2026-02-25T16:43:20.853788044Z drwxrwxrwx 2 root root       1 May  6  2025 style_models
+2026-02-25T16:43:20.853788993Z drwxrwxrwx 3 root root       1 Nov  4 15:01 text_encoders
+2026-02-25T16:43:20.853790193Z drwxrwxrwx 2 root root       1 May  6  2025 unet
+2026-02-25T16:43:20.853790763Z drwxrwxrwx 2 root root 2000859 Aug 18  2025 upscale_models
+2026-02-25T16:43:20.853791323Z drwxrwxrwx 3 root root 3000117 Nov 17 11:32 vae
+2026-02-25T16:43:20.853791913Z drwxrwxrwx 2 root root       1 May  6  2025 vae_approx
+2026-02-25T16:43:20.853794773Z Listing /runpod-volume/ComfyUI/models/vae/...
+2026-02-25T16:43:20.856479839Z total 1234829
+2026-02-25T16:43:20.856490019Z -rw-rw-rw- 1 root root 507684560 Nov 17 11:32 Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors
+2026-02-25T16:43:20.856491709Z -rw-rw-rw- 1 root root 335306212 Jul 21  2025 ae-fill.safetensors
+2026-02-25T16:43:20.856492949Z -rw-rw-rw- 1 root root 167666902 Feb 21  2025 ae.safetensors
+2026-02-25T16:43:20.856493959Z -rw-rw-rw- 1 root root         0 May  6  2025 put_vae_here
+2026-02-25T16:43:20.856494839Z -rw-rw-rw- 1 root root 253806246 Nov  4 11:35 qwen_image_vae.safetensors
+2026-02-25T16:43:20.856525848Z Listing /runpod-volume/ComfyUI/models/clip/...
+2026-02-25T16:43:20.858679439Z total 14184327
+2026-02-25T16:43:20.858688739Z -rw-rw-rw- 1 root root  246144152 Aug  1  2024 clip_l.safetensors
+2026-02-25T16:43:20.858690388Z -rw-rw-rw- 1 root root          0 May  6  2025 put_clip_or_text_encoder_models_here
+2026-02-25T16:43:20.858691628Z -rw-rw-rw- 1 root root 9384670680 Nov  4 12:02 qwen_2.5_vl_7b_fp8_scaled.safetensors
+2026-02-25T16:43:20.858698838Z -rw-rw-rw- 1 root root 4893934904 Aug  1  2024 t5xxl_fp8_e4m3fn.safetensors
+2026-02-25T16:43:20.858730638Z Listing /runpod-volume/ComfyUI/models/diffusion_models/...
+2026-02-25T16:43:20.879225070Z total 235989579
+2026-02-25T16:43:20.879234420Z -rw-rw-rw- 1 root root 11902519936 Jul 30  2025 dressVTON_wl2-fp8-release.safetensors
+2026-02-25T16:43:20.879236040Z -rw-rw-rw- 1 root root 11902519936 Jul 29  2025 eyeVTON_wl-2-fp8-release.safetensors
+2026-02-25T16:43:20.879236740Z -rw-rw-rw- 1 root root 11904639672 Nov  6 14:39 flux1-krea-dev_fp8_scaled.safetensors
+2026-02-25T16:43:20.879237670Z -rw-rw-rw- 1 root root 23804921664 Sep 17 10:47 lookVTON_men_v1.safetensors
+2026-02-25T16:43:20.879238900Z -rw-rw-rw- 1 root root 23804921664 Sep 17 10:58 lookVTON_women_v1.safetensors
+2026-02-25T16:43:20.879239950Z -rw-rw-rw- 1 root root 20430635136 Nov 25 14:59 looktransfer_fp8.safetensors
+2026-02-25T16:43:20.879240580Z -rw-rw-rw- 1 root root 40861031488 Nov 25 15:11 looktransfer_full.safetensors
+2026-02-25T16:43:20.879241610Z -rw-rw-rw- 1 root root 11902519936 Aug  2  2025 pantsVTON_wl2-fp8-release.safetensors
+2026-02-25T16:43:20.879242220Z -rw-rw-rw- 1 root root           0 May  6  2025 put_diffusion_model_files_here
+2026-02-25T16:43:20.879242780Z -rw-rw-rw- 1 root root 40861031488 Nov  5 10:48 qwenVTON-release-b3.safetensors
+2026-02-25T16:43:20.879243370Z -rw-rw-rw- 1 root root 20436302974 Nov 10 14:36 qwen_image_edit_2509_fp8_e4m3fn_scaled.safetensors
+2026-02-25T16:43:20.879244640Z -rw-rw-rw- 1 root root 11902519936 Aug  2  2025 shoeVTON_wl2-fp8-release.safetensors
+2026-02-25T16:43:20.879245280Z -rw-rw-rw- 1 root root 11902519936 Jul 30  2025 topVTON_wl2-fp8-release.safetensors
+2026-02-25T16:43:20.879245880Z -rw-rw-rw- 1 root root    37240140 May  7  2025 wget-log
+2026-02-25T16:43:20.879289989Z --- END DEBUG ---
+2026-02-25T16:43:20.879299709Z --- DEBUG: Listing /comfyui directory before launching ComfyUI ---
+2026-02-25T16:43:20.880192261Z total 336
+2026-02-25T16:43:20.880199541Z drwxr-xr-x 1 root root   137 Feb 25 16:31 .ci
+2026-02-25T16:43:20.880201931Z drwxr-xr-x 1 root root    59 Feb 25 16:31 .git
+2026-02-25T16:43:20.880203651Z -rw-r--r-- 1 root root    60 Feb 25 16:31 .gitattributes
+2026-02-25T16:43:20.880206071Z drwxr-xr-x 1 root root    90 Feb 25 16:31 .github
+2026-02-25T16:43:20.880208491Z -rw-r--r-- 1 root root   339 Feb 25 16:31 .gitignore
+2026-02-25T16:43:20.880209841Z -rw-r--r-- 1 root root  1092 Feb 25 16:31 CODEOWNERS
+2026-02-25T16:43:20.880211711Z -rw-r--r-- 1 root root  1882 Feb 25 16:31 CONTRIBUTING.md
+2026-02-25T16:43:20.880213521Z -rw-r--r-- 1 root root 35149 Feb 25 16:31 LICENSE
+2026-02-25T16:43:20.880214871Z -rw-r--r-- 1 root root 21365 Feb 25 16:31 README.md
+2026-02-25T16:43:20.880216601Z drwxr-xr-x 1 root root    65 Feb 25 16:31 api_server
+2026-02-25T16:43:20.880218401Z drwxr-xr-x 1 root root  4096 Feb 25 16:31 app
+2026-02-25T16:43:20.880219681Z drwxr-xr-x 1 root root  4096 Feb 25 16:31 comfy
+2026-02-25T16:43:20.880221541Z drwxr-xr-x 1 root root   165 Feb 25 16:31 comfy_execution
+2026-02-25T16:43:20.880223321Z drwxr-xr-x 1 root root  4096 Feb 25 16:31 comfy_extras
+2026-02-25T16:43:20.880224431Z -rw-r--r-- 1 root root  3533 Feb 25 16:31 cuda_malloc.py
+2026-02-25T16:43:20.880225921Z drwxr-xr-x 1 root root    37 Feb 25 16:32 custom_nodes
+2026-02-25T16:43:20.880227551Z -rw-r--r-- 1 root root 39907 Feb 25 16:31 execution.py
+2026-02-25T16:43:20.880229101Z -rw-r--r-- 1 root root  1211 Feb 25 16:28 extra_model_paths.yaml
+2026-02-25T16:43:20.880230401Z -rw-r--r-- 1 root root  1480 Feb 25 16:31 extra_model_paths.yaml.example.bak
+2026-02-25T16:43:20.880232381Z -rw-r--r-- 1 root root   946 Feb 25 16:31 fix_torch.py
+2026-02-25T16:43:20.880234081Z -rw-r--r-- 1 root root 14775 Feb 25 16:31 folder_paths.py
+2026-02-25T16:43:20.880235081Z drwxr-xr-x 2 root root    33 Feb 25 16:31 input
+2026-02-25T16:43:20.880236801Z -rw-r--r-- 1 root root  4191 Feb 25 16:31 latent_preview.py
+2026-02-25T16:43:20.880238481Z -rw-r--r-- 1 root root 11306 Feb 25 16:31 main.py
+2026-02-25T16:43:20.880239670Z drwxr-xr-x 1 root root    94 Feb 25 16:31 models
+2026-02-25T16:43:20.880241330Z -rw-r--r-- 1 root root  1261 Feb 25 16:31 new_updater.py
+2026-02-25T16:43:20.880242930Z -rw-r--r-- 1 root root   960 Feb 25 16:31 node_helpers.py
+2026-02-25T16:43:20.880249990Z -rw-r--r-- 1 root root 90145 Feb 25 16:31 nodes.py
+2026-02-25T16:43:20.880252520Z drwxr-xr-x 2 root root    41 Feb 25 16:31 notebooks
+2026-02-25T16:43:20.880254270Z drwxr-xr-x 2 root root    53 Feb 25 16:31 output
+2026-02-25T16:43:20.880255430Z -rw-r--r-- 1 root root   227 Feb 25 16:31 pytest.ini
+2026-02-25T16:43:20.880257070Z -rw-r--r-- 1 root root   221 Feb 25 16:31 requirements.txt
+2026-02-25T16:43:20.880258710Z -rw-r--r-- 1 root root   384 Feb 25 16:31 ruff.toml
+2026-02-25T16:43:20.880260050Z drwxr-xr-x 1 root root    79 Feb 25 16:31 script_examples
+2026-02-25T16:43:20.880261360Z -rw-r--r-- 1 root root 35782 Feb 25 16:31 server.py
+2026-02-25T16:43:20.880263150Z drwxr-xr-x 1 root root    94 Feb 25 16:31 tests
+2026-02-25T16:43:20.880264920Z drwxr-xr-x 1 root root  4096 Feb 25 16:31 tests-unit
+2026-02-25T16:43:20.880266660Z drwxr-xr-x 1 root root    88 Feb 25 16:31 utils
+2026-02-25T16:43:20.880268290Z drwxr-xr-x 8 root root  4096 Feb 25 16:31 web
+2026-02-25T16:43:20.880269990Z --- END DEBUG ---
+2026-02-25T16:43:20.880271090Z --- DEBUG: Displaying extra_model_paths.yaml contents ---
+2026-02-25T16:43:20.880670646Z # Custom paths from the RunPod volume mount
+2026-02-25T16:43:20.880674777Z # Config based on the example structure from the original repo
+2026-02-25T16:43:20.880675886Z runpod_worker_comfy:
+2026-02-25T16:43:20.880677346Z   base_path: /runpod-volume/ComfyUI  # Base path BEFORE the 'models' directory
+2026-02-25T16:43:20.880679736Z   # Paths relative to the base_path
+2026-02-25T16:43:20.880680616Z   vae: models/vae/
+2026-02-25T16:43:20.880681826Z   clip: models/clip/
+2026-02-25T16:43:20.880683066Z   unet: models/diffusion_models/ # Use the actual subfolder name for unet models
+2026-02-25T16:43:20.880684436Z   upscale_models: models/upscale_models/ # Add for upscaler models
+2026-02-25T16:43:20.880685236Z   Sm4llSeg: models/Sm4llSeg/ # Add custom Segmentation models path
+2026-02-25T16:43:20.880687506Z   # Add other standard types if their subfolders exist under /runpod-volume/ComfyUI/models/
+2026-02-25T16:43:20.880689206Z   # checkpoints: models/checkpoints/
+2026-02-25T16:43:20.880690126Z   # clip_vision: models/clip_vision/
+2026-02-25T16:43:20.880691286Z   # configs: models/configs/
+2026-02-25T16:43:20.880692766Z   # controlnet: models/controlnet/
+2026-02-25T16:43:20.880693956Z   # embeddings: models/embeddings/
+2026-02-25T16:43:20.880695016Z   # loras: models/loras/
+2026-02-25T16:43:20.880695646Z   # upscale_models: models/upscale_models/
+2026-02-25T16:43:20.880697976Z # ComfyUI should append the type subfolder (e.g., 'vae', 'clip') to these base paths
+2026-02-25T16:43:20.880699206Z # and look for the model file within that combined path.
+2026-02-25T16:43:20.880701566Z # Add other types if needed, ensure they point to the correct subfolder under /runpod-volume/ComfyUI/models/
+2026-02-25T16:43:20.880703416Z # Example:
+2026-02-25T16:43:20.880704846Z # loras:
+2026-02-25T16:43:20.880705656Z #  - /runpod-volume/ComfyUI/models/loras
+2026-02-25T16:43:20.880706786Z # checkpoints:
+2026-02-25T16:43:20.880707946Z #  - /runpod-volume/ComfyUI/models/checkpoints
+2026-02-25T16:43:20.880710406Z --- END DEBUG ---
+2026-02-25T16:43:20.880711266Z Configuring git authentication for private repositories...
+2026-02-25T16:43:20.881979165Z Re-running snapshot restoration for private repositories...
+2026-02-25T16:43:20.884422792Z runpod-worker-comfy: restoring snapshot: /2025-03-31_12-23-01_snapshot.json
+2026-02-25T16:43:21.014962063Z /usr/local/lib/python3.10/dist-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+2026-02-25T16:43:21.014977713Z   warnings.warn(
+2026-02-25T16:43:21.137436438Z Execute from: /comfyui
+2026-02-25T16:43:21.137669146Z Command: ['/usr/bin/python3', '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py',
+2026-02-25T16:43:21.137678766Z 'restore-snapshot', '/2025-03-31_12-23-01_snapshot.json', '--pip-non-url']
+2026-02-25T16:45:01.858301439Z !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2026-02-25T16:45:01.858320509Z [ComfyUI-Manager] ERROR: ComfyUI version is outdated!
+2026-02-25T16:45:01.858323169Z   - Most operations are blocked for security.
+2026-02-25T16:45:01.858325919Z   - ComfyUI update is still allowed.
+2026-02-25T16:45:01.858328569Z   - Please update ComfyUI to use Manager normally.
+2026-02-25T16:45:01.858330459Z !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2026-02-25T16:45:01.858345758Z PIPs restore mode: ['--pip-non-url']
+2026-02-25T16:45:01.858347669Z FETCH DATA from:
+2026-02-25T16:45:01.858349878Z https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list
+2026-02-25T16:45:01.858351678Z .json [DONE]
+2026-02-25T16:45:01.858354398Z Restore snapshot.
+2026-02-25T16:45:01.858356248Z Download: git clone
+2026-02-25T16:45:01.858358288Z 'https://github.com/risunobushi/ComfyUI_FaceMesh_Eyewear_Mask'
+2026-02-25T16:45:01.858360088Z Install: pip packages
+2026-02-25T16:45:01.858363498Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858406438Z 'install', 'mediapipe>=0.9.0,<0.11.0']
+2026-02-25T16:45:01.858426538Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858431408Z 'install', 'opencv-python>=4.5']
+2026-02-25T16:45:01.858442498Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858447057Z 'install', 'numpy']
+2026-02-25T16:45:01.858457537Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858464327Z 'install', 'einops']
+2026-02-25T16:45:01.858472757Z Installation was successful.
+2026-02-25T16:45:01.858541547Z Download: git clone 'https://github.com/risunobushi/ComfyUI_sm4llSeg'
+2026-02-25T16:45:01.858588876Z Install: pip packages
+2026-02-25T16:45:01.858647816Z [ComfyUI-Manager] skip black listed pip installation: 'torch'
+2026-02-25T16:45:01.858660886Z [ComfyUI-Manager] skip black listed pip installation: 'torchvision'
+2026-02-25T16:45:01.858670246Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858671546Z 'install', 'pytorch-lightning']
+2026-02-25T16:45:01.858681365Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858685365Z 'install', 'segmentation-models-pytorch']
+2026-02-25T16:45:01.858690045Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858702425Z 'install', 'timm']
+2026-02-25T16:45:01.858719705Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858727435Z 'install', 'albumentations']
+2026-02-25T16:45:01.858737305Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858742065Z 'install', 'opencv-python']
+2026-02-25T16:45:01.858750055Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858753925Z 'install', 'wandb']
+2026-02-25T16:45:01.858762625Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858766725Z 'install', 'PyYAML']
+2026-02-25T16:45:01.858774425Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858782545Z 'install', 'iglovikov-helper-functions']
+2026-02-25T16:45:01.858792324Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858798544Z 'install', 'Pillow']
+2026-02-25T16:45:01.858803964Z Installation was successful.
+2026-02-25T16:45:01.858809754Z Download: git clone 'https://github.com/gaspard-macelin/talent_zero'
+2026-02-25T16:45:01.858814514Z Install: pip packages
+2026-02-25T16:45:01.858825374Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858830134Z 'install', 'requests>=2.31.0']
+2026-02-25T16:45:01.858844234Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858848614Z 'install', 'Pillow>=10.0.0']
+2026-02-25T16:45:01.858868754Z ## ComfyUI-Manager: EXECUTE => ['/usr/bin/python3', '-m', 'uv', 'pip',
+2026-02-25T16:45:01.858870304Z 'install', 'numpy>=1.24.0']
+2026-02-25T16:45:01.858872014Z Installation was successful.
+2026-02-25T16:45:01.858873524Z Installation failed for pip packages: ['iglovikov-helper-functions', 'wandb',
+2026-02-25T16:45:01.858874654Z 'segmentation-models-pytorch', 'pytorch-lightning', 'detectron2==0.6',
+2026-02-25T16:45:01.858876364Z 'pytorch3d==0.7.6', 'submitit==1.5.1', 'absl-py==2.2.2', 'accelerate==1.7.0',
+2026-02-25T16:45:01.858877464Z 'addict==2.4.0', 'aiohappyeyeballs==2.5.0', 'aiohttp==3.11.13',
+2026-02-25T16:45:01.858881393Z 'aiosignal==1.3.2', 'albucore==0.0.24', 'albumentations==2.0.7',
+2026-02-25T16:45:01.858883813Z 'annotated-types==0.7.0', 'antlr4-python3-runtime==4.9.3', 'anyio==4.8.0',
+2026-02-25T16:45:01.858884933Z 'argon2-cffi==23.1.0', 'argon2-cffi-bindings==21.2.0', 'arrow==1.3.0',
+2026-02-25T16:45:01.858886873Z 'asttokens==3.0.0', 'async-lru==2.0.4', 'async-timeout==5.0.1', 'attrs==24.3.0',
+2026-02-25T16:45:01.858888113Z 'babel==2.16.0', 'beautifulsoup4==4.12.3', 'bleach==6.2.0', 'blinker==1.4',
+2026-02-25T16:45:01.858888853Z 'certifi==2024.12.14', 'cffi==1.17.1', 'chardet==5.2.0',
+2026-02-25T16:45:01.858891273Z 'charset-normalizer==3.4.1', 'click==8.1.8', 'clip-interrogator==0.6.0',
+2026-02-25T16:45:01.858895793Z 'color-matcher==0.6.0', 'coloredlogs==15.0.1', 'colorlog==6.9.0',
+2026-02-25T16:45:01.858899013Z 'colour-science==0.4.6', 'comm==0.2.2', 'contourpy==1.3.2',
+2026-02-25T16:45:01.858904113Z 'cryptography==3.4.8', 'cssselect2==0.8.0', 'cycler==0.12.1',
+2026-02-25T16:45:01.858907413Z 'dbus-python==1.2.18', 'ddt==1.7.2', 'debugpy==1.8.11', 'decorator==5.1.1',
+2026-02-25T16:45:01.858908683Z 'defusedxml==0.7.1', 'Deprecated==1.2.18', 'diffusers==0.33.1',
+2026-02-25T16:45:01.858910433Z 'distlib==0.3.9', 'distro==1.7.0', 'docutils==0.21.2', 'easydict==1.13',
+2026-02-25T16:45:01.858913293Z 'einops==0.8.1', 'embreex==2.17.7.post6', 'entrypoints==0.4',
+2026-02-25T16:45:01.858918313Z 'exceptiongroup==1.2.2', 'executing==2.1.0', 'fastjsonschema==2.21.1',
+2026-02-25T16:45:01.858919583Z 'filelock==3.16.1', 'flatbuffers==25.2.10', 'fonttools==4.58.0', 'fqdn==1.5.1',
+2026-02-25T16:45:01.858923373Z 'frozenlist==1.5.0', 'fsspec==2025.3.0', 'ftfy==6.3.1',
+2026-02-25T16:45:01.858926973Z 'fvcore==0.1.5.post20221221', 'gdown==5.2.0', 'gitdb==4.0.12',
+2026-02-25T16:45:01.858929953Z 'GitPython==3.1.44', 'h11==0.14.0', 'httpcore==1.0.7', 'httplib2==0.20.2',
+2026-02-25T16:45:01.858933223Z 'httpx==0.28.1', 'huggingface-hub==0.29.3', 'humanfriendly==10.0', 'idna==3.10',
+2026-02-25T16:45:01.858933923Z 'imageio==2.37.0', 'importlib-metadata==4.6.4', 'iopath==0.1.10',
+2026-02-25T16:45:01.858935363Z 'ipykernel==6.29.5', 'ipython==8.31.0', 'ipython-genutils==0.2.0',
+2026-02-25T16:45:01.858937873Z 'ipywidgets==8.1.5', 'isoduration==20.11.0', 'jax==0.6.1', 'jaxlib==0.6.1',
+2026-02-25T16:45:01.858941813Z 'jedi==0.19.2', 'jeepney==0.7.1', 'Jinja2==3.1.5', 'joblib==1.5.1',
+2026-02-25T16:45:01.858944613Z 'json5==0.10.0', 'jsonpointer==3.0.0', 'jsonschema==4.23.0',
+2026-02-25T16:45:01.858949623Z 'jsonschema-specifications==2024.10.1', 'jupyter-archive==3.4.0',
+2026-02-25T16:45:01.858953283Z 'jupyter-events==0.11.0', 'jupyter-highlight-selected-word==0.2.0',
+2026-02-25T16:45:01.858954113Z 'jupyter-lsp==2.2.5', 'jupyter_client==7.4.9', 'jupyter_contrib_core==0.4.2',
+2026-02-25T16:45:01.858955643Z 'jupyter_contrib_nbextensions==0.7.0', 'jupyter_core==5.7.2',
+2026-02-25T16:45:01.858958483Z 'jupyter_nbextensions_configurator==0.6.4', 'jupyter_server==2.15.0',
+2026-02-25T16:45:01.858963143Z 'jupyter_server_terminals==0.5.3', 'jupyterlab==4.3.4',
+2026-02-25T16:45:01.858964463Z 'jupyterlab_pygments==0.3.0', 'jupyterlab_server==2.27.3',
+2026-02-25T16:45:01.858967913Z 'jupyterlab_widgets==3.0.13', 'keyring==23.5.0', 'kiwisolver==1.4.8',
+2026-02-25T16:45:01.858970313Z 'kornia==0.8.0', 'kornia_rs==0.1.8', 'lark==1.2.2', 'launchpadlib==1.10.16',
+2026-02-25T16:45:01.858975973Z 'lazr.restfulclient==0.14.4', 'lazr.uri==1.0.6', 'lazy_loader==0.4',
+2026-02-25T16:45:01.858987253Z 'llvmlite==0.44.0', 'lxml==5.3.0', 'manifold3d==3.1.0', 'mapbox_earcut==1.0.3',
+2026-02-25T16:45:01.858991732Z 'markdown-it-py==3.0.0', 'MarkupSafe==3.0.2', 'matplotlib==3.10.3',
+2026-02-25T16:45:01.858995032Z 'matplotlib-inline==0.1.7', 'matrix-client==0.4.0', 'mdurl==0.1.2',
+2026-02-25T16:45:01.858996263Z 'mediapipe==0.10.21', 'mistune==3.1.0', 'ml_dtypes==0.5.1',
+2026-02-25T16:45:01.858999512Z 'more-itertools==8.10.0', 'mpmath==1.3.0', 'mss==10.0.0', 'multidict==6.1.0',
+2026-02-25T16:45:01.859002972Z 'nbclassic==1.2.0', 'nbclient==0.10.2', 'nbconvert==7.16.5', 'nbformat==5.10.4',
+2026-02-25T16:45:01.859004152Z 'nest-asyncio==1.6.0', 'networkx==3.4.2', 'notebook==6.5.5',
+2026-02-25T16:45:01.859004912Z 'notebook_shim==0.2.4', 'numba==0.61.2', 'numpy==1.26.4', 'oauthlib==3.2.0',
+2026-02-25T16:45:01.859007052Z 'omegaconf==2.3.0', 'onnxruntime==1.22.0', 'open_clip_torch==2.32.0',
+2026-02-25T16:45:01.859009872Z 'opencv-contrib-python==4.11.0.86', 'opencv-python==4.11.0.86',
+2026-02-25T16:45:01.859016172Z 'opencv-python-headless==4.11.0.86', 'opt_einsum==3.4.0', 'overrides==7.7.0',
+2026-02-25T16:45:01.859017622Z 'packaging==24.2', 'pandocfilters==1.5.1', 'parso==0.8.4', 'peft==0.15.2',
+2026-02-25T16:45:01.859020702Z 'pexpect==4.9.0', 'pillow==11.1.0', 'pixeloe==0.1.4', 'platformdirs==4.3.6',
+2026-02-25T16:45:01.859024762Z 'pooch==1.8.2', 'portalocker==3.1.1', 'prometheus_client==0.21.1',
+2026-02-25T16:45:01.859025462Z 'prompt_toolkit==3.0.48', 'propcache==0.3.0', 'protobuf==4.25.7',
+2026-02-25T16:45:01.859027812Z 'psutil==6.1.1', 'ptyprocess==0.7.0', 'pure_eval==0.2.3', 'pycollada==0.9',
+2026-02-25T16:45:01.859032142Z 'pycparser==2.22', 'pydantic==2.11.5', 'pydantic_core==2.33.2',
+2026-02-25T16:45:01.859032922Z 'PyGithub==2.6.1', 'Pygments==2.19.1', 'PyGObject==3.42.1', 'PyJWT==2.10.1',
+2026-02-25T16:45:01.859034322Z 'PyMatting==1.1.14', 'PyNaCl==1.5.0', 'pyparsing==2.4.7', 'PySocks==1.7.1',
+2026-02-25T16:45:01.859036012Z 'python-apt==2.4.0+ubuntu4', 'python-dateutil==2.9.0.post0',
+2026-02-25T16:45:01.859036782Z 'python-json-logger==3.2.1', 'PyYAML==6.0.2', 'pyzmq==24.0.1',
+2026-02-25T16:45:01.859039332Z 'referencing==0.35.1', 'regex==2024.11.6', 'rembg==2.0.66', 'reportlab==4.4.1',
+2026-02-25T16:45:01.859042922Z 'requests==2.32.3', 'rfc3339-validator==0.1.4', 'rfc3986-validator==0.1.1',
+2026-02-25T16:45:01.859044152Z 'rich==13.9.4', 'rpds-py==0.22.3', 'rtree==1.4.0', 'safetensors==0.5.3',
+2026-02-25T16:45:01.859045722Z 'scikit-image==0.25.2', 'scikit-learn==1.6.1', 'scipy==1.15.2',
+2026-02-25T16:45:01.859048302Z 'SecretStorage==3.3.1', 'Send2Trash==1.8.3', 'sentencepiece==0.2.0',
+2026-02-25T16:45:01.859051642Z 'shapely==2.1.1', 'shellingham==1.5.4', 'simsimd==6.2.1', 'six==1.16.0',
+2026-02-25T16:45:01.859053222Z 'smmap==5.0.2', 'sniffio==1.3.1', 'sounddevice==0.5.2', 'soundfile==0.13.1',
+2026-02-25T16:45:01.859055852Z 'soupsieve==2.6', 'spandrel==0.4.1', 'stack-data==0.6.3', 'stringzilla==3.12.5',
+2026-02-25T16:45:01.859060572Z 'svg.path==6.3', 'svglib==1.5.1', 'sympy==1.13.1', 'tabulate==0.9.0',
+2026-02-25T16:45:01.859061552Z 'termcolor==3.1.0', 'terminado==0.18.1', 'threadpoolctl==3.6.0',
+2026-02-25T16:45:01.859062242Z 'tifffile==2025.5.10', 'timm==1.0.15', 'tinycss2==1.4.0', 'tokenizers==0.21.0',
+2026-02-25T16:45:01.859063302Z 'toml==0.10.2', 'tomli==2.2.1', 'torchsde==0.2.6', 'tornado==6.4.2',
+2026-02-25T16:45:01.859065662Z 'tqdm==4.67.1', 'traitlets==5.14.3', 'trampoline==0.1.2',
+2026-02-25T16:45:01.859070302Z 'transformers==4.49.0', 'transparent-background==1.3.4', 'trimesh==4.6.10',
+2026-02-25T16:45:01.859071092Z 'triton==3.2.0', 'typer==0.15.2', 'types-python-dateutil==2.9.0.20241206',
+2026-02-25T16:45:01.859074262Z 'typing-inspection==0.4.1', 'typing_extensions==4.12.2', 'uri-template==1.3.0',
+2026-02-25T16:45:01.859077702Z 'urllib3==1.26.20', 'uv==0.6.5', 'vhacdx==0.0.8.post2', 'virtualenv==20.28.1',
+2026-02-25T16:45:01.859078422Z 'wadllib==1.3.6', 'wcwidth==0.2.13', 'webcolors==24.11.1',
+2026-02-25T16:45:01.859081372Z 'webencodings==0.5.1', 'websocket-client==1.8.0', 'wget==3.2',
+2026-02-25T16:45:01.859084502Z 'widgetsnbextension==4.0.13', 'wrapt==1.17.2', 'xxhash==3.5.0', 'yacs==0.1.8',
+2026-02-25T16:45:01.859088772Z 'yapf==0.43.0', 'yarl==1.18.3', 'zipp==1.0.0']
+2026-02-25T16:45:01.859094582Z [ INSTALLED ] ComfyUI_FaceMesh_Eyewear_Mask
+2026-02-25T16:45:01.859098202Z [ INSTALLED ] ComfyUI_sm4llSeg
+2026-02-25T16:45:01.859099191Z [ INSTALLED ] talent_zero
+2026-02-25T16:45:01.859100451Z [ INSTALLED ] comfyui_controlnet_aux@1.0.7
+2026-02-25T16:45:01.859102762Z [ INSTALLED ] comfyui-kjnodes@1.1.0
+2026-02-25T16:45:01.859107102Z [ INSTALLED ] comfyui_essentials@1.1.0
+2026-02-25T16:45:01.859113571Z [ INSTALLED ] comfyui-inpainteasy@1.0.2
+2026-02-25T16:45:01.859117901Z [ INSTALLED ] comfyui-easy-use@1.3.0
+2026-02-25T16:45:01.859119721Z [  DISABLED ] ComfyUI-Manager
+2026-02-25T16:45:01.920885244Z runpod-worker-comfy: successfully restored snapshot file: /2025-03-31_12-23-01_snapshot.json
+2026-02-25T16:45:01.921257600Z Copying Sm4llSeg models...
+2026-02-25T16:45:02.509720295Z '/runpod-volume/ComfyUI/models/Sm4llSeg/bottom_segm_v2_29.pth' -> '/comfyui/models/Sm4llSeg/bottom_segm_v2_29.pth'
+2026-02-25T16:45:02.509758335Z '/runpod-volume/ComfyUI/models/Sm4llSeg/segm_bottom-1.pth' -> '/comfyui/models/Sm4llSeg/segm_bottom-1.pth'
+2026-02-25T16:45:02.509762045Z '/runpod-volume/ComfyUI/models/Sm4llSeg/segm_top-1.pth' -> '/comfyui/models/Sm4llSeg/segm_top-1.pth'
+2026-02-25T16:45:02.518136618Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_1.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_1.pth'
+2026-02-25T16:45:02.519473306Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v2_ep34.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v2_ep34.pth'
+2026-02-25T16:45:02.520959982Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v2_ep51.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v2_ep51.pth'
+2026-02-25T16:45:02.522155151Z '/runpod-volume/ComfyUI/models/Sm4llSeg/shoes_segm_v3_ep20.pth' -> '/comfyui/models/Sm4llSeg/shoes_segm_v3_ep20.pth'
+2026-02-25T16:45:02.523143692Z '/runpod-volume/ComfyUI/models/Sm4llSeg/top_segm_v2_97.pth' -> '/comfyui/models/Sm4llSeg/top_segm_v2_97.pth'
+2026-02-25T16:45:02.523657607Z Copy completed (some files may have been skipped)
+2026-02-25T16:45:02.523683597Z Sm4llSeg models copied to local directory
+2026-02-25T16:45:02.523686257Z Listing Sm4llSeg models in local directory:
+2026-02-25T16:45:02.525567480Z total 182260
+2026-02-25T16:45:02.525612029Z drwxr-xr-x 2 root root       98 Feb 25 16:45 .
+2026-02-25T16:45:02.525615689Z drwxr-xr-x 1 root root       30 Feb 25 16:45 ..
+2026-02-25T16:45:02.525617639Z -rw-r--r-- 1 root root 75224995 Feb 25 16:45 bottom_segm_v2_29.pth
+2026-02-25T16:45:02.525620739Z -rw-r--r-- 1 root root 75227654 Feb 25 16:45 segm_bottom-1.pth
+2026-02-25T16:45:02.525623179Z -rw-r--r-- 1 root root 36175872 Feb 25 16:45 segm_top-1.pth
+2026-02-25T16:45:02.525643769Z Starting ComfyUI server in background...
+2026-02-25T16:45:02.525817917Z Waiting 15s for ComfyUI to initialize...
+2026-02-25T16:45:02.570604106Z Adding extra search path vae /runpod-volume/ComfyUI/models/vae/
+2026-02-25T16:45:02.570640426Z Adding extra search path clip /runpod-volume/ComfyUI/models/clip/
+2026-02-25T16:45:02.570643886Z Adding extra search path unet /runpod-volume/ComfyUI/models/diffusion_models/
+2026-02-25T16:45:02.570645695Z Adding extra search path upscale_models /runpod-volume/ComfyUI/models/upscale_models/
+2026-02-25T16:45:02.570647935Z Adding extra search path Sm4llSeg /runpod-volume/ComfyUI/models/Sm4llSeg/
+2026-02-25T16:45:02.571235630Z Adding extra search path vae /runpod-volume/ComfyUI/models/vae/
+2026-02-25T16:45:02.571257080Z Adding extra search path clip /runpod-volume/ComfyUI/models/clip/
+2026-02-25T16:45:02.571260010Z Adding extra search path unet /runpod-volume/ComfyUI/models/diffusion_models/
+2026-02-25T16:45:02.571262130Z Adding extra search path upscale_models /runpod-volume/ComfyUI/models/upscale_models/
+2026-02-25T16:45:02.571265620Z Adding extra search path Sm4llSeg /runpod-volume/ComfyUI/models/Sm4llSeg/
+2026-02-25T16:45:04.530489013Z [ComfyUI-Manager] Skipped fixing the 'comfyui-frontend-package' dependency because the ComfyUI is outdated.
+2026-02-25T16:45:04.531994849Z Prestartup times for custom nodes:
+2026-02-25T16:45:04.532022199Z    0.0 seconds: /comfyui/custom_nodes/comfyui-easy-use
+2026-02-25T16:45:04.532046459Z    2.0 seconds: /comfyui/custom_nodes/ComfyUI-Manager
+2026-02-25T16:45:06.095976093Z Total VRAM 97248 MB, total RAM 1160287 MB
+2026-02-25T16:45:06.096036942Z pytorch version: 2.12.0.dev20260225+cu128
+2026-02-25T16:45:06.096159221Z Set vram state to: NORMAL_VRAM
+2026-02-25T16:45:06.096193601Z Device: cuda:0 NVIDIA RTX PRO 6000 Blackwell Workstation Edition : cudaMallocAsync
+2026-02-25T16:45:07.172830651Z Traceback (most recent call last):
+2026-02-25T16:45:07.172886581Z   File "/comfyui/main.py", line 136, in <module>
+2026-02-25T16:45:07.172892171Z     import execution
+2026-02-25T16:45:07.172895731Z   File "/comfyui/execution.py", line 13, in <module>
+2026-02-25T16:45:07.172898271Z     import nodes
+2026-02-25T16:45:07.172901371Z   File "/comfyui/nodes.py", line 22, in <module>
+2026-02-25T16:45:07.172904801Z     import comfy.diffusers_load
+2026-02-25T16:45:07.172908371Z   File "/comfyui/comfy/diffusers_load.py", line 3, in <module>
+2026-02-25T16:45:07.172910461Z     import comfy.sd
+2026-02-25T16:45:07.172912471Z   File "/comfyui/comfy/sd.py", line 10, in <module>
+2026-02-25T16:45:07.172914781Z     from .ldm.cascade.stage_c_coder import StageC_coder
+2026-02-25T16:45:07.172917111Z   File "/comfyui/comfy/ldm/cascade/stage_c_coder.py", line 19, in <module>
+2026-02-25T16:45:07.172930571Z     import torchvision
+2026-02-25T16:45:07.172933100Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/__init__.py", line 8, in <module>
+2026-02-25T16:45:07.172937950Z     from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+2026-02-25T16:45:07.172941900Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/models/__init__.py", line 2, in <module>
+2026-02-25T16:45:07.172944230Z     from .convnext import *
+2026-02-25T16:45:07.172946430Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/models/convnext.py", line 9, in <module>
+2026-02-25T16:45:07.172948620Z     from ..ops.misc import Conv2dNormActivation, Permute
+2026-02-25T16:45:07.172950710Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/ops/__init__.py", line 23, in <module>
+2026-02-25T16:45:07.172952800Z     from .poolers import MultiScaleRoIAlign
+2026-02-25T16:45:07.172956110Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/ops/poolers.py", line 10, in <module>
+2026-02-25T16:45:07.172420045Z [START] Security scan
+2026-02-25T16:45:07.172984470Z [DONE] Security scan
+2026-02-25T16:45:07.172990470Z [ComfyUI-Manager] Logging failed: [Errno 28] No space left on device: '/comfyui/user/comfyui_8188.log'
+2026-02-25T16:45:07.172995490Z ## ComfyUI-Manager: installing dependencies done.
+2026-02-25T16:45:07.172999010Z ** ComfyUI startup time: 2026-02-25 16:45:03.804
+2026-02-25T16:45:07.173003630Z ** Platform: Linux
+2026-02-25T16:45:07.173006740Z ** Python version: 3.10.12 (main, Jan 26 2026, 14:55:28) [GCC 11.4.0]
+2026-02-25T16:45:07.173014980Z ** Python executable: /usr/bin/python
+2026-02-25T16:45:07.173024120Z ** ComfyUI Path: /comfyui
+2026-02-25T16:45:07.173029350Z ** ComfyUI Base Folder Path: /comfyui
+2026-02-25T16:45:07.173034590Z ** User directory: /comfyui/user
+2026-02-25T16:45:07.173039219Z ** ComfyUI-Manager config path: /comfyui/user/default/ComfyUI-Manager/config.ini
+2026-02-25T16:45:07.173043110Z ** Log path: /comfyui/user/comfyui.log
+2026-02-25T16:45:07.172958390Z     from .roi_align import roi_align
+2026-02-25T16:45:07.173066529Z   File "/usr/local/lib/python3.10/dist-packages/torchvision/ops/roi_align.py", line 7, in <module>
+2026-02-25T16:45:07.173071099Z     from torch._dynamo.utils import is_compile_supported
+2026-02-25T16:45:07.173077079Z   File "/usr/local/lib/python3.10/dist-packages/torch/_dynamo/__init__.py", line 13, in <module>
+2026-02-25T16:45:07.173092809Z     from . import (
+2026-02-25T16:45:07.173096319Z   File "/usr/local/lib/python3.10/dist-packages/torch/_dynamo/aot_compile.py", line 17, in <module>
+2026-02-25T16:45:07.173101999Z     from torch._dynamo.package import SystemInfo
+2026-02-25T16:45:07.173107359Z   File "/usr/local/lib/python3.10/dist-packages/torch/_dynamo/package.py", line 1168, in <module>
+2026-02-25T16:45:07.173112709Z     DynamoCache = DiskDynamoCache(os.path.join(cache_dir(), "dynamo"))
+2026-02-25T16:45:07.173135539Z   File "/usr/local/lib/python3.10/dist-packages/torch/_dynamo/package.py", line 1165, in cache_dir
+2026-02-25T16:45:07.173143418Z     return cache_dir()
+2026-02-25T16:45:07.173153038Z   File "/usr/local/lib/python3.10/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 17, in cache_dir
+2026-02-25T16:45:07.173158348Z     os.environ["TORCHINDUCTOR_CACHE_DIR"] = cache_dir = default_cache_dir()
+2026-02-25T16:45:07.173165038Z   File "/usr/local/lib/python3.10/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 25, in default_cache_dir
+2026-02-25T16:45:07.173174988Z     tempfile.gettempdir() if not is_fbcode() else "/var/tmp",
+2026-02-25T16:45:07.173180158Z   File "/usr/lib/python3.10/tempfile.py", line 454, in gettempdir
+2026-02-25T16:45:07.173185718Z     return _os.fsdecode(_gettempdir())
+2026-02-25T16:45:07.173190858Z   File "/usr/lib/python3.10/tempfile.py", line 447, in _gettempdir
+2026-02-25T16:45:07.173195618Z     tempdir = _get_default_tempdir()
+2026-02-25T16:45:07.173203438Z   File "/usr/lib/python3.10/tempfile.py", line 362, in _get_default_tempdir
+2026-02-25T16:45:07.173217438Z     raise FileNotFoundError(_errno.ENOENT,
+2026-02-25T16:45:07.173224968Z FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/usr/tmp', '/comfyui']
+2026-02-25T16:45:17.527640715Z Starting RunPod handler...
+2026-02-25T16:45:19.396067023Z --- Starting Serverless Worker |  Version 1.8.1 ---

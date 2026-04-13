@@ -1,0 +1,999 @@
+2026-02-25T15:51:46.362Z [INFO] #8 7.249 Unpacking libpython3.10-minimal:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:46.362Z [INFO] #8 7.305 Selecting previously unselected package libexpat1:amd64.
+2026-02-25T15:51:46.362Z [INFO] #8 7.306 Preparing to unpack .../libexpat1_2.4.7-1ubuntu0.7_amd64.deb ...
+2026-02-25T15:51:46.362Z [INFO] #8 7.306 Unpacking libexpat1:amd64 (2.4.7-1ubuntu0.7) ...
+2026-02-25T15:51:46.362Z [INFO] #8 7.321 Selecting previously unselected package python3.10-minimal.
+2026-02-25T15:51:46.362Z [INFO] #8 7.322 Preparing to unpack .../python3.10-minimal_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:46.362Z [INFO] #8 7.325 Unpacking python3.10-minimal (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:46.362Z [INFO] #8 7.363 Setting up libpython3.10-minimal:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:46.516Z [INFO] #8 7.366 Setting up libexpat1:amd64 (2.4.7-1ubuntu0.7) ...
+2026-02-25T15:51:46.516Z [INFO] #8 7.367 Setting up python3.10-minimal (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:46.788Z [INFO] #8 7.789 Selecting previously unselected package python3-minimal.
+2026-02-25T15:51:46.911Z [INFO] #8 7.789 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5649 files and directories currently installed.)
+2026-02-25T15:51:46.911Z [INFO] #8 7.794 Preparing to unpack .../0-python3-minimal_3.10.6-1~22.04.1_amd64.deb ...
+2026-02-25T15:51:46.911Z [INFO] #8 7.794 Unpacking python3-minimal (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:46.911Z [INFO] #8 7.809 Selecting previously unselected package media-types.
+2026-02-25T15:51:46.911Z [INFO] #8 7.810 Preparing to unpack .../1-media-types_7.0.0_all.deb ...
+2026-02-25T15:51:46.911Z [INFO] #8 7.810 Unpacking media-types (7.0.0) ...
+2026-02-25T15:51:46.911Z [INFO] #8 7.823 Selecting previously unselected package libmpdec3:amd64.
+2026-02-25T15:51:46.911Z [INFO] #8 7.824 Preparing to unpack .../2-libmpdec3_2.5.1-2build2_amd64.deb ...
+2026-02-25T15:51:46.911Z [INFO] #8 7.824 Unpacking libmpdec3:amd64 (2.5.1-2build2) ...
+2026-02-25T15:51:46.912Z [INFO] #8 7.837 Selecting previously unselected package libpython3.10-stdlib:amd64.
+2026-02-25T15:51:46.912Z [INFO] #8 7.837 Preparing to unpack .../3-libpython3.10-stdlib_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:46.912Z [INFO] #8 7.838 Unpacking libpython3.10-stdlib:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:46.912Z [INFO] #8 7.912 Selecting previously unselected package python3.10.
+2026-02-25T15:51:47.057Z [INFO] #8 7.913 Preparing to unpack .../4-python3.10_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:47.057Z [INFO] #8 7.914 Unpacking python3.10 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:47.057Z [INFO] #8 7.930 Selecting previously unselected package libpython3-stdlib:amd64.
+2026-02-25T15:51:47.057Z [INFO] #8 7.931 Preparing to unpack .../5-libpython3-stdlib_3.10.6-1~22.04.1_amd64.deb ...
+2026-02-25T15:51:47.057Z [INFO] #8 7.931 Unpacking libpython3-stdlib:amd64 (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:47.057Z [INFO] #8 7.947 Setting up python3-minimal (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:47.057Z [INFO] #8 8.058 Selecting previously unselected package python3.
+2026-02-25T15:51:47.230Z [INFO] #8 8.058 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6051 files and directories currently installed.)
+2026-02-25T15:51:47.230Z [INFO] #8 8.063 Preparing to unpack .../00-python3_3.10.6-1~22.04.1_amd64.deb ...
+2026-02-25T15:51:47.230Z [INFO] #8 8.067 Unpacking python3 (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:47.230Z [INFO] #8 8.080 Selecting previously unselected package perl-modules-5.34.
+2026-02-25T15:51:47.230Z [INFO] #8 8.081 Preparing to unpack .../01-perl-modules-5.34_5.34.0-3ubuntu1.5_all.deb ...
+2026-02-25T15:51:47.231Z [INFO] #8 8.081 Unpacking perl-modules-5.34 (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:47.311Z [INFO] #8 8.313 Selecting previously unselected package libgdbm6:amd64.
+2026-02-25T15:51:47.480Z [INFO] #8 8.314 Preparing to unpack .../02-libgdbm6_1.23-1_amd64.deb ...
+2026-02-25T15:51:47.480Z [INFO] #8 8.314 Unpacking libgdbm6:amd64 (1.23-1) ...
+2026-02-25T15:51:47.480Z [INFO] #8 8.328 Selecting previously unselected package libgdbm-compat4:amd64.
+2026-02-25T15:51:47.480Z [INFO] #8 8.329 Preparing to unpack .../03-libgdbm-compat4_1.23-1_amd64.deb ...
+2026-02-25T15:51:47.480Z [INFO] #8 8.329 Unpacking libgdbm-compat4:amd64 (1.23-1) ...
+2026-02-25T15:51:47.481Z [INFO] #8 8.342 Selecting previously unselected package libperl5.34:amd64.
+2026-02-25T15:51:47.481Z [INFO] #8 8.343 Preparing to unpack .../04-libperl5.34_5.34.0-3ubuntu1.5_amd64.deb ...
+2026-02-25T15:51:47.481Z [INFO] #8 8.343 Unpacking libperl5.34:amd64 (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:47.481Z [INFO] #8 8.482 Selecting previously unselected package perl.
+2026-02-25T15:51:47.697Z [INFO] #8 8.483 Preparing to unpack .../05-perl_5.34.0-3ubuntu1.5_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.488 Unpacking perl (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.510 Selecting previously unselected package libmd0:amd64.
+2026-02-25T15:51:47.697Z [INFO] #8 8.511 Preparing to unpack .../06-libmd0_1.0.4-1build1_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.511 Unpacking libmd0:amd64 (1.0.4-1build1) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.524 Selecting previously unselected package libbsd0:amd64.
+2026-02-25T15:51:47.697Z [INFO] #8 8.525 Preparing to unpack .../07-libbsd0_0.11.5-1_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.525 Unpacking libbsd0:amd64 (0.11.5-1) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.538 Selecting previously unselected package libelf1:amd64.
+2026-02-25T15:51:47.697Z [INFO] #8 8.539 Preparing to unpack .../08-libelf1_0.186-1ubuntu0.1_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.539 Unpacking libelf1:amd64 (0.186-1ubuntu0.1) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.552 Selecting previously unselected package libglib2.0-0:amd64.
+2026-02-25T15:51:47.697Z [INFO] #8 8.553 Preparing to unpack .../09-libglib2.0-0_2.72.4-0ubuntu2.9_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.553 Unpacking libglib2.0-0:amd64 (2.72.4-0ubuntu2.9) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.579 Selecting previously unselected package libicu70:amd64.
+2026-02-25T15:51:47.697Z [INFO] #8 8.579 Preparing to unpack .../10-libicu70_70.1-2_amd64.deb ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.580 Unpacking libicu70:amd64 (70.1-2) ...
+2026-02-25T15:51:47.697Z [INFO] #8 8.698 Selecting previously unselected package libxml2:amd64.
+2026-02-25T15:51:47.800Z [INFO] #8 8.699 Preparing to unpack .../11-libxml2_2.9.13+dfsg-1ubuntu0.11_amd64.deb ...
+2026-02-25T15:51:47.800Z [INFO] #8 8.699 Unpacking libxml2:amd64 (2.9.13+dfsg-1ubuntu0.11) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.718 Selecting previously unselected package libdrm-common.
+2026-02-25T15:51:47.801Z [INFO] #8 8.719 Preparing to unpack .../12-libdrm-common_2.4.113-2~ubuntu0.22.04.1_all.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.719 Unpacking libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.731 Selecting previously unselected package libdrm2:amd64.
+2026-02-25T15:51:47.801Z [INFO] #8 8.732 Preparing to unpack .../13-libdrm2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.733 Unpacking libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.745 Selecting previously unselected package libedit2:amd64.
+2026-02-25T15:51:47.801Z [INFO] #8 8.746 Preparing to unpack .../14-libedit2_3.1-20210910-1build1_amd64.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.746 Unpacking libedit2:amd64 (3.1-20210910-1build1) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.760 Selecting previously unselected package libnghttp2-14:amd64.
+2026-02-25T15:51:47.801Z [INFO] #8 8.760 Preparing to unpack .../15-libnghttp2-14_1.43.0-1ubuntu0.2_amd64.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.761 Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.776 Selecting previously unselected package libpsl5:amd64.
+2026-02-25T15:51:47.801Z [INFO] #8 8.777 Preparing to unpack .../16-libpsl5_0.21.0-1.2build2_amd64.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.777 Unpacking libpsl5:amd64 (0.21.0-1.2build2) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.789 Selecting previously unselected package libxau6:amd64.
+2026-02-25T15:51:47.801Z [INFO] #8 8.790 Preparing to unpack .../17-libxau6_1%3a1.0.9-1build5_amd64.deb ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.791 Unpacking libxau6:amd64 (1:1.0.9-1build5) ...
+2026-02-25T15:51:47.801Z [INFO] #8 8.802 Selecting previously unselected package libxdmcp6:amd64.
+2026-02-25T15:51:47.905Z [INFO] #8 8.803 Preparing to unpack .../18-libxdmcp6_1%3a1.1.3-0ubuntu5_amd64.deb ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.803 Unpacking libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.815 Selecting previously unselected package libxcb1:amd64.
+2026-02-25T15:51:47.905Z [INFO] #8 8.816 Preparing to unpack .../19-libxcb1_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.816 Unpacking libxcb1:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.829 Selecting previously unselected package libx11-data.
+2026-02-25T15:51:47.905Z [INFO] #8 8.830 Preparing to unpack .../20-libx11-data_2%3a1.7.5-1ubuntu0.3_all.deb ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.830 Unpacking libx11-data (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.873 Selecting previously unselected package libx11-6:amd64.
+2026-02-25T15:51:47.905Z [INFO] #8 8.873 Preparing to unpack .../21-libx11-6_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.874 Unpacking libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.891 Selecting previously unselected package libxext6:amd64.
+2026-02-25T15:51:47.905Z [INFO] #8 8.892 Preparing to unpack .../22-libxext6_2%3a1.3.4-1build1_amd64.deb ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.893 Unpacking libxext6:amd64 (2:1.3.4-1build1) ...
+2026-02-25T15:51:47.905Z [INFO] #8 8.906 Selecting previously unselected package wget.
+2026-02-25T15:51:48.019Z [INFO] #8 8.907 Preparing to unpack .../23-wget_1.21.2-2ubuntu1.1_amd64.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.908 Unpacking wget (1.21.2-2ubuntu1.1) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.923 Selecting previously unselected package libbrotli1:amd64.
+2026-02-25T15:51:48.019Z [INFO] #8 8.923 Preparing to unpack .../24-libbrotli1_1.0.9-2build6_amd64.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.924 Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.941 Selecting previously unselected package librtmp1:amd64.
+2026-02-25T15:51:48.019Z [INFO] #8 8.942 Preparing to unpack .../25-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.942 Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.955 Selecting previously unselected package libssh-4:amd64.
+2026-02-25T15:51:48.019Z [INFO] #8 8.956 Preparing to unpack .../26-libssh-4_0.9.6-2ubuntu0.22.04.6_amd64.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.956 Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.6) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.970 Selecting previously unselected package libcurl3-gnutls:amd64.
+2026-02-25T15:51:48.019Z [INFO] #8 8.971 Preparing to unpack .../27-libcurl3-gnutls_7.81.0-1ubuntu1.22_amd64.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.971 Unpacking libcurl3-gnutls:amd64 (7.81.0-1ubuntu1.22) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.986 Selecting previously unselected package liberror-perl.
+2026-02-25T15:51:48.019Z [INFO] #8 8.987 Preparing to unpack .../28-liberror-perl_0.17029-1_all.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.987 Unpacking liberror-perl (0.17029-1) ...
+2026-02-25T15:51:48.019Z [INFO] #8 8.999 Selecting previously unselected package git-man.
+2026-02-25T15:51:48.019Z [INFO] #8 9.000 Preparing to unpack .../29-git-man_1%3a2.34.1-1ubuntu1.16_all.deb ...
+2026-02-25T15:51:48.019Z [INFO] #8 9.001 Unpacking git-man (1:2.34.1-1ubuntu1.16) ...
+2026-02-25T15:51:48.019Z [INFO] #8 9.020 Selecting previously unselected package git.
+2026-02-25T15:51:48.120Z [INFO] #8 9.021 Preparing to unpack .../30-git_1%3a2.34.1-1ubuntu1.16_amd64.deb ...
+2026-02-25T15:51:48.120Z [INFO] #8 9.027 Unpacking git (1:2.34.1-1ubuntu1.16) ...
+2026-02-25T15:51:48.120Z [INFO] #8 9.122 Selecting previously unselected package libc-dev-bin.
+2026-02-25T15:51:48.283Z [INFO] #8 9.123 Preparing to unpack .../31-libc-dev-bin_2.35-0ubuntu3.13_amd64.deb ...
+2026-02-25T15:51:48.283Z [INFO] #8 9.123 Unpacking libc-dev-bin (2.35-0ubuntu3.13) ...
+2026-02-25T15:51:48.283Z [INFO] #8 9.137 Selecting previously unselected package linux-libc-dev:amd64.
+2026-02-25T15:51:48.283Z [INFO] #8 9.138 Preparing to unpack .../32-linux-libc-dev_5.15.0-171.181_amd64.deb ...
+2026-02-25T15:51:48.283Z [INFO] #8 9.139 Unpacking linux-libc-dev:amd64 (5.15.0-171.181) ...
+2026-02-25T15:51:48.283Z [INFO] #8 9.285 Selecting previously unselected package libcrypt-dev:amd64.
+2026-02-25T15:51:48.469Z [INFO] #8 9.286 Preparing to unpack .../33-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
+2026-02-25T15:51:48.469Z [INFO] #8 9.286 Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
+2026-02-25T15:51:48.469Z [INFO] #8 9.302 Selecting previously unselected package rpcsvc-proto.
+2026-02-25T15:51:48.469Z [INFO] #8 9.303 Preparing to unpack .../34-rpcsvc-proto_1.4.2-0ubuntu6_amd64.deb ...
+2026-02-25T15:51:48.469Z [INFO] #8 9.303 Unpacking rpcsvc-proto (1.4.2-0ubuntu6) ...
+2026-02-25T15:51:48.469Z [INFO] #8 9.319 Selecting previously unselected package libtirpc-dev:amd64.
+2026-02-25T15:51:48.469Z [INFO] #8 9.320 Preparing to unpack .../35-libtirpc-dev_1.3.2-2ubuntu0.1_amd64.deb ...
+2026-02-25T15:51:48.469Z [INFO] #8 9.320 Unpacking libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+2026-02-25T15:51:48.470Z [INFO] #8 9.340 Selecting previously unselected package libnsl-dev:amd64.
+2026-02-25T15:51:48.470Z [INFO] #8 9.341 Preparing to unpack .../36-libnsl-dev_1.3.0-2build2_amd64.deb ...
+2026-02-25T15:51:48.470Z [INFO] #8 9.342 Unpacking libnsl-dev:amd64 (1.3.0-2build2) ...
+2026-02-25T15:51:48.470Z [INFO] #8 9.356 Selecting previously unselected package libc6-dev:amd64.
+2026-02-25T15:51:48.470Z [INFO] #8 9.357 Preparing to unpack .../37-libc6-dev_2.35-0ubuntu3.13_amd64.deb ...
+2026-02-25T15:51:48.470Z [INFO] #8 9.358 Unpacking libc6-dev:amd64 (2.35-0ubuntu3.13) ...
+2026-02-25T15:51:48.470Z [INFO] #8 9.471 Selecting previously unselected package libdrm-amdgpu1:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.472 Preparing to unpack .../38-libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.472 Unpacking libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.486 Selecting previously unselected package libpciaccess0:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.487 Preparing to unpack .../39-libpciaccess0_0.16-3_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.487 Unpacking libpciaccess0:amd64 (0.16-3) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.501 Selecting previously unselected package libdrm-intel1:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.502 Preparing to unpack .../40-libdrm-intel1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.502 Unpacking libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.517 Selecting previously unselected package libdrm-nouveau2:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.517 Preparing to unpack .../41-libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.518 Unpacking libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.530 Selecting previously unselected package libdrm-radeon1:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.531 Preparing to unpack .../42-libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.532 Unpacking libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.543 Selecting previously unselected package libexpat1-dev:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.544 Preparing to unpack .../43-libexpat1-dev_2.4.7-1ubuntu0.7_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.545 Unpacking libexpat1-dev:amd64 (2.4.7-1ubuntu0.7) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.562 Selecting previously unselected package libglapi-mesa:amd64.
+2026-02-25T15:51:48.576Z [INFO] #8 9.563 Preparing to unpack .../44-libglapi-mesa_23.2.1-1ubuntu3.1~22.04.3_amd64.deb ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.563 Unpacking libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:48.576Z [INFO] #8 9.577 Selecting previously unselected package libllvm15:amd64.
+2026-02-25T15:51:48.728Z [INFO] #8 9.579 Preparing to unpack .../45-libllvm15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+2026-02-25T15:51:48.728Z [INFO] #8 9.579 Unpacking libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+2026-02-25T15:51:48.864Z [INFO] #8 9.865 Selecting previously unselected package libsensors-config.
+2026-02-25T15:51:49.020Z [INFO] #8 9.866 Preparing to unpack .../46-libsensors-config_1%3a3.6.0-7ubuntu1_all.deb ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.867 Unpacking libsensors-config (1:3.6.0-7ubuntu1) ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.880 Selecting previously unselected package libsensors5:amd64.
+2026-02-25T15:51:49.020Z [INFO] #8 9.881 Preparing to unpack .../47-libsensors5_1%3a3.6.0-7ubuntu1_amd64.deb ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.885 Unpacking libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.898 Selecting previously unselected package libxcb-dri3-0:amd64.
+2026-02-25T15:51:49.020Z [INFO] #8 9.899 Preparing to unpack .../48-libxcb-dri3-0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.900 Unpacking libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.912 Selecting previously unselected package libgl1-mesa-dri:amd64.
+2026-02-25T15:51:49.020Z [INFO] #8 9.913 Preparing to unpack .../49-libgl1-mesa-dri_23.2.1-1ubuntu3.1~22.04.3_amd64.deb ...
+2026-02-25T15:51:49.020Z [INFO] #8 9.920 Unpacking libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:49.020Z [INFO] #8 10.02 Selecting previously unselected package libx11-xcb1:amd64.
+2026-02-25T15:51:49.120Z [INFO] #8 10.02 Preparing to unpack .../50-libx11-xcb1_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.02 Unpacking libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.04 Selecting previously unselected package libxcb-dri2-0:amd64.
+2026-02-25T15:51:49.120Z [INFO] #8 10.04 Preparing to unpack .../51-libxcb-dri2-0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.04 Unpacking libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.05 Selecting previously unselected package libxcb-glx0:amd64.
+2026-02-25T15:51:49.120Z [INFO] #8 10.05 Preparing to unpack .../52-libxcb-glx0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.05 Unpacking libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.07 Selecting previously unselected package libxcb-present0:amd64.
+2026-02-25T15:51:49.120Z [INFO] #8 10.07 Preparing to unpack .../53-libxcb-present0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.120Z [INFO] #8 10.07 Unpacking libxcb-present0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.08 Selecting previously unselected package libxcb-randr0:amd64.
+2026-02-25T15:51:49.121Z [INFO] #8 10.08 Preparing to unpack .../54-libxcb-randr0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.08 Unpacking libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.09 Selecting previously unselected package libxcb-shm0:amd64.
+2026-02-25T15:51:49.121Z [INFO] #8 10.09 Preparing to unpack .../55-libxcb-shm0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.09 Unpacking libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.11 Selecting previously unselected package libxcb-sync1:amd64.
+2026-02-25T15:51:49.121Z [INFO] #8 10.11 Preparing to unpack .../56-libxcb-sync1_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.11 Unpacking libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.121Z [INFO] #8 10.12 Selecting previously unselected package libxcb-xfixes0:amd64.
+2026-02-25T15:51:49.121Z [INFO] #8 10.12 Preparing to unpack .../57-libxcb-xfixes0_1.14-3ubuntu3_amd64.deb ...
+2026-02-25T15:51:49.222Z [INFO] #8 10.12 Unpacking libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.13 Selecting previously unselected package libxfixes3:amd64.
+2026-02-25T15:51:49.223Z [INFO] #8 10.14 Preparing to unpack .../58-libxfixes3_1%3a6.0.0-1_amd64.deb ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.14 Unpacking libxfixes3:amd64 (1:6.0.0-1) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.15 Selecting previously unselected package libxshmfence1:amd64.
+2026-02-25T15:51:49.223Z [INFO] #8 10.15 Preparing to unpack .../59-libxshmfence1_1.3-1build4_amd64.deb ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.15 Unpacking libxshmfence1:amd64 (1.3-1build4) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.16 Selecting previously unselected package libxxf86vm1:amd64.
+2026-02-25T15:51:49.223Z [INFO] #8 10.16 Preparing to unpack .../60-libxxf86vm1_1%3a1.1.4-1build3_amd64.deb ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.16 Unpacking libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.18 Selecting previously unselected package libglx-mesa0:amd64.
+2026-02-25T15:51:49.223Z [INFO] #8 10.18 Preparing to unpack .../61-libglx-mesa0_23.2.1-1ubuntu3.1~22.04.3_amd64.deb ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.18 Unpacking libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.19 Selecting previously unselected package libpython3.10:amd64.
+2026-02-25T15:51:49.223Z [INFO] #8 10.19 Preparing to unpack .../62-libpython3.10_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.19 Unpacking libpython3.10:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.223Z [INFO] #8 10.22 Selecting previously unselected package zlib1g-dev:amd64.
+2026-02-25T15:51:49.328Z [INFO] #8 10.23 Preparing to unpack .../63-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
+2026-02-25T15:51:49.328Z [INFO] #8 10.23 Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+2026-02-25T15:51:49.328Z [INFO] #8 10.24 Selecting previously unselected package libpython3.10-dev:amd64.
+2026-02-25T15:51:49.328Z [INFO] #8 10.24 Preparing to unpack .../64-libpython3.10-dev_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:49.328Z [INFO] #8 10.24 Unpacking libpython3.10-dev:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.328Z [INFO] #8 10.33 Selecting previously unselected package python3-lib2to3.
+2026-02-25T15:51:49.437Z [INFO] #8 10.33 Preparing to unpack .../65-python3-lib2to3_3.10.8-1~22.04_all.deb ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.33 Unpacking python3-lib2to3 (3.10.8-1~22.04) ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.36 Selecting previously unselected package python3-distutils.
+2026-02-25T15:51:49.438Z [INFO] #8 10.36 Preparing to unpack .../66-python3-distutils_3.10.8-1~22.04_all.deb ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.36 Unpacking python3-distutils (3.10.8-1~22.04) ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.39 Selecting previously unselected package python3-pip-whl.
+2026-02-25T15:51:49.438Z [INFO] #8 10.39 Preparing to unpack .../67-python3-pip-whl_22.0.2+dfsg-1ubuntu0.7_all.deb ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.39 Unpacking python3-pip-whl (22.0.2+dfsg-1ubuntu0.7) ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.41 Selecting previously unselected package python3-setuptools-whl.
+2026-02-25T15:51:49.438Z [INFO] #8 10.41 Preparing to unpack .../68-python3-setuptools-whl_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.41 Unpacking python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.42 Selecting previously unselected package python3.10-dev.
+2026-02-25T15:51:49.438Z [INFO] #8 10.43 Preparing to unpack .../69-python3.10-dev_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.43 Unpacking python3.10-dev (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.438Z [INFO] #8 10.44 Selecting previously unselected package python3.10-venv.
+2026-02-25T15:51:49.539Z [INFO] #8 10.44 Preparing to unpack .../70-python3.10-venv_3.10.12-1~22.04.14_amd64.deb ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.44 Unpacking python3.10-venv (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.45 Selecting previously unselected package libglvnd0:amd64.
+2026-02-25T15:51:49.539Z [INFO] #8 10.45 Preparing to unpack .../71-libglvnd0_1.4.0-1_amd64.deb ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.46 Unpacking libglvnd0:amd64 (1.4.0-1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.47 Selecting previously unselected package libglx0:amd64.
+2026-02-25T15:51:49.539Z [INFO] #8 10.47 Preparing to unpack .../72-libglx0_1.4.0-1_amd64.deb ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.47 Unpacking libglx0:amd64 (1.4.0-1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.49 Selecting previously unselected package libgl1:amd64.
+2026-02-25T15:51:49.539Z [INFO] #8 10.49 Preparing to unpack .../73-libgl1_1.4.0-1_amd64.deb ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.49 Unpacking libgl1:amd64 (1.4.0-1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up media-types (7.0.0) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up libpciaccess0:amd64 (0.16-3) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up libxau6:amd64 (1:1.0.9-1build5) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up libpsl5:amd64 (0.21.0-1.2build2) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.52 Setting up wget (1.21.2-2ubuntu1.1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.53 Setting up python3-pip-whl (22.0.2+dfsg-1ubuntu0.7) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.53 Setting up libglib2.0-0:amd64 (2.72.4-0ubuntu2.9) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.53 No schema files found: doing nothing.
+2026-02-25T15:51:49.539Z [INFO] #8 10.54 Setting up libglvnd0:amd64 (1.4.0-1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.54 Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.54 Setting up libsensors-config (1:3.6.0-7ubuntu1) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.54 Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+2026-02-25T15:51:49.539Z [INFO] #8 10.54 Setting up linux-libc-dev:amd64 (5.15.0-171.181) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.54 Setting up perl-modules-5.34 (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.54 Setting up libtirpc-dev:amd64 (1.3.2-2ubuntu0.1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.54 Setting up rpcsvc-proto (1.4.2-0ubuntu6) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.54 Setting up libx11-data (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.6) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libmd0:amd64 (1.0.4-1build1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libnsl-dev:amd64 (1.3.0-2build2) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libxshmfence1:amd64 (1.3-1build4) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libcrypt-dev:amd64 (1:4.4.27-1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.55 Setting up libmpdec3:amd64 (2.5.1-2build2) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up git-man (1:2.34.1-1ubuntu1.16) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libc-dev-bin (2.35-0ubuntu3.13) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libbsd0:amd64 (0.11.5-1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libelf1:amd64 (0.186-1ubuntu0.1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libgdbm6:amd64 (1.23-1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libicu70:amd64 (70.1-2) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libxcb1:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.56 Setting up libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.57 Setting up libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.57 Setting up libedit2:amd64 (3.1-20210910-1build1) ...
+2026-02-25T15:51:49.740Z [INFO] #8 10.57 Setting up libcurl3-gnutls:amd64 (7.81.0-1ubuntu1.22) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libxcb-present0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libpython3.10-stdlib:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libgdbm-compat4:amd64 (1.23-1) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.57 Setting up libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libc6-dev:amd64 (2.35-0ubuntu3.13) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libxml2:amd64 (2.9.13+dfsg-1ubuntu0.11) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libpython3-stdlib:amd64 (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.58 Setting up libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.59 Setting up libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.59 Setting up libpython3.10:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.59 Setting up libperl5.34:amd64 (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.59 Setting up libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:49.741Z [INFO] #8 10.59 Setting up python3.10 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:50.016Z [INFO] #8 11.02 Setting up libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.02 Setting up libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.02 Setting up libxext6:amd64 (2:1.3.4-1build1) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.02 Setting up python3 (3.10.6-1~22.04.1) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.09 Setting up libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.09 Setting up perl (5.34.0-3ubuntu1.5) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.10 Setting up libexpat1-dev:amd64 (2.4.7-1ubuntu0.7) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.10 Setting up libxfixes3:amd64 (1:6.0.0-1) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.10 Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.10 Setting up libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.10 Setting up python3-lib2to3 (3.10.8-1~22.04) ...
+2026-02-25T15:51:50.175Z [INFO] #8 11.18 Setting up python3-distutils (3.10.8-1~22.04) ...
+2026-02-25T15:51:50.294Z [INFO] #8 11.26 Setting up python3.10-venv (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:50.294Z [INFO] #8 11.30 Setting up libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.30 Setting up liberror-perl (0.17029-1) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.30 Setting up libpython3.10-dev:amd64 (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.30 Setting up git (1:2.34.1-1ubuntu1.16) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.31 Setting up python3.10-dev (3.10.12-1~22.04.14) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.31 Setting up libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.3) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.31 Setting up libglx0:amd64 (1.4.0-1) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.31 Setting up libgl1:amd64 (1.4.0-1) ...
+2026-02-25T15:51:50.465Z [INFO] #8 11.32 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+2026-02-25T15:51:50.881Z [INFO] #8 DONE 11.9s
+2026-02-25T15:51:51.031Z [INFO] #9 [base  3/21] RUN apt-get update && apt-get install -y --no-install-recommends     python3-pip     && ln -sf /usr/bin/pip3 /usr/bin/pip     && rm -rf /var/lib/apt/lists/*
+2026-02-25T15:51:51.258Z [INFO] #9 0.377 Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+2026-02-25T15:51:51.374Z [INFO] #9 0.493 Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+2026-02-25T15:51:51.495Z [INFO] #9 0.614 Get:3 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease [1581 B]
+2026-02-25T15:51:51.712Z [INFO] #9 0.651 Get:4 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6626 kB]
+2026-02-25T15:51:51.713Z [INFO] #9 0.681 Get:5 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  Packages [2383 kB]
+2026-02-25T15:51:51.808Z [INFO] #9 0.927 Get:6 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1302 kB]
+2026-02-25T15:51:51.908Z [INFO] #9 0.934 Get:7 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [62.6 kB]
+2026-02-25T15:51:51.908Z [INFO] #9 0.934 Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3767 kB]
+2026-02-25T15:51:51.908Z [INFO] #9 1.027 Get:9 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+2026-02-25T15:51:52.038Z [INFO] #9 1.157 Get:10 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+2026-02-25T15:51:52.168Z [INFO] #9 1.287 Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+2026-02-25T15:51:52.782Z [INFO] #9 1.901 Get:12 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+2026-02-25T15:51:52.891Z [INFO] #9 1.902 Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+2026-02-25T15:51:52.891Z [INFO] #9 1.914 Get:14 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+2026-02-25T15:51:52.891Z [INFO] #9 1.916 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [70.9 kB]
+2026-02-25T15:51:52.892Z [INFO] #9 1.916 Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1613 kB]
+2026-02-25T15:51:52.892Z [INFO] #9 1.927 Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [6861 kB]
+2026-02-25T15:51:52.892Z [INFO] #9 1.989 Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4107 kB]
+2026-02-25T15:51:52.892Z [INFO] #9 2.010 Get:19 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [37.2 kB]
+2026-02-25T15:51:53.042Z [INFO] #9 2.011 Get:20 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [83.9 kB]
+2026-02-25T15:51:53.698Z [INFO] #9 2.817 Fetched 47.3 MB in 3s (18.6 MB/s)
+2026-02-25T15:51:54.477Z [INFO] #9 2.817 Reading package lists...
+2026-02-25T15:51:55.292Z [INFO] #9 3.640 Reading package lists...
+2026-02-25T15:51:55.469Z [INFO] #9 4.425 Building dependency tree...
+2026-02-25T15:51:55.469Z [INFO] #9 4.588 Reading state information...
+2026-02-25T15:51:55.586Z [INFO] #9 4.705 The following additional packages will be installed:
+2026-02-25T15:51:55.587Z [INFO] #9 4.705   python3-pkg-resources python3-setuptools python3-wheel
+2026-02-25T15:51:55.775Z [INFO] #9 4.706 Suggested packages:
+2026-02-25T15:51:55.775Z [INFO] #9 4.706   python-setuptools-doc
+2026-02-25T15:51:55.775Z [INFO] #9 4.706 Recommended packages:
+2026-02-25T15:51:55.775Z [INFO] #9 4.706   build-essential python3-dev
+2026-02-25T15:51:55.775Z [INFO] #9 4.743 The following NEW packages will be installed:
+2026-02-25T15:51:55.775Z [INFO] #9 4.743   python3-pip python3-pkg-resources python3-setuptools python3-wheel
+2026-02-25T15:51:55.862Z [INFO] #9 4.981 0 upgraded, 4 newly installed, 0 to remove and 58 not upgraded.
+2026-02-25T15:51:55.863Z [INFO] #9 4.981 Need to get 1811 kB of archives.
+2026-02-25T15:51:55.863Z [INFO] #9 4.981 After this operation, 9600 kB of additional disk space will be used.
+2026-02-25T15:51:55.863Z [INFO] #9 4.981 Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-pkg-resources all 59.6.0-1.2ubuntu0.22.04.3 [133 kB]
+2026-02-25T15:51:56.302Z [INFO] #9 5.421 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3 [340 kB]
+2026-02-25T15:51:56.497Z [INFO] #9 5.615 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-wheel all 0.37.1-2ubuntu0.22.04.1 [32.0 kB]
+2026-02-25T15:51:56.657Z [INFO] #9 5.625 Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip all 22.0.2+dfsg-1ubuntu0.7 [1306 kB]
+2026-02-25T15:51:56.813Z [INFO] #9 5.932 debconf: delaying package configuration, since apt-utils is not installed
+2026-02-25T15:51:56.916Z [INFO] #9 5.959 Fetched 1811 kB in 1s (1693 kB/s)
+2026-02-25T15:51:56.916Z [INFO] #9 5.975 Selecting previously unselected package python3-pkg-resources.
+2026-02-25T15:51:56.916Z [INFO] #9 5.975 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11873 files and directories currently installed.)
+2026-02-25T15:51:56.916Z [INFO] #9 5.983 Preparing to unpack .../python3-pkg-resources_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+2026-02-25T15:51:56.916Z [INFO] #9 5.984 Unpacking python3-pkg-resources (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:56.916Z [INFO] #9 6.001 Selecting previously unselected package python3-setuptools.
+2026-02-25T15:51:56.916Z [INFO] #9 6.002 Preparing to unpack .../python3-setuptools_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+2026-02-25T15:51:56.916Z [INFO] #9 6.002 Unpacking python3-setuptools (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:56.916Z [INFO] #9 6.035 Selecting previously unselected package python3-wheel.
+2026-02-25T15:51:57.043Z [INFO] #9 6.036 Preparing to unpack .../python3-wheel_0.37.1-2ubuntu0.22.04.1_all.deb ...
+2026-02-25T15:51:57.043Z [INFO] #9 6.036 Unpacking python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+2026-02-25T15:51:57.043Z [INFO] #9 6.053 Selecting previously unselected package python3-pip.
+2026-02-25T15:51:57.043Z [INFO] #9 6.054 Preparing to unpack .../python3-pip_22.0.2+dfsg-1ubuntu0.7_all.deb ...
+2026-02-25T15:51:57.043Z [INFO] #9 6.054 Unpacking python3-pip (22.0.2+dfsg-1ubuntu0.7) ...
+2026-02-25T15:51:57.043Z [INFO] #9 6.162 Setting up python3-pkg-resources (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:57.166Z [INFO] #9 6.286 Setting up python3-setuptools (59.6.0-1.2ubuntu0.22.04.3) ...
+2026-02-25T15:51:57.388Z [INFO] #9 6.506 Setting up python3-wheel (0.37.1-2ubuntu0.22.04.1) ...
+2026-02-25T15:51:57.631Z [INFO] #9 6.599 Setting up python3-pip (22.0.2+dfsg-1ubuntu0.7) ...
+2026-02-25T15:51:58.310Z [INFO] #9 DONE 7.4s
+2026-02-25T15:51:58.461Z [INFO] #10 [base  4/21] RUN mkdir -p /tmp/ckpts && chmod -R 777 /tmp/ckpts
+2026-02-25T15:51:58.566Z [INFO] #10 DONE 0.3s
+2026-02-25T15:51:58.717Z [INFO] #11 [base  5/21] RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
+2026-02-25T15:51:58.947Z [INFO] #11 0.198 Reading package lists...
+2026-02-25T15:51:58.947Z [INFO] #11 0.209 Building dependency tree...
+2026-02-25T15:51:58.947Z [INFO] #11 0.209 Reading state information...
+2026-02-25T15:51:58.947Z [INFO] #11 0.213 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2026-02-25T15:51:58.947Z [INFO] #11 DONE 0.2s
+2026-02-25T15:51:58.947Z [INFO] #12 [base  6/21] RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir ||     pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
+2026-02-25T15:51:59.235Z [INFO] #12 0.438 Looking in indexes: https://download.pytorch.org/whl/nightly/cu128
+2026-02-25T15:52:00.360Z [INFO] #12 1.564 Collecting torch
+2026-02-25T15:52:00.560Z [INFO] #12 1.612   Downloading https://download.pytorch.org/whl/nightly/cu128/torch-2.12.0.dev20260225%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl (818.5 MB)
+2026-02-25T15:52:06.165Z [INFO] #12 7.368      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.5/818.5 MB 144.3 MB/s eta 0:00:00
+2026-02-25T15:52:07.286Z [INFO] #12 8.489 Collecting torchaudio
+2026-02-25T15:52:07.432Z [INFO] #12 8.635   Downloading https://download-r2.pytorch.org/whl/nightly/cu128/torchaudio-2.11.0.dev20260225%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl (1.7 MB)
+2026-02-25T15:52:07.723Z [INFO] #12 8.775      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 12.2 MB/s eta 0:00:00
+2026-02-25T15:52:08.628Z [INFO] #12 9.831 Collecting torchvision
+2026-02-25T15:52:08.782Z [INFO] #12 9.986   Downloading https://download-r2.pytorch.org/whl/nightly/cu128/torchvision-0.26.0.dev20260225%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl (8.2 MB)
+2026-02-25T15:52:08.999Z [INFO] #12 10.05      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.2/8.2 MB 129.2 MB/s eta 0:00:00
+2026-02-25T15:52:09.436Z [INFO] #12 10.64 Collecting nvidia-cudnn-cu12==9.19.0.56
+2026-02-25T15:52:09.627Z [INFO] #12 10.83   Downloading https://pypi.nvidia.com/nvidia-cudnn-cu12/nvidia_cudnn_cu12-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl (657.9 MB)
+2026-02-25T15:52:18.133Z [INFO] #12 19.19      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 657.9/657.9 MB 63.3 MB/s eta 0:00:00
+2026-02-25T15:52:19.004Z [INFO] #12 20.21 Collecting nvidia-nvshmem-cu12==3.4.5
+2026-02-25T15:52:19.142Z [INFO] #12 20.35   Downloading https://pypi.nvidia.com/nvidia-nvshmem-cu12/nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (139.1 MB)
+2026-02-25T15:52:19.905Z [INFO] #12 20.98      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.1/139.1 MB 388.8 MB/s eta 0:00:00
+2026-02-25T15:52:19.905Z [INFO] #12 21.11 Requirement already satisfied: setuptools<82 in /usr/lib/python3/dist-packages (from torch) (59.6.0)
+2026-02-25T15:52:20.461Z [INFO] #12 21.66 Collecting sympy>=1.13.3
+2026-02-25T15:52:20.606Z [INFO] #12 21.81   Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+2026-02-25T15:52:20.981Z [INFO] #12 22.03      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 28.6 MB/s eta 0:00:00
+2026-02-25T15:52:21.571Z [INFO] #12 22.77 Collecting networkx>=2.5.1
+2026-02-25T15:52:21.762Z [INFO] #12 22.81   Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+2026-02-25T15:52:21.762Z [INFO] #12 22.81      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 304.0 MB/s eta 0:00:00
+2026-02-25T15:52:21.993Z [INFO] #12 23.20 Collecting cuda-bindings==12.9.4
+2026-02-25T15:52:22.183Z [INFO] #12 23.21   Downloading https://download.pytorch.org/whl/nightly/cu128/cuda_bindings-12.9.4-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.1 MB)
+2026-02-25T15:52:22.183Z [INFO] #12 23.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/12.1 MB 460.2 MB/s eta 0:00:00
+2026-02-25T15:52:22.458Z [INFO] #12 23.66 Collecting jinja2
+2026-02-25T15:52:22.621Z [INFO] #12 23.67   Downloading https://download.pytorch.org/whl/nightly/jinja2-3.1.6-py3-none-any.whl (134 kB)
+2026-02-25T15:52:22.621Z [INFO] #12 23.67      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 KB 398.3 MB/s eta 0:00:00
+2026-02-25T15:52:23.063Z [INFO] #12 24.26 Collecting filelock
+2026-02-25T15:52:23.240Z [INFO] #12 24.29   Downloading filelock-3.20.3-py3-none-any.whl (16 kB)
+2026-02-25T15:52:23.260Z [INFO] #12 24.46 Collecting cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1
+2026-02-25T15:52:23.446Z [INFO] #12 24.65   Downloading https://pypi.nvidia.com/cuda-toolkit/cuda_toolkit-12.8.1-py2.py3-none-any.whl (2.3 kB)
+2026-02-25T15:52:23.879Z [INFO] #12 25.08 Collecting nvidia-cusparselt-cu12==0.7.1
+2026-02-25T15:52:24.094Z [INFO] #12 25.15   Downloading https://pypi.nvidia.com/nvidia-cusparselt-cu12/nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl (287.2 MB)
+2026-02-25T15:52:31.033Z [INFO] #12 32.08      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.2/287.2 MB 42.9 MB/s eta 0:00:00
+2026-02-25T15:52:31.728Z [INFO] #12 32.93 Collecting fsspec>=0.8.5
+2026-02-25T15:52:31.916Z [INFO] #12 32.96   Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+2026-02-25T15:52:31.916Z [INFO] #12 32.97      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 202.5/202.5 KB 75.5 MB/s eta 0:00:00
+2026-02-25T15:52:32.201Z [INFO] #12 33.40 Collecting nvidia-nccl-cu12==2.28.9
+2026-02-25T15:52:32.447Z [INFO] #12 33.50   Downloading https://pypi.nvidia.com/nvidia-nccl-cu12/nvidia_nccl_cu12-2.28.9-py3-none-manylinux_2_18_x86_64.whl (296.8 MB)
+2026-02-25T15:52:39.558Z [INFO] #12 40.61      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 296.8/296.8 MB 57.6 MB/s eta 0:00:00
+2026-02-25T15:52:40.118Z [INFO] #12 41.32 Collecting typing-extensions>=4.10.0
+2026-02-25T15:52:40.281Z [INFO] #12 41.33   Downloading https://download.pytorch.org/whl/nightly/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2026-02-25T15:52:40.281Z [INFO] #12 41.33      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.6/44.6 KB 350.0 MB/s eta 0:00:00
+2026-02-25T15:52:40.561Z [INFO] #12 41.76 Collecting triton==3.6.0+git9844da95
+2026-02-25T15:52:40.725Z [INFO] #12 41.78   Downloading https://download.pytorch.org/whl/nightly/triton-3.6.0%2Bgit9844da95-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (188.1 MB)
+2026-02-25T15:52:41.014Z [INFO] #12 42.22      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.1/188.1 MB 499.3 MB/s eta 0:00:00
+2026-02-25T15:52:41.451Z [INFO] #12 42.65 Collecting cuda-pathfinder~=1.1
+2026-02-25T15:52:41.612Z [INFO] #12 42.66   Downloading https://download.pytorch.org/whl/nightly/cuda_pathfinder-1.2.2-py3-none-any.whl (23 kB)
+2026-02-25T15:52:41.938Z [INFO] #12 43.14 Collecting nvidia-cusolver-cu12==11.7.3.90.*
+2026-02-25T15:52:42.075Z [INFO] #12 43.28   Downloading https://pypi.nvidia.com/nvidia-cusolver-cu12/nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl (267.5 MB)
+2026-02-25T15:52:47.780Z [INFO] #12 48.83      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 267.5/267.5 MB 79.8 MB/s eta 0:00:00
+2026-02-25T15:52:48.304Z [INFO] #12 49.51 Collecting nvidia-nvtx-cu12==12.8.90.*
+2026-02-25T15:52:48.521Z [INFO] #12 49.57   Downloading https://pypi.nvidia.com/nvidia-nvtx-cu12/nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (89 kB)
+2026-02-25T15:52:48.521Z [INFO] #12 49.57      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.0/90.0 KB 333.0 MB/s eta 0:00:00
+2026-02-25T15:52:48.806Z [INFO] #12 50.01 Collecting nvidia-cuda-runtime-cu12==12.8.90.*
+2026-02-25T15:52:49.119Z [INFO] #12 50.32   Downloading https://pypi.nvidia.com/nvidia-cuda-runtime-cu12/nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (954 kB)
+2026-02-25T15:52:49.280Z [INFO] #12 50.33      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 954.8/954.8 KB 139.5 MB/s eta 0:00:00
+2026-02-25T15:52:49.573Z [INFO] #12 50.78 Collecting nvidia-cusparse-cu12==12.5.8.93.*
+2026-02-25T15:52:49.781Z [INFO] #12 50.98   Downloading https://pypi.nvidia.com/nvidia-cusparse-cu12/nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (288.2 MB)
+2026-02-25T15:52:53.691Z [INFO] #12 54.74      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.2/288.2 MB 131.5 MB/s eta 0:00:00
+2026-02-25T15:52:54.155Z [INFO] #12 55.36 Collecting nvidia-cufile-cu12==1.13.1.3.*
+2026-02-25T15:52:54.472Z [INFO] #12 55.68   Downloading https://pypi.nvidia.com/nvidia-cufile-cu12/nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+2026-02-25T15:52:54.630Z [INFO] #12 55.68      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 226.9 MB/s eta 0:00:00
+2026-02-25T15:52:54.664Z [INFO] #12 55.87 Collecting nvidia-cuda-nvrtc-cu12==12.8.93.*
+2026-02-25T15:52:54.880Z [INFO] #12 55.93   Downloading https://pypi.nvidia.com/nvidia-cuda-nvrtc-cu12/nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (88.0 MB)
+2026-02-25T15:52:55.791Z [INFO] #12 56.84      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.0/88.0 MB 120.7 MB/s eta 0:00:00
+2026-02-25T15:52:55.895Z [INFO] #12 57.10 Collecting nvidia-cuda-cupti-cu12==12.8.90.*
+2026-02-25T15:52:56.011Z [INFO] #12 57.21   Downloading https://pypi.nvidia.com/nvidia-cuda-cupti-cu12/nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.2 MB)
+2026-02-25T15:52:56.264Z [INFO] #12 57.32      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 102.6 MB/s eta 0:00:00
+2026-02-25T15:52:56.554Z [INFO] #12 57.76 Collecting nvidia-cublas-cu12==12.8.4.1.*
+2026-02-25T15:52:56.676Z [INFO] #12 57.88   Downloading https://pypi.nvidia.com/nvidia-cublas-cu12/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (594.3 MB)
+2026-02-25T15:53:04.089Z [INFO] #12 65.14      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 594.3/594.3 MB 88.2 MB/s eta 0:00:00
+2026-02-25T15:53:04.894Z [INFO] #12 66.10 Collecting nvidia-nvjitlink-cu12==12.8.93.*
+2026-02-25T15:53:05.107Z [INFO] #12 66.16   Downloading https://pypi.nvidia.com/nvidia-nvjitlink-cu12/nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (39.3 MB)
+2026-02-25T15:53:05.560Z [INFO] #12 66.61      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.3/39.3 MB 114.1 MB/s eta 0:00:00
+2026-02-25T15:53:05.880Z [INFO] #12 67.08 Collecting nvidia-curand-cu12==10.3.9.90.*
+2026-02-25T15:53:06.101Z [INFO] #12 67.15   Downloading https://pypi.nvidia.com/nvidia-curand-cu12/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl (63.6 MB)
+2026-02-25T15:53:07.069Z [INFO] #12 68.12      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.6/63.6 MB 62.5 MB/s eta 0:00:00
+2026-02-25T15:53:07.418Z [INFO] #12 68.62 Collecting nvidia-cufft-cu12==11.3.3.83.*
+2026-02-25T15:53:07.661Z [INFO] #12 68.71   Downloading https://pypi.nvidia.com/nvidia-cufft-cu12/nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (193.1 MB)
+2026-02-25T15:53:10.074Z [INFO] #12 71.13      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 193.1/193.1 MB 97.5 MB/s eta 0:00:00
+2026-02-25T15:53:11.659Z [INFO] #12 72.86 Collecting numpy
+2026-02-25T15:53:11.905Z [INFO] #12 72.89   Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+2026-02-25T15:53:11.906Z [INFO] #12 72.96      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 319.0 MB/s eta 0:00:00
+2026-02-25T15:53:13.227Z [INFO] #12 74.43 Collecting pillow!=8.3.*,>=5.3.0
+2026-02-25T15:53:13.441Z [INFO] #12 74.46   Downloading pillow-12.1.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+2026-02-25T15:53:13.441Z [INFO] #12 74.49      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 246.8 MB/s eta 0:00:00
+2026-02-25T15:53:13.810Z [INFO] #12 75.01 Collecting mpmath<1.4,>=1.1.0
+2026-02-25T15:53:13.996Z [INFO] #12 75.04   Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+2026-02-25T15:53:13.996Z [INFO] #12 75.05      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 KB 410.3 MB/s eta 0:00:00
+2026-02-25T15:53:14.419Z [INFO] #12 75.62 Collecting MarkupSafe>=2.0
+2026-02-25T15:53:14.618Z [INFO] #12 75.67   Downloading https://download.pytorch.org/whl/nightly/MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+2026-02-25T15:53:14.771Z [INFO] #12 75.97 Installing collected packages: torchaudio, nvidia-cusparselt-cu12, mpmath, cuda-toolkit, typing-extensions, triton, sympy, pillow, nvidia-nvtx-cu12, nvidia-nvshmem-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufile-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, numpy, networkx, MarkupSafe, fsspec, filelock, cuda-pathfinder, nvidia-cusparse-cu12, nvidia-cufft-cu12, nvidia-cudnn-cu12, jinja2, cuda-bindings, nvidia-cusolver-cu12, torch, torchvision
+2026-02-25T15:57:57.088Z [INFO] #16 7.142 Collecting cffi>=1.0
+2026-02-25T15:57:57.201Z [INFO] #16 7.168   Downloading cffi-2.0.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (216 kB)
+2026-02-25T15:57:57.201Z [INFO] #16 7.170      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.5/216.5 KB 345.5 MB/s eta 0:00:00
+2026-02-25T15:57:57.201Z [INFO] #16 7.254 Collecting pycparser
+2026-02-25T15:57:57.368Z [INFO] #16 7.279   Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+2026-02-25T15:57:57.368Z [INFO] #16 7.280      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.2/48.2 KB 301.1 MB/s eta 0:00:00
+2026-02-25T15:57:57.368Z [INFO] #16 7.422 Collecting shellingham
+2026-02-25T15:57:57.563Z [INFO] #16 7.447   Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+2026-02-25T15:57:57.564Z [INFO] #16 7.489 Collecting httpx<1,>=0.23.0
+2026-02-25T15:57:57.564Z [INFO] #16 7.514   Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+2026-02-25T15:57:57.564Z [INFO] #16 7.516      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 KB 340.2 MB/s eta 0:00:00
+2026-02-25T15:57:57.564Z [INFO] #16 7.617 Collecting hf-xet<2.0.0,>=1.2.0
+2026-02-25T15:57:57.687Z [INFO] #16 7.642   Downloading hf_xet-1.3.1-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+2026-02-25T15:57:57.687Z [INFO] #16 7.661      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 241.2 MB/s eta 0:00:00
+2026-02-25T15:57:57.688Z [INFO] #16 7.701 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.10/dist-packages (from sympy>=1.13.3->torch->-r requirements.txt (line 1)) (1.3.0)
+2026-02-25T15:57:57.688Z [INFO] #16 7.741 Collecting idna>=2.0
+2026-02-25T15:57:57.800Z [INFO] #16 7.766   Downloading idna-3.11-py3-none-any.whl (71 kB)
+2026-02-25T15:57:57.800Z [INFO] #16 7.768      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.0/71.0 KB 235.5 MB/s eta 0:00:00
+2026-02-25T15:57:57.800Z [INFO] #16 7.784 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2->torch->-r requirements.txt (line 1)) (3.0.2)
+2026-02-25T15:57:57.800Z [INFO] #16 7.829 Collecting typer>=0.24.0
+2026-02-25T15:57:57.800Z [INFO] #16 7.854   Downloading typer-0.24.1-py3-none-any.whl (56 kB)
+2026-02-25T15:57:57.935Z [INFO] #16 7.856      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 KB 137.9 MB/s eta 0:00:00
+2026-02-25T15:57:57.935Z [INFO] #16 7.920 Collecting anyio
+2026-02-25T15:57:57.935Z [INFO] #16 7.945   Downloading anyio-4.12.1-py3-none-any.whl (113 kB)
+2026-02-25T15:57:57.935Z [INFO] #16 7.947      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 113.6/113.6 KB 369.8 MB/s eta 0:00:00
+2026-02-25T15:57:57.935Z [INFO] #16 7.989 Collecting httpcore==1.*
+2026-02-25T15:57:58.070Z [INFO] #16 8.014   Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+2026-02-25T15:57:58.070Z [INFO] #16 8.016      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.8/78.8 KB 347.5 MB/s eta 0:00:00
+2026-02-25T15:57:58.071Z [INFO] #16 8.056 Collecting certifi
+2026-02-25T15:57:58.071Z [INFO] #16 8.086   Downloading certifi-2026.2.25-py3-none-any.whl (153 kB)
+2026-02-25T15:57:58.071Z [INFO] #16 8.088      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.7/153.7 KB 390.7 MB/s eta 0:00:00
+2026-02-25T15:57:58.071Z [INFO] #16 8.124 Collecting h11>=0.16
+2026-02-25T15:57:58.248Z [INFO] #16 8.149   Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-02-25T15:57:58.249Z [INFO] #16 8.195 Collecting annotated-doc>=0.0.2
+2026-02-25T15:57:58.249Z [INFO] #16 8.221   Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+2026-02-25T15:57:58.249Z [INFO] #16 8.302 Collecting rich>=12.3.0
+2026-02-25T15:57:58.405Z [INFO] #16 8.327   Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+2026-02-25T15:57:58.405Z [INFO] #16 8.330      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 KB 349.7 MB/s eta 0:00:00
+2026-02-25T15:57:58.405Z [INFO] #16 8.369 Collecting click>=8.2.1
+2026-02-25T15:57:58.405Z [INFO] #16 8.394   Downloading click-8.3.1-py3-none-any.whl (108 kB)
+2026-02-25T15:57:58.405Z [INFO] #16 8.396      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 KB 357.7 MB/s eta 0:00:00
+2026-02-25T15:57:58.405Z [INFO] #16 8.458 Collecting pygments<3.0.0,>=2.13.0
+2026-02-25T15:57:58.549Z [INFO] #16 8.483   Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+2026-02-25T15:57:58.549Z [INFO] #16 8.489      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 262.2 MB/s eta 0:00:00
+2026-02-25T15:57:58.549Z [INFO] #16 8.529 Collecting markdown-it-py>=2.2.0
+2026-02-25T15:57:58.549Z [INFO] #16 8.557   Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+2026-02-25T15:57:58.549Z [INFO] #16 8.558      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 KB 356.0 MB/s eta 0:00:00
+2026-02-25T15:57:58.549Z [INFO] #16 8.602 Collecting exceptiongroup>=1.0.2
+2026-02-25T15:57:58.652Z [INFO] #16 8.627   Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+2026-02-25T15:57:58.652Z [INFO] #16 8.680 Collecting mdurl~=0.1
+2026-02-25T15:57:58.652Z [INFO] #16 8.705   Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+2026-02-25T15:57:58.986Z [INFO] #16 9.040 Installing collected packages: trampoline, tqdm, shellingham, sentencepiece, scipy, safetensors, regex, pyyaml, pygments, pycparser, psutil, propcache, packaging, multidict, mdurl, kornia_rs, idna, hf-xet, h11, frozenlist, exceptiongroup, einops, click, certifi, attrs, async-timeout, annotated-doc, aiohappyeyeballs, yarl, markdown-it-py, httpcore, cffi, anyio, aiosignal, soundfile, rich, httpx, aiohttp, typer, typer-slim, torchsde, kornia, spandrel, huggingface-hub, tokenizers, transformers
+2026-02-25T15:58:07.715Z [INFO] #16 17.77 Successfully installed aiohappyeyeballs-2.6.1 aiohttp-3.13.3 aiosignal-1.4.0 annotated-doc-0.0.4 anyio-4.12.1 async-timeout-5.0.1 attrs-25.4.0 certifi-2026.2.25 cffi-2.0.0 click-8.3.1 einops-0.8.2 exceptiongroup-1.3.1 frozenlist-1.8.0 h11-0.16.0 hf-xet-1.3.1 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.4.1 idna-3.11 kornia-0.8.2 kornia_rs-0.1.10 markdown-it-py-4.0.0 mdurl-0.1.2 multidict-6.7.1 packaging-26.0 propcache-0.4.1 psutil-7.2.2 pycparser-3.0 pygments-2.19.2 pyyaml-6.0.3 regex-2026.2.19 rich-14.3.3 safetensors-0.7.0 scipy-1.15.3 sentencepiece-0.2.1 shellingham-1.5.4 soundfile-0.13.1 spandrel-0.4.2 tokenizers-0.22.2 torchsde-0.2.6 tqdm-4.67.3 trampoline-0.1.2 transformers-5.2.0 typer-0.24.1 typer-slim-0.24.0 yarl-1.22.0
+2026-02-25T15:58:07.866Z [INFO] #16 17.77 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2026-02-25T15:58:08.063Z [INFO] #16 DONE 18.1s
+2026-02-25T15:58:08.213Z [INFO] #17 [base 11/21] RUN pip install comfy-cli
+2026-02-25T15:58:08.822Z [INFO] #17 0.759 Collecting comfy-cli
+2026-02-25T15:58:08.963Z [INFO] #17 0.900   Downloading comfy_cli-1.5.4-py3-none-any.whl (89 kB)
+2026-02-25T15:58:09.111Z [INFO] #17 0.966      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.2/89.2 KB 1.3 MB/s eta 0:00:00
+2026-02-25T15:58:09.111Z [INFO] #17 1.048 Collecting questionary
+2026-02-25T15:58:09.215Z [INFO] #17 1.082   Downloading questionary-2.1.1-py3-none-any.whl (36 kB)
+2026-02-25T15:58:09.215Z [INFO] #17 1.091 Requirement already satisfied: httpx in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (0.28.1)
+2026-02-25T15:58:09.215Z [INFO] #17 1.152 Collecting cookiecutter
+2026-02-25T15:58:09.345Z [INFO] #17 1.185   Downloading cookiecutter-2.6.0-py3-none-any.whl (39 kB)
+2026-02-25T15:58:09.345Z [INFO] #17 1.195 Requirement already satisfied: psutil in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (7.2.2)
+2026-02-25T15:58:09.345Z [INFO] #17 1.195 Requirement already satisfied: rich in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (14.3.3)
+2026-02-25T15:58:09.346Z [INFO] #17 1.282 Collecting requests
+2026-02-25T15:58:09.540Z [INFO] #17 1.314   Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+2026-02-25T15:58:09.540Z [INFO] #17 1.326      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 KB 5.4 MB/s eta 0:00:00
+2026-02-25T15:58:10.139Z [INFO] #17 2.076 Collecting ruff
+2026-02-25T15:58:10.323Z [INFO] #17 2.109   Downloading ruff-0.15.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.1 MB)
+2026-02-25T15:58:10.404Z [INFO] #17 2.341      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 66.6 MB/s eta 0:00:00
+2026-02-25T15:58:10.574Z [INFO] #17 2.511 Collecting charset-normalizer>=3
+2026-02-25T15:58:10.691Z [INFO] #17 2.543   Downloading charset_normalizer-3.4.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)
+2026-02-25T15:58:10.691Z [INFO] #17 2.547      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.6/153.6 KB 76.6 MB/s eta 0:00:00
+2026-02-25T15:58:10.691Z [INFO] #17 2.594 Collecting semver~=3.0.2
+2026-02-25T15:58:10.691Z [INFO] #17 2.628   Downloading semver-3.0.4-py3-none-any.whl (17 kB)
+2026-02-25T15:58:10.934Z [INFO] #17 2.630 Requirement already satisfied: typing-extensions>=4.7 in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (4.15.0)
+2026-02-25T15:58:10.934Z [INFO] #17 2.683 Collecting websocket-client
+2026-02-25T15:58:10.934Z [INFO] #17 2.716   Downloading websocket_client-1.9.0-py3-none-any.whl (82 kB)
+2026-02-25T15:58:10.934Z [INFO] #17 2.719      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.6/82.6 KB 50.9 MB/s eta 0:00:00
+2026-02-25T15:58:10.934Z [INFO] #17 2.720 Requirement already satisfied: pyyaml in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (6.0.3)
+2026-02-25T15:58:11.255Z [INFO] #17 3.191 Collecting uv
+2026-02-25T15:58:11.438Z [INFO] #17 3.224   Downloading uv-0.10.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.2 MB)
+2026-02-25T15:58:11.439Z [INFO] #17 3.376      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.2/23.2 MB 93.8 MB/s eta 0:00:00
+2026-02-25T15:58:11.557Z [INFO] #17 3.461 Collecting gitpython
+2026-02-25T15:58:11.557Z [INFO] #17 3.494   Downloading gitpython-3.1.46-py3-none-any.whl (208 kB)
+2026-02-25T15:58:11.682Z [INFO] #17 3.497      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.6/208.6 KB 92.0 MB/s eta 0:00:00
+2026-02-25T15:58:11.682Z [INFO] #17 3.541 Collecting mixpanel
+2026-02-25T15:58:11.682Z [INFO] #17 3.575   Downloading mixpanel-5.1.0-py3-none-any.whl (24 kB)
+2026-02-25T15:58:11.682Z [INFO] #17 3.577 Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (26.0)
+2026-02-25T15:58:11.682Z [INFO] #17 3.578 Requirement already satisfied: typer>=0.9 in /usr/local/lib/python3.10/dist-packages (from comfy-cli) (0.24.1)
+2026-02-25T15:58:11.682Z [INFO] #17 3.619 Collecting pathspec
+2026-02-25T15:58:11.802Z [INFO] #17 3.650   Downloading pathspec-1.0.4-py3-none-any.whl (55 kB)
+2026-02-25T15:58:11.802Z [INFO] #17 3.653      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.2/55.2 KB 40.2 MB/s eta 0:00:00
+2026-02-25T15:58:11.802Z [INFO] #17 3.707 Collecting tomlkit
+2026-02-25T15:58:11.802Z [INFO] #17 3.739   Downloading tomlkit-0.14.0-py3-none-any.whl (39 kB)
+2026-02-25T15:58:11.904Z [INFO] #17 3.807 Collecting click<=8.1.8
+2026-02-25T15:58:11.904Z [INFO] #17 3.838   Downloading click-8.1.8-py3-none-any.whl (98 kB)
+2026-02-25T15:58:12.031Z [INFO] #17 3.841      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 KB 58.2 MB/s eta 0:00:00
+2026-02-25T15:58:12.031Z [INFO] #17 3.848 Requirement already satisfied: annotated-doc>=0.0.2 in /usr/local/lib/python3.10/dist-packages (from typer>=0.9->comfy-cli) (0.0.4)
+2026-02-25T15:58:12.031Z [INFO] #17 3.967 Collecting typer>=0.9
+2026-02-25T15:58:12.158Z [INFO] #17 4.001   Downloading typer-0.24.0-py3-none-any.whl (56 kB)
+2026-02-25T15:58:12.278Z [INFO] #17 4.095      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.4/56.4 KB 506.5 kB/s eta 0:00:00
+2026-02-25T15:58:12.279Z [INFO] #17 4.162   Downloading typer-0.23.2-py3-none-any.whl (56 kB)
+2026-02-25T15:58:12.279Z [INFO] #17 4.167      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 KB 21.4 MB/s eta 0:00:00
+2026-02-25T15:58:12.279Z [INFO] #17 4.215   Downloading typer-0.23.1-py3-none-any.whl (56 kB)
+2026-02-25T15:58:12.390Z [INFO] #17 4.220      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 KB 22.0 MB/s eta 0:00:00
+2026-02-25T15:58:12.390Z [INFO] #17 4.226 Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from typer>=0.9->comfy-cli) (1.5.4)
+2026-02-25T15:58:12.390Z [INFO] #17 4.240 Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich->comfy-cli) (4.0.0)
+2026-02-25T15:58:12.390Z [INFO] #17 4.240 Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich->comfy-cli) (2.19.2)
+2026-02-25T15:58:12.390Z [INFO] #17 4.295 Collecting python-slugify>=4.0.0
+2026-02-25T15:58:12.390Z [INFO] #17 4.327   Downloading python_slugify-8.0.4-py2.py3-none-any.whl (10 kB)
+2026-02-25T15:58:12.496Z [INFO] #17 4.372 Collecting binaryornot>=0.4.4
+2026-02-25T15:58:12.496Z [INFO] #17 4.405   Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
+2026-02-25T15:58:12.496Z [INFO] #17 4.433 Requirement already satisfied: Jinja2<4.0.0,>=2.7 in /usr/local/lib/python3.10/dist-packages (from cookiecutter->comfy-cli) (3.1.6)
+2026-02-25T15:58:12.602Z [INFO] #17 4.498 Collecting arrow
+2026-02-25T15:58:12.602Z [INFO] #17 4.529   Downloading arrow-1.4.0-py3-none-any.whl (68 kB)
+2026-02-25T15:58:12.602Z [INFO] #17 4.532      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 KB 39.3 MB/s eta 0:00:00
+2026-02-25T15:58:12.602Z [INFO] #17 4.539 Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->comfy-cli) (2026.2.25)
+2026-02-25T15:58:12.711Z [INFO] #17 4.615 Collecting urllib3<3,>=1.21.1
+2026-02-25T15:58:12.711Z [INFO] #17 4.648   Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+2026-02-25T15:58:12.812Z [INFO] #17 4.651      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.6/131.6 KB 77.4 MB/s eta 0:00:00
+2026-02-25T15:58:12.812Z [INFO] #17 4.657 Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->comfy-cli) (3.11)
+2026-02-25T15:58:12.812Z [INFO] #17 4.706 Collecting gitdb<5,>=4.0.1
+2026-02-25T15:58:12.812Z [INFO] #17 4.738   Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+2026-02-25T15:58:12.812Z [INFO] #17 4.741      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 KB 42.1 MB/s eta 0:00:00
+2026-02-25T15:58:12.812Z [INFO] #17 4.748 Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.10/dist-packages (from httpx->comfy-cli) (1.0.9)
+2026-02-25T15:58:12.918Z [INFO] #17 4.749 Requirement already satisfied: anyio in /usr/local/lib/python3.10/dist-packages (from httpx->comfy-cli) (4.12.1)
+2026-02-25T15:58:12.918Z [INFO] #17 4.752 Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.10/dist-packages (from httpcore==1.*->httpx->comfy-cli) (0.16.0)
+2026-02-25T15:58:12.918Z [INFO] #17 4.824 Collecting asgiref>=3.0.0
+2026-02-25T15:58:12.919Z [INFO] #17 4.855   Downloading asgiref-3.11.1-py3-none-any.whl (24 kB)
+2026-02-25T15:58:13.145Z [INFO] #17 4.896 Collecting json-logic==0.7.0a0
+2026-02-25T15:58:13.145Z [INFO] #17 4.931   Downloading json_logic-0.7.0a0-py2.py3-none-any.whl (7.6 kB)
+2026-02-25T15:58:13.218Z [INFO] #17 5.155 Collecting pydantic>=2.0.0
+2026-02-25T15:58:13.334Z [INFO] #17 5.187   Downloading pydantic-2.12.5-py3-none-any.whl (463 kB)
+2026-02-25T15:58:13.334Z [INFO] #17 5.192      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 463.6/463.6 KB 130.2 MB/s eta 0:00:00
+2026-02-25T15:58:13.335Z [INFO] #17 5.239 Collecting six
+2026-02-25T15:58:13.335Z [INFO] #17 5.271   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-02-25T15:58:13.451Z [INFO] #17 5.387 Collecting prompt_toolkit<4.0,>=2.0
+2026-02-25T15:58:13.575Z [INFO] #17 5.419   Downloading prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+2026-02-25T15:58:13.575Z [INFO] #17 5.424      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 391.4/391.4 KB 124.5 MB/s eta 0:00:00
+2026-02-25T15:58:13.575Z [INFO] #17 5.480 Collecting chardet>=3.0.2
+2026-02-25T15:58:13.575Z [INFO] #17 5.511   Downloading chardet-6.0.0.post1-py3-none-any.whl (627 kB)
+2026-02-25T15:58:13.683Z [INFO] #17 5.517      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 627.2/627.2 KB 145.7 MB/s eta 0:00:00
+2026-02-25T15:58:13.683Z [INFO] #17 5.563 Collecting smmap<6,>=3.0.1
+2026-02-25T15:58:13.683Z [INFO] #17 5.600   Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+2026-02-25T15:58:13.683Z [INFO] #17 5.608 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from Jinja2<4.0.0,>=2.7->cookiecutter->comfy-cli) (3.0.2)
+2026-02-25T15:58:13.683Z [INFO] #17 5.620 Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich->comfy-cli) (0.1.2)
+2026-02-25T15:58:13.913Z [INFO] #17 5.664 Collecting wcwidth
+2026-02-25T15:58:13.913Z [INFO] #17 5.696   Downloading wcwidth-0.6.0-py3-none-any.whl (94 kB)
+2026-02-25T15:58:13.913Z [INFO] #17 5.699      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.2/94.2 KB 62.6 MB/s eta 0:00:00
+2026-02-25T15:58:14.960Z [INFO] #17 6.897 Collecting pydantic-core==2.41.5
+2026-02-25T15:58:15.079Z [INFO] #17 6.930   Downloading pydantic_core-2.41.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+2026-02-25T15:58:15.079Z [INFO] #17 6.944      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 165.5 MB/s eta 0:00:00
+2026-02-25T15:58:15.079Z [INFO] #17 6.984 Collecting typing-inspection>=0.4.2
+2026-02-25T15:58:15.079Z [INFO] #17 7.015   Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+2026-02-25T15:58:15.196Z [INFO] #17 7.054 Collecting annotated-types>=0.6.0
+2026-02-25T15:58:15.196Z [INFO] #17 7.086   Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+2026-02-25T15:58:15.196Z [INFO] #17 7.133 Collecting text-unidecode>=1.3
+2026-02-25T15:58:15.329Z [INFO] #17 7.164   Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+2026-02-25T15:58:15.329Z [INFO] #17 7.167      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 KB 52.2 MB/s eta 0:00:00
+2026-02-25T15:58:15.329Z [INFO] #17 7.180 Requirement already satisfied: exceptiongroup>=1.0.2 in /usr/local/lib/python3.10/dist-packages (from anyio->httpx->comfy-cli) (1.3.1)
+2026-02-25T15:58:15.329Z [INFO] #17 7.265 Collecting python-dateutil>=2.7.0
+2026-02-25T15:58:15.442Z [INFO] #17 7.297   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-02-25T15:58:15.442Z [INFO] #17 7.301      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 100.6 MB/s eta 0:00:00
+2026-02-25T15:58:15.442Z [INFO] #17 7.347 Collecting tzdata
+2026-02-25T15:58:15.442Z [INFO] #17 7.379   Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+2026-02-25T15:58:15.597Z [INFO] #17 7.383      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 348.5/348.5 KB 120.9 MB/s eta 0:00:00
+2026-02-25T15:58:15.936Z [INFO] #17 7.872 Installing collected packages: text-unidecode, websocket-client, wcwidth, uv, urllib3, tzdata, typing-inspection, tomlkit, smmap, six, semver, ruff, python-slugify, pydantic-core, pathspec, click, charset-normalizer, chardet, asgiref, annotated-types, requests, python-dateutil, pydantic, prompt_toolkit, json-logic, gitdb, binaryornot, typer, questionary, gitpython, arrow, mixpanel, cookiecutter, comfy-cli
+2026-02-25T15:58:16.639Z [INFO] #17 8.576   Attempting uninstall: click
+2026-02-25T15:58:16.812Z [INFO] #17 8.576     Found existing installation: click 8.3.1
+2026-02-25T15:58:16.812Z [INFO] #17 8.590     Uninstalling click-8.3.1:
+2026-02-25T15:58:16.812Z [INFO] #17 8.598       Successfully uninstalled click-8.3.1
+2026-02-25T15:58:17.655Z [INFO] #17 9.592   Attempting uninstall: typer
+2026-02-25T15:58:17.832Z [INFO] #17 9.592     Found existing installation: typer 0.24.1
+2026-02-25T15:58:17.832Z [INFO] #17 9.610     Uninstalling typer-0.24.1:
+2026-02-25T15:58:17.832Z [INFO] #17 9.618       Successfully uninstalled typer-0.24.1
+2026-02-25T15:58:17.893Z [INFO] #17 9.829 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2026-02-25T15:58:17.893Z [INFO] #17 9.829 typer-slim 0.24.0 requires typer>=0.24.0, but you have typer 0.23.1 which is incompatible.
+2026-02-25T15:58:18.043Z [INFO] #17 9.829 Successfully installed annotated-types-0.7.0 arrow-1.4.0 asgiref-3.11.1 binaryornot-0.4.4 chardet-6.0.0.post1 charset-normalizer-3.4.4 click-8.1.8 comfy-cli-1.5.4 cookiecutter-2.6.0 gitdb-4.0.12 gitpython-3.1.46 json-logic-0.7.0a0 mixpanel-5.1.0 pathspec-1.0.4 prompt_toolkit-3.0.52 pydantic-2.12.5 pydantic-core-2.41.5 python-dateutil-2.9.0.post0 python-slugify-8.0.4 questionary-2.1.1 requests-2.32.5 ruff-0.15.2 semver-3.0.4 six-1.17.0 smmap-5.0.2 text-unidecode-1.3 tomlkit-0.14.0 typer-0.23.1 typing-inspection-0.4.2 tzdata-2025.3 urllib3-2.6.3 uv-0.10.6 wcwidth-0.6.0 websocket-client-1.9.0
+2026-02-25T15:58:18.043Z [INFO] #17 9.829 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2026-02-25T15:58:18.505Z [INFO] #17 DONE 10.4s
+2026-02-25T15:58:18.656Z [INFO] #18 [base 12/21] RUN pip install runpod requests
+2026-02-25T15:58:19.121Z [INFO] #18 0.615 Collecting runpod
+2026-02-25T15:58:19.244Z [INFO] #18 0.738   Downloading runpod-1.8.1-py3-none-any.whl (157 kB)
+2026-02-25T15:58:19.382Z [INFO] #18 0.800      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.5/157.5 KB 2.7 MB/s eta 0:00:00
+2026-02-25T15:58:19.382Z [INFO] #18 0.805 Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (2.32.5)
+2026-02-25T15:58:19.382Z [INFO] #18 0.826 Requirement already satisfied: filelock>=3.0.0 in /usr/local/lib/python3.10/dist-packages (from runpod) (3.20.3)
+2026-02-25T15:58:19.383Z [INFO] #18 0.877 Collecting aiohttp-retry>=2.8.3
+2026-02-25T15:58:19.561Z [INFO] #18 0.904   Downloading aiohttp_retry-2.9.1-py3-none-any.whl (10.0 kB)
+2026-02-25T15:58:19.822Z [INFO] #18 1.317 Collecting cryptography<46.0.0
+2026-02-25T15:58:20.001Z [INFO] #18 1.345   Downloading cryptography-45.0.7-cp37-abi3-manylinux_2_34_x86_64.whl (4.4 MB)
+2026-02-25T15:58:20.121Z [INFO] #18 1.496      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 29.9 MB/s eta 0:00:00
+2026-02-25T15:58:20.121Z [INFO] #18 1.547 Collecting backoff>=2.2.1
+2026-02-25T15:58:20.121Z [INFO] #18 1.573   Downloading backoff-2.2.1-py3-none-any.whl (15 kB)
+2026-02-25T15:58:20.121Z [INFO] #18 1.615 Collecting colorama<0.4.7,>=0.2.5
+2026-02-25T15:58:20.252Z [INFO] #18 1.641   Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+2026-02-25T15:58:20.253Z [INFO] #18 1.747 Collecting fastapi[all]>=0.94.0
+2026-02-25T15:58:20.354Z [INFO] #18 1.772   Downloading fastapi-0.133.0-py3-none-any.whl (104 kB)
+2026-02-25T15:58:20.354Z [INFO] #18 1.775      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.8/104.8 KB 57.4 MB/s eta 0:00:00
+2026-02-25T15:58:20.354Z [INFO] #18 1.823 Collecting tomli>=2.0.1
+2026-02-25T15:58:20.354Z [INFO] #18 1.848   Downloading tomli-2.4.0-py3-none-any.whl (14 kB)
+2026-02-25T15:58:20.458Z [INFO] #18 1.952 Collecting watchdog>=3.0.0
+2026-02-25T15:58:20.638Z [INFO] #18 1.977   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+2026-02-25T15:58:20.638Z [INFO] #18 1.980      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 KB 46.2 MB/s eta 0:00:00
+2026-02-25T15:58:20.638Z [INFO] #18 1.982 Requirement already satisfied: aiohttp[speedups]>=3.9.3 in /usr/local/lib/python3.10/dist-packages (from runpod) (3.13.3)
+2026-02-25T15:58:20.989Z [INFO] #18 2.483 Collecting boto3>=1.26.165
+2026-02-25T15:58:21.142Z [INFO] #18 2.509   Downloading boto3-1.42.56-py3-none-any.whl (140 kB)
+2026-02-25T15:58:21.142Z [INFO] #18 2.512      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 KB 75.1 MB/s eta 0:00:00
+2026-02-25T15:58:21.143Z [INFO] #18 2.554 Collecting prettytable>=3.9.0
+2026-02-25T15:58:21.143Z [INFO] #18 2.579   Downloading prettytable-3.17.0-py3-none-any.whl (34 kB)
+2026-02-25T15:58:21.143Z [INFO] #18 2.637 Collecting paramiko>=3.3.1
+2026-02-25T15:58:21.272Z [INFO] #18 2.664   Downloading paramiko-4.0.0-py3-none-any.whl (223 kB)
+2026-02-25T15:58:21.272Z [INFO] #18 2.667      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 223.9/223.9 KB 95.3 MB/s eta 0:00:00
+2026-02-25T15:58:21.272Z [INFO] #18 2.703 Collecting tqdm-loggable>=0.1.4
+2026-02-25T15:58:21.272Z [INFO] #18 2.730   Downloading tqdm_loggable-0.3-py3-none-any.whl (9.4 kB)
+2026-02-25T15:58:21.272Z [INFO] #18 2.732 Requirement already satisfied: tomlkit>=0.12.2 in /usr/local/lib/python3.10/dist-packages (from runpod) (0.14.0)
+2026-02-25T15:58:21.272Z [INFO] #18 2.767 Collecting inquirerpy==0.3.4
+2026-02-25T15:58:21.404Z [INFO] #18 2.794   Downloading InquirerPy-0.3.4-py3-none-any.whl (67 kB)
+2026-02-25T15:58:21.405Z [INFO] #18 2.797      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.7/67.7 KB 40.8 MB/s eta 0:00:00
+2026-02-25T15:58:21.405Z [INFO] #18 2.798 Requirement already satisfied: click>=8.1.7 in /usr/local/lib/python3.10/dist-packages (from runpod) (8.1.8)
+2026-02-25T15:58:21.405Z [INFO] #18 2.799 Requirement already satisfied: urllib3>=1.26.6 in /usr/local/lib/python3.10/dist-packages (from runpod) (2.6.3)
+2026-02-25T15:58:21.405Z [INFO] #18 2.832 Collecting py-cpuinfo>=9.0.0
+2026-02-25T15:58:21.405Z [INFO] #18 2.859   Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+2026-02-25T15:58:21.405Z [INFO] #18 2.899 Collecting pfzy<0.4.0,>=0.3.1
+2026-02-25T15:58:21.523Z [INFO] #18 2.926   Downloading pfzy-0.3.4-py3-none-any.whl (8.5 kB)
+2026-02-25T15:58:21.523Z [INFO] #18 2.928 Requirement already satisfied: prompt-toolkit<4.0.0,>=3.0.1 in /usr/local/lib/python3.10/dist-packages (from inquirerpy==0.3.4->runpod) (3.0.52)
+2026-02-25T15:58:21.523Z [INFO] #18 2.931 Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests) (3.11)
+2026-02-25T15:58:21.524Z [INFO] #18 2.932 Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests) (2026.2.25)
+2026-02-25T15:58:21.524Z [INFO] #18 2.932 Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests) (3.4.4)
+2026-02-25T15:58:21.524Z [INFO] #18 2.942 Requirement already satisfied: aiosignal>=1.4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (1.4.0)
+2026-02-25T15:58:21.524Z [INFO] #18 2.943 Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (6.7.1)
+2026-02-25T15:58:21.524Z [INFO] #18 2.943 Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (1.8.0)
+2026-02-25T15:58:21.524Z [INFO] #18 2.943 Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (25.4.0)
+2026-02-25T15:58:21.524Z [INFO] #18 2.944 Requirement already satisfied: propcache>=0.2.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (0.4.1)
+2026-02-25T15:58:21.524Z [INFO] #18 2.944 Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (2.6.1)
+2026-02-25T15:58:21.524Z [INFO] #18 2.944 Requirement already satisfied: yarl<2.0,>=1.17.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (1.22.0)
+2026-02-25T15:58:21.524Z [INFO] #18 2.945 Requirement already satisfied: async-timeout<6.0,>=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp[speedups]>=3.9.3->runpod) (5.0.1)
+2026-02-25T15:58:21.524Z [INFO] #18 3.018 Collecting Brotli>=1.2
+2026-02-25T15:58:21.668Z [INFO] #18 3.043   Downloading brotli-1.2.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+2026-02-25T15:58:21.668Z [INFO] #18 3.056      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 129.5 MB/s eta 0:00:00
+2026-02-25T15:58:21.669Z [INFO] #18 3.163 Collecting backports.zstd
+2026-02-25T15:58:21.805Z [INFO] #18 3.191   Downloading backports_zstd-1.3.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (491 kB)
+2026-02-25T15:58:21.805Z [INFO] #18 3.197      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 491.1/491.1 KB 116.7 MB/s eta 0:00:00
+2026-02-25T15:58:21.805Z [INFO] #18 3.233 Collecting aiodns>=3.3.0
+2026-02-25T15:58:21.805Z [INFO] #18 3.259   Downloading aiodns-4.0.0-py3-none-any.whl (11 kB)
+2026-02-25T15:58:21.805Z [INFO] #18 3.299 Collecting jmespath<2.0.0,>=0.7.1
+2026-02-25T15:58:22.053Z [INFO] #18 3.324   Downloading jmespath-1.1.0-py3-none-any.whl (20 kB)
+2026-02-25T15:58:22.053Z [INFO] #18 3.369 Collecting s3transfer<0.17.0,>=0.16.0
+2026-02-25T15:58:22.053Z [INFO] #18 3.394   Downloading s3transfer-0.16.0-py3-none-any.whl (86 kB)
+2026-02-25T15:58:22.053Z [INFO] #18 3.397      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 KB 54.5 MB/s eta 0:00:00
+2026-02-25T15:58:22.462Z [INFO] #18 3.957 Collecting botocore<1.43.0,>=1.42.56
+2026-02-25T15:58:22.638Z [INFO] #18 3.982   Downloading botocore-1.42.56-py3-none-any.whl (14.6 MB)
+2026-02-25T15:58:22.717Z [INFO] #18 4.212      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.6/14.6 MB 59.0 MB/s eta 0:00:00
+2026-02-25T15:58:22.837Z [INFO] #18 4.252 Requirement already satisfied: cffi>=1.14 in /usr/local/lib/python3.10/dist-packages (from cryptography<46.0.0->runpod) (2.0.0)
+2026-02-25T15:58:22.837Z [INFO] #18 4.271 Requirement already satisfied: typing-extensions>=4.8.0 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (4.15.0)
+2026-02-25T15:58:22.837Z [INFO] #18 4.271 Requirement already satisfied: annotated-doc>=0.0.2 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (0.0.4)
+2026-02-25T15:58:22.837Z [INFO] #18 4.331 Collecting starlette>=0.40.0
+2026-02-25T15:58:22.937Z [INFO] #18 4.356   Downloading starlette-0.52.1-py3-none-any.whl (74 kB)
+2026-02-25T15:58:22.937Z [INFO] #18 4.359      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.3/74.3 KB 43.4 MB/s eta 0:00:00
+2026-02-25T15:58:22.937Z [INFO] #18 4.361 Requirement already satisfied: pydantic>=2.7.0 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (2.12.5)
+2026-02-25T15:58:22.937Z [INFO] #18 4.361 Requirement already satisfied: typing-inspection>=0.4.2 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (0.4.2)
+2026-02-25T15:58:22.937Z [INFO] #18 4.404 Collecting pydantic-settings>=2.0.0
+2026-02-25T15:58:22.937Z [INFO] #18 4.429   Downloading pydantic_settings-2.13.1-py3-none-any.whl (58 kB)
+2026-02-25T15:58:23.062Z [INFO] #18 4.432      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.9/58.9 KB 43.9 MB/s eta 0:00:00
+2026-02-25T15:58:23.062Z [INFO] #18 4.467 Collecting itsdangerous>=1.1.0
+2026-02-25T15:58:23.062Z [INFO] #18 4.492   Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+2026-02-25T15:58:23.062Z [INFO] #18 4.531 Collecting fastapi-cli[standard]>=0.0.8
+2026-02-25T15:58:23.062Z [INFO] #18 4.557   Downloading fastapi_cli-0.0.24-py3-none-any.whl (12 kB)
+2026-02-25T15:58:23.167Z [INFO] #18 4.559 Requirement already satisfied: httpx<1.0.0,>=0.23.0 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (0.28.1)
+2026-02-25T15:58:23.167Z [INFO] #18 4.596 Collecting python-multipart>=0.0.18
+2026-02-25T15:58:23.167Z [INFO] #18 4.622   Downloading python_multipart-0.0.22-py3-none-any.whl (24 kB)
+2026-02-25T15:58:23.167Z [INFO] #18 4.661 Collecting email-validator>=2.0.0
+2026-02-25T15:58:23.321Z [INFO] #18 4.687   Downloading email_validator-2.3.0-py3-none-any.whl (35 kB)
+2026-02-25T15:58:23.322Z [INFO] #18 4.689 Requirement already satisfied: pyyaml>=5.3.1 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (6.0.3)
+2026-02-25T15:58:23.322Z [INFO] #18 4.731 Collecting pydantic-extra-types>=2.0.0
+2026-02-25T15:58:23.322Z [INFO] #18 4.757   Downloading pydantic_extra_types-2.11.0-py3-none-any.whl (74 kB)
+2026-02-25T15:58:23.322Z [INFO] #18 4.759      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.3/74.3 KB 50.5 MB/s eta 0:00:00
+2026-02-25T15:58:23.322Z [INFO] #18 4.816 Collecting uvicorn[standard]>=0.12.0
+2026-02-25T15:58:23.430Z [INFO] #18 4.841   Downloading uvicorn-0.41.0-py3-none-any.whl (68 kB)
+2026-02-25T15:58:23.430Z [INFO] #18 4.844      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 KB 43.8 MB/s eta 0:00:00
+2026-02-25T15:58:23.430Z [INFO] #18 4.846 Requirement already satisfied: jinja2>=3.1.5 in /usr/local/lib/python3.10/dist-packages (from fastapi[all]>=0.94.0->runpod) (3.1.6)
+2026-02-25T15:58:23.430Z [INFO] #18 4.899 Collecting invoke>=2.0
+2026-02-25T15:58:23.430Z [INFO] #18 4.925   Downloading invoke-2.2.1-py3-none-any.whl (160 kB)
+2026-02-25T15:58:23.533Z [INFO] #18 4.930      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.3/160.3 KB 42.6 MB/s eta 0:00:00
+2026-02-25T15:58:23.533Z [INFO] #18 5.002 Collecting pynacl>=1.5
+2026-02-25T15:58:23.533Z [INFO] #18 5.027   Downloading pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl (1.4 MB)
+2026-02-25T15:58:23.663Z [INFO] #18 5.070      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 34.1 MB/s eta 0:00:00
+2026-02-25T15:58:23.663Z [INFO] #18 5.157 Collecting bcrypt>=3.2
+2026-02-25T15:58:23.858Z [INFO] #18 5.183   Downloading bcrypt-5.0.0-cp39-abi3-manylinux_2_34_x86_64.whl (278 kB)
+2026-02-25T15:58:23.858Z [INFO] #18 5.190      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 278.2/278.2 KB 44.4 MB/s eta 0:00:00
+2026-02-25T15:58:23.858Z [INFO] #18 5.196 Requirement already satisfied: wcwidth in /usr/local/lib/python3.10/dist-packages (from prettytable>=3.9.0->runpod) (0.6.0)
+2026-02-25T15:58:23.858Z [INFO] #18 5.202 Requirement already satisfied: tqdm>4.64 in /usr/local/lib/python3.10/dist-packages (from tqdm-loggable>=0.1.4->runpod) (4.67.3)
+2026-02-25T15:58:23.863Z [INFO] #18 5.358 Collecting pycares<6,>=5.0.0
+2026-02-25T15:58:23.988Z [INFO] #18 5.390   Downloading pycares-5.0.1-cp310-cp310-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (222 kB)
+2026-02-25T15:58:23.989Z [INFO] #18 5.396      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 222.9/222.9 KB 50.5 MB/s eta 0:00:00
+2026-02-25T15:58:23.989Z [INFO] #18 5.413 Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /usr/local/lib/python3.10/dist-packages (from botocore<1.43.0,>=1.42.56->boto3>=1.26.165->runpod) (2.9.0.post0)
+2026-02-25T15:58:23.989Z [INFO] #18 5.418 Requirement already satisfied: pycparser in /usr/local/lib/python3.10/dist-packages (from cffi>=1.14->cryptography<46.0.0->runpod) (3.0)
+2026-02-25T15:58:23.989Z [INFO] #18 5.458 Collecting dnspython>=2.0.0
+2026-02-25T15:58:23.989Z [INFO] #18 5.483   Downloading dnspython-2.8.0-py3-none-any.whl (331 kB)
+2026-02-25T15:58:24.107Z [INFO] #18 5.492      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 331.1/331.1 KB 44.2 MB/s eta 0:00:00
+2026-02-25T15:58:24.107Z [INFO] #18 5.577 Collecting rich-toolkit>=0.14.8
+2026-02-25T15:58:24.107Z [INFO] #18 5.602   Downloading rich_toolkit-0.19.7-py3-none-any.whl (32 kB)
+2026-02-25T15:58:24.207Z [INFO] #18 5.606 Requirement already satisfied: typer>=0.16.0 in /usr/local/lib/python3.10/dist-packages (from fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (0.23.1)
+2026-02-25T15:58:24.207Z [INFO] #18 5.654 Collecting fastapi-cloud-cli>=0.1.1
+2026-02-25T15:58:24.208Z [INFO] #18 5.679   Downloading fastapi_cloud_cli-0.14.0-py3-none-any.whl (28 kB)
+2026-02-25T15:58:24.208Z [INFO] #18 5.690 Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.10/dist-packages (from httpx<1.0.0,>=0.23.0->fastapi[all]>=0.94.0->runpod) (1.0.9)
+2026-02-25T15:58:24.208Z [INFO] #18 5.690 Requirement already satisfied: anyio in /usr/local/lib/python3.10/dist-packages (from httpx<1.0.0,>=0.23.0->fastapi[all]>=0.94.0->runpod) (4.12.1)
+2026-02-25T15:58:24.208Z [INFO] #18 5.695 Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.10/dist-packages (from httpcore==1.*->httpx<1.0.0,>=0.23.0->fastapi[all]>=0.94.0->runpod) (0.16.0)
+2026-02-25T15:58:24.208Z [INFO] #18 5.702 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2>=3.1.5->fastapi[all]>=0.94.0->runpod) (3.0.2)
+2026-02-25T15:58:24.314Z [INFO] #18 5.721 Requirement already satisfied: pydantic-core==2.41.5 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.7.0->fastapi[all]>=0.94.0->runpod) (2.41.5)
+2026-02-25T15:58:24.315Z [INFO] #18 5.722 Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.7.0->fastapi[all]>=0.94.0->runpod) (0.7.0)
+2026-02-25T15:58:24.315Z [INFO] #18 5.784 Collecting python-dotenv>=0.21.0
+2026-02-25T15:58:24.315Z [INFO] #18 5.809   Downloading python_dotenv-1.2.1-py3-none-any.whl (21 kB)
+2026-02-25T15:58:24.670Z [INFO] #18 6.165 Collecting websockets>=10.4
+2026-02-25T15:58:24.850Z [INFO] #18 6.191   Downloading websockets-16.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (183 kB)
+2026-02-25T15:58:24.850Z [INFO] #18 6.196      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 183.8/183.8 KB 50.5 MB/s eta 0:00:00
+2026-02-25T15:58:24.850Z [INFO] #18 6.344 Collecting watchfiles>=0.20
+2026-02-25T15:58:24.970Z [INFO] #18 6.371   Downloading watchfiles-1.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (455 kB)
+2026-02-25T15:58:24.970Z [INFO] #18 6.383      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 455.6/455.6 KB 44.4 MB/s eta 0:00:00
+2026-02-25T15:58:24.970Z [INFO] #18 6.464 Collecting uvloop>=0.15.1
+2026-02-25T15:58:25.112Z [INFO] #18 6.494   Downloading uvloop-0.22.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.7 MB)
+2026-02-25T15:58:25.221Z [INFO] #18 6.607      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 33.3 MB/s eta 0:00:00
+2026-02-25T15:58:25.221Z [INFO] #18 6.689 Collecting httptools>=0.6.3
+2026-02-25T15:58:25.221Z [INFO] #18 6.716   Downloading httptools-0.7.1-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (440 kB)
+2026-02-25T15:58:25.412Z [INFO] #18 6.727      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 440.9/440.9 KB 47.2 MB/s eta 0:00:00
+2026-02-25T15:58:25.412Z [INFO] #18 6.756 Requirement already satisfied: exceptiongroup>=1.0.2 in /usr/local/lib/python3.10/dist-packages (from anyio->httpx<1.0.0,>=0.23.0->fastapi[all]>=0.94.0->runpod) (1.3.1)
+2026-02-25T15:58:25.501Z [INFO] #18 6.995 Collecting rignore>=0.5.1
+2026-02-25T15:58:25.678Z [INFO] #18 7.025   Downloading rignore-0.7.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (959 kB)
+2026-02-25T15:58:25.678Z [INFO] #18 7.047      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 959.8/959.8 KB 48.0 MB/s eta 0:00:00
+2026-02-25T15:58:25.679Z [INFO] #18 7.173 Collecting fastar>=0.8.0
+2026-02-25T15:58:25.820Z [INFO] #18 7.199   Downloading fastar-0.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (821 kB)
+2026-02-25T15:58:25.820Z [INFO] #18 7.218      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 821.3/821.3 KB 46.4 MB/s eta 0:00:00
+2026-02-25T15:58:25.820Z [INFO] #18 7.314 Collecting sentry-sdk>=2.20.0
+2026-02-25T15:58:25.942Z [INFO] #18 7.339   Downloading sentry_sdk-2.53.0-py2.py3-none-any.whl (437 kB)
+2026-02-25T15:58:25.943Z [INFO] #18 7.350      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 437.9/437.9 KB 46.6 MB/s eta 0:00:00
+2026-02-25T15:58:25.943Z [INFO] #18 7.373 Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.43.0,>=1.42.56->boto3>=1.26.165->runpod) (1.17.0)
+2026-02-25T15:58:25.943Z [INFO] #18 7.383 Requirement already satisfied: rich>=13.7.1 in /usr/local/lib/python3.10/dist-packages (from rich-toolkit>=0.14.8->fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (14.3.3)
+2026-02-25T15:58:25.943Z [INFO] #18 7.388 Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from typer>=0.16.0->fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (1.5.4)
+2026-02-25T15:58:25.943Z [INFO] #18 7.437 Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich>=13.7.1->rich-toolkit>=0.14.8->fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (4.0.0)
+2026-02-25T15:58:26.158Z [INFO] #18 7.437 Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich>=13.7.1->rich-toolkit>=0.14.8->fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (2.19.2)
+2026-02-25T15:58:26.158Z [INFO] #18 7.501 Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich>=13.7.1->rich-toolkit>=0.14.8->fastapi-cli[standard]>=0.0.8->fastapi[all]>=0.94.0->runpod) (0.1.2)
+2026-02-25T15:58:26.653Z [INFO] #18 8.147 Installing collected packages: py-cpuinfo, Brotli, websockets, watchdog, uvloop, uvicorn, tqdm-loggable, tomli, sentry-sdk, rignore, python-multipart, python-dotenv, prettytable, pfzy, jmespath, itsdangerous, invoke, httptools, fastar, dnspython, colorama, bcrypt, backports.zstd, backoff, pynacl, pycares, inquirerpy, email-validator, cryptography, botocore, watchfiles, starlette, s3transfer, rich-toolkit, pydantic-settings, pydantic-extra-types, paramiko, aiodns, fastapi, boto3, aiohttp-retry, fastapi-cloud-cli, fastapi-cli, runpod
+2026-02-25T15:58:28.515Z [INFO] #18 10.01 Successfully installed Brotli-1.2.0 aiodns-4.0.0 aiohttp-retry-2.9.1 backoff-2.2.1 backports.zstd-1.3.0 bcrypt-5.0.0 boto3-1.42.56 botocore-1.42.56 colorama-0.4.6 cryptography-45.0.7 dnspython-2.8.0 email-validator-2.3.0 fastapi-0.133.0 fastapi-cli-0.0.24 fastapi-cloud-cli-0.14.0 fastar-0.8.0 httptools-0.7.1 inquirerpy-0.3.4 invoke-2.2.1 itsdangerous-2.2.0 jmespath-1.1.0 paramiko-4.0.0 pfzy-0.3.4 prettytable-3.17.0 py-cpuinfo-9.0.0 pycares-5.0.1 pydantic-extra-types-2.11.0 pydantic-settings-2.13.1 pynacl-1.6.2 python-dotenv-1.2.1 python-multipart-0.0.22 rich-toolkit-0.19.7 rignore-0.7.6 runpod-1.8.1 s3transfer-0.16.0 sentry-sdk-2.53.0 starlette-0.52.1 tomli-2.4.0 tqdm-loggable-0.3 uvicorn-0.41.0 uvloop-0.22.1 watchdog-6.0.0 watchfiles-1.1.1 websockets-16.0
+2026-02-25T15:58:28.666Z [INFO] #18 10.01 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2026-02-25T15:58:29.388Z [INFO] #18 DONE 10.9s
+2026-02-25T15:58:29.539Z [INFO] #19 [base 13/21] RUN pip install accelerate==1.6.0 numba scikit-image onnxruntime-gpu yacs
+2026-02-25T15:58:30.089Z [INFO] #19 0.700 Collecting accelerate==1.6.0
+2026-02-25T15:58:30.215Z [INFO] #19 0.826   Downloading accelerate-1.6.0-py3-none-any.whl (354 kB)
+2026-02-25T15:58:30.448Z [INFO] #19 0.909      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 354.7/354.7 KB 4.4 MB/s eta 0:00:00
+2026-02-25T15:58:30.550Z [INFO] #19 1.161 Collecting numba
+2026-02-25T15:58:30.681Z [INFO] #19 1.198   Downloading numba-0.64.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+2026-02-25T15:58:30.681Z [INFO] #19 1.292      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 40.3 MB/s eta 0:00:00
+2026-02-25T15:58:30.830Z [INFO] #19 1.441 Collecting scikit-image
+2026-02-25T15:58:30.980Z [INFO] #19 1.468   Downloading scikit_image-0.25.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.8 MB)
+2026-02-25T15:58:30.980Z [INFO] #19 1.591      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.8/14.8 MB 104.3 MB/s eta 0:00:00
+2026-02-25T15:58:31.082Z [INFO] #19 1.665 Collecting onnxruntime-gpu
+2026-02-25T15:58:31.083Z [INFO] #19 1.694   Downloading onnxruntime_gpu-1.23.2-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (300.5 MB)
+2026-02-25T15:58:33.596Z [INFO] #19 4.207      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.5/300.5 MB 10.2 MB/s eta 0:00:00
+2026-02-25T15:58:33.903Z [INFO] #19 4.514 Collecting yacs
+2026-02-25T15:58:34.092Z [INFO] #19 4.539   Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+2026-02-25T15:58:34.092Z [INFO] #19 4.571 Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (26.0)
+2026-02-25T15:58:34.093Z [INFO] #19 4.571 Requirement already satisfied: numpy<3.0.0,>=1.17 in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (2.2.6)
+2026-02-25T15:58:34.093Z [INFO] #19 4.571 Requirement already satisfied: psutil in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (7.2.2)
+2026-02-25T15:58:34.093Z [INFO] #19 4.572 Requirement already satisfied: safetensors>=0.4.3 in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (0.7.0)
+2026-02-25T15:58:34.093Z [INFO] #19 4.572 Requirement already satisfied: torch>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (2.12.0.dev20260225+cu128)
+2026-02-25T15:58:34.093Z [INFO] #19 4.573 Requirement already satisfied: huggingface-hub>=0.21.0 in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (1.4.1)
+2026-02-25T15:58:34.093Z [INFO] #19 4.573 Requirement already satisfied: pyyaml in /usr/local/lib/python3.10/dist-packages (from accelerate==1.6.0) (6.0.3)
+2026-02-25T15:58:34.093Z [INFO] #19 4.703 Collecting llvmlite<0.47,>=0.46.0dev0
+2026-02-25T15:58:34.268Z [INFO] #19 4.729   Downloading llvmlite-0.46.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+2026-02-25T15:58:36.864Z [INFO] #19 7.475      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 45.7 MB/s eta 0:00:00
+2026-02-25T15:58:36.990Z [INFO] #19 7.601 Collecting lazy-loader>=0.4
+2026-02-25T15:58:37.092Z [INFO] #19 7.626   Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+2026-02-25T15:58:37.092Z [INFO] #19 7.628 Requirement already satisfied: pillow>=10.1 in /usr/local/lib/python3.10/dist-packages (from scikit-image) (12.1.0)
+2026-02-25T15:58:37.092Z [INFO] #19 7.628 Requirement already satisfied: scipy>=1.11.4 in /usr/local/lib/python3.10/dist-packages (from scikit-image) (1.15.3)
+2026-02-25T15:58:37.092Z [INFO] #19 7.703 Collecting tifffile>=2022.8.12
+2026-02-25T15:58:37.206Z [INFO] #19 7.729   Downloading tifffile-2025.5.10-py3-none-any.whl (226 kB)
+2026-02-25T15:58:37.207Z [INFO] #19 7.733      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.5/226.5 KB 103.1 MB/s eta 0:00:00
+2026-02-25T15:58:37.207Z [INFO] #19 7.793 Collecting imageio!=2.35.0,>=2.33
+2026-02-25T15:58:37.207Z [INFO] #19 7.818   Downloading imageio-2.37.2-py3-none-any.whl (317 kB)
+2026-02-25T15:58:37.443Z [INFO] #19 7.822      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.6/317.6 KB 114.4 MB/s eta 0:00:00
+2026-02-25T15:58:37.444Z [INFO] #19 7.824 Requirement already satisfied: networkx>=3.0 in /usr/local/lib/python3.10/dist-packages (from scikit-image) (3.4.2)
+2026-02-25T15:58:37.444Z [INFO] #19 7.877 Collecting coloredlogs
+2026-02-25T15:58:37.444Z [INFO] #19 7.901   Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+2026-02-25T15:58:37.444Z [INFO] #19 7.904      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 KB 30.0 MB/s eta 0:00:00
+2026-02-25T15:58:37.608Z [INFO] #19 8.219 Collecting protobuf
+2026-02-25T15:58:37.754Z [INFO] #19 8.244   Downloading protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+2026-02-25T15:58:37.754Z [INFO] #19 8.248      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 323.5/323.5 KB 111.8 MB/s eta 0:00:00
+2026-02-25T15:58:37.754Z [INFO] #19 8.292 Collecting flatbuffers
+2026-02-25T15:58:37.754Z [INFO] #19 8.316   Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+2026-02-25T15:58:37.754Z [INFO] #19 8.318 Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from onnxruntime-gpu) (1.14.0)
+2026-02-25T15:58:37.754Z [INFO] #19 8.365 Requirement already satisfied: hf-xet<2.0.0,>=1.2.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (1.3.1)
+2026-02-25T15:58:37.886Z [INFO] #19 8.365 Requirement already satisfied: shellingham in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (1.5.4)
+2026-02-25T15:58:37.887Z [INFO] #19 8.365 Requirement already satisfied: typer-slim in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (0.24.0)
+2026-02-25T15:58:37.887Z [INFO] #19 8.366 Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (3.20.3)
+2026-02-25T15:58:37.887Z [INFO] #19 8.366 Requirement already satisfied: typing-extensions>=4.1.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (4.15.0)
+2026-02-25T15:58:37.887Z [INFO] #19 8.367 Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (2026.2.0)
+2026-02-25T15:58:37.887Z [INFO] #19 8.367 Requirement already satisfied: httpx<1,>=0.23.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (0.28.1)
+2026-02-25T15:58:37.887Z [INFO] #19 8.367 Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.21.0->accelerate==1.6.0) (4.67.3)
+2026-02-25T15:58:37.887Z [INFO] #19 8.498 Requirement already satisfied: nvidia-nvshmem-cu12==3.4.5 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (3.4.5)
+2026-02-25T15:58:37.995Z [INFO] #19 8.498 Requirement already satisfied: cuda-bindings==12.9.4 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (12.9.4)
+2026-02-25T15:58:37.995Z [INFO] #19 8.499 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (0.7.1)
+2026-02-25T15:58:37.995Z [INFO] #19 8.500 Requirement already satisfied: cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (12.8.1)
+2026-02-25T15:58:37.995Z [INFO] #19 8.502 Requirement already satisfied: triton==3.6.0+git9844da95 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (3.6.0+git9844da95)
+2026-02-25T15:58:37.995Z [INFO] #19 8.502 Requirement already satisfied: nvidia-nccl-cu12==2.28.9 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (2.28.9)
+2026-02-25T15:58:37.995Z [INFO] #19 8.503 Requirement already satisfied: nvidia-cudnn-cu12==9.19.0.56 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (9.19.0.56)
+2026-02-25T15:58:37.995Z [INFO] #19 8.504 Requirement already satisfied: setuptools<82 in /usr/lib/python3/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (59.6.0)
+2026-02-25T15:58:37.995Z [INFO] #19 8.504 Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch>=2.0.0->accelerate==1.6.0) (3.1.6)
+2026-02-25T15:58:37.995Z [INFO] #19 8.510 Requirement already satisfied: cuda-pathfinder~=1.1 in /usr/local/lib/python3.10/dist-packages (from cuda-bindings==12.9.4->torch>=2.0.0->accelerate==1.6.0) (1.2.2)
+2026-02-25T15:58:37.995Z [INFO] #19 8.566 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (11.3.3.83)
+2026-02-25T15:58:37.995Z [INFO] #19 8.567 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.90)
+2026-02-25T15:58:37.995Z [INFO] #19 8.568 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.5.8.93)
+2026-02-25T15:58:37.995Z [INFO] #19 8.569 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.93)
+2026-02-25T15:58:37.995Z [INFO] #19 8.570 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.90)
+2026-02-25T15:58:37.995Z [INFO] #19 8.571 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.93)
+2026-02-25T15:58:37.995Z [INFO] #19 8.572 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (11.7.3.90)
+2026-02-25T15:58:37.995Z [INFO] #19 8.573 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (1.13.1.3)
+2026-02-25T15:58:37.995Z [INFO] #19 8.574 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (10.3.9.90)
+2026-02-25T15:58:37.995Z [INFO] #19 8.575 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.90)
+2026-02-25T15:58:37.995Z [INFO] #19 8.576 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1.* in /usr/local/lib/python3.10/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==12.8.1->torch>=2.0.0->accelerate==1.6.0) (12.8.4.1)
+2026-02-25T15:58:37.996Z [INFO] #19 8.606 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.10/dist-packages (from sympy->onnxruntime-gpu) (1.3.0)
+2026-02-25T15:58:38.165Z [INFO] #19 8.666 Collecting humanfriendly>=9.1
+2026-02-25T15:58:38.165Z [INFO] #19 8.690   Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+2026-02-25T15:58:38.165Z [INFO] #19 8.693      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 KB 60.6 MB/s eta 0:00:00
+2026-02-25T15:58:38.165Z [INFO] #19 8.776 Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (2026.2.25)
+2026-02-25T15:58:38.275Z [INFO] #19 8.776 Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (1.0.9)
+2026-02-25T15:58:38.275Z [INFO] #19 8.776 Requirement already satisfied: idna in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (3.11)
+2026-02-25T15:58:38.275Z [INFO] #19 8.777 Requirement already satisfied: anyio in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (4.12.1)
+2026-02-25T15:58:38.275Z [INFO] #19 8.782 Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.10/dist-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (0.16.0)
+2026-02-25T15:58:38.275Z [INFO] #19 8.804 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2->torch>=2.0.0->accelerate==1.6.0) (3.0.2)
+2026-02-25T15:58:38.275Z [INFO] #19 8.862 Collecting typer>=0.24.0
+2026-02-25T15:58:38.275Z [INFO] #19 8.886   Downloading typer-0.24.1-py3-none-any.whl (56 kB)
+2026-02-25T15:58:38.378Z [INFO] #19 8.889      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 KB 39.5 MB/s eta 0:00:00
+2026-02-25T15:58:38.378Z [INFO] #19 8.905 Requirement already satisfied: annotated-doc>=0.0.2 in /usr/local/lib/python3.10/dist-packages (from typer>=0.24.0->typer-slim->huggingface-hub>=0.21.0->accelerate==1.6.0) (0.0.4)
+2026-02-25T15:58:38.378Z [INFO] #19 8.906 Requirement already satisfied: rich>=12.3.0 in /usr/local/lib/python3.10/dist-packages (from typer>=0.24.0->typer-slim->huggingface-hub>=0.21.0->accelerate==1.6.0) (14.3.3)
+2026-02-25T15:58:38.378Z [INFO] #19 8.953 Collecting click>=8.2.1
+2026-02-25T15:58:38.378Z [INFO] #19 8.978   Downloading click-8.3.1-py3-none-any.whl (108 kB)
+2026-02-25T15:58:38.378Z [INFO] #19 8.981      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 KB 66.1 MB/s eta 0:00:00
+2026-02-25T15:58:38.378Z [INFO] #19 8.989 Requirement already satisfied: exceptiongroup>=1.0.2 in /usr/local/lib/python3.10/dist-packages (from anyio->httpx<1,>=0.23.0->huggingface-hub>=0.21.0->accelerate==1.6.0) (1.3.1)
+2026-02-25T15:58:38.564Z [INFO] #19 9.010 Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich>=12.3.0->typer>=0.24.0->typer-slim->huggingface-hub>=0.21.0->accelerate==1.6.0) (2.19.2)
+2026-02-25T15:58:38.564Z [INFO] #19 9.011 Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich>=12.3.0->typer>=0.24.0->typer-slim->huggingface-hub>=0.21.0->accelerate==1.6.0) (4.0.0)
+2026-02-25T15:58:38.564Z [INFO] #19 9.024 Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->typer>=0.24.0->typer-slim->huggingface-hub>=0.21.0->accelerate==1.6.0) (0.1.2)
+2026-02-25T15:58:38.890Z [INFO] #19 9.501 Installing collected packages: flatbuffers, yacs, tifffile, protobuf, llvmlite, lazy-loader, imageio, humanfriendly, click, scikit-image, numba, coloredlogs, typer, onnxruntime-gpu, accelerate
+2026-02-25T15:58:39.975Z [INFO] #19 10.59   Attempting uninstall: click
+2026-02-25T15:58:40.146Z [INFO] #19 10.59     Found existing installation: click 8.1.8
+2026-02-25T15:58:40.146Z [INFO] #19 10.60     Uninstalling click-8.1.8:
+2026-02-25T15:58:40.146Z [INFO] #19 10.61       Successfully uninstalled click-8.1.8
+2026-02-25T15:58:41.826Z [INFO] #19 12.44   Attempting uninstall: typer
+2026-02-25T15:58:42.000Z [INFO] #19 12.44     Found existing installation: typer 0.23.1
+2026-02-25T15:58:42.000Z [INFO] #19 12.45     Uninstalling typer-0.23.1:
+2026-02-25T15:58:42.000Z [INFO] #19 12.46       Successfully uninstalled typer-0.23.1
+2026-02-25T15:58:45.320Z [INFO] #19 15.93 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2026-02-25T15:58:45.321Z [INFO] #19 15.93 comfy-cli 1.5.4 requires click<=8.1.8, but you have click 8.3.1 which is incompatible.
+2026-02-25T15:58:45.471Z [INFO] #19 15.93 Successfully installed accelerate-1.6.0 click-8.3.1 coloredlogs-15.0.1 flatbuffers-25.12.19 humanfriendly-10.0 imageio-2.37.2 lazy-loader-0.4 llvmlite-0.46.0 numba-0.64.0 onnxruntime-gpu-1.23.2 protobuf-6.33.5 scikit-image-0.25.2 tifffile-2025.5.10 typer-0.24.1 yacs-0.1.8
+2026-02-25T15:58:45.471Z [INFO] #19 15.93 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2026-02-25T15:58:46.604Z [INFO] #19 DONE 17.2s
+2026-02-25T15:58:46.756Z [INFO] #20 [base 14/21] RUN mv extra_model_paths.yaml.example extra_model_paths.yaml.example.bak || true
+2026-02-25T15:58:46.995Z [INFO] #20 DONE 0.4s
+2026-02-25T15:58:47.212Z [INFO] #21 [base 15/21] COPY src/extra_model_paths.yaml .
+2026-02-25T15:58:47.212Z [INFO] #21 DONE 0.1s
+2026-02-25T15:58:47.212Z [INFO] #22 [base 16/21] ADD src/start.sh src/restore_snapshot.sh src/rp_handler.py test_input.json ./
+2026-02-25T15:58:47.212Z [INFO] #22 DONE 0.1s
+2026-02-25T15:58:47.363Z [INFO] #23 [base 17/21] RUN chmod +x /start.sh /restore_snapshot.sh
+2026-02-25T15:58:47.469Z [INFO] #23 DONE 0.3s
+2026-02-25T15:58:47.664Z [INFO] #24 [base 18/21] ADD *snapshot*.json /
+2026-02-25T15:58:47.664Z [INFO] #24 DONE 0.0s
+2026-02-25T15:58:47.664Z [INFO] #25 [base 19/21] RUN if [ -n "" ] || [ -n "$GITHUB_TOKEN" ]; then         TOKEN=$GITHUB_TOKEN;         git config --global url."https://${TOKEN}:@github.com/".insteadOf "https://github.com/";     fi
+2026-02-25T15:58:47.787Z [INFO] #25 DONE 0.3s
+2026-02-25T15:58:47.938Z [INFO] #26 [base 20/21] RUN /restore_snapshot.sh
+2026-02-25T15:58:47.962Z [INFO] #26 0.175 runpod-worker-comfy: restoring snapshot: /2025-03-31_12-23-01_snapshot.json
+2026-02-25T15:58:48.159Z [INFO] #26 0.372 /usr/local/lib/python3.10/dist-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+2026-02-25T15:58:48.160Z [INFO] #26 0.372   warnings.warn(
+2026-02-25T15:58:48.493Z [INFO] #26 0.536 Do you agree to enable tracking to improve the application? [y/N]: Aborted.
+2026-02-25T15:58:48.596Z [INFO] #26 ERROR: process "/bin/sh -c /restore_snapshot.sh" did not complete successfully: exit code: 1
+2026-02-25T15:58:48.606Z [INFO] ------
+2026-02-25T15:58:48.606Z [INFO]  > [base 20/21] RUN /restore_snapshot.sh:
+2026-02-25T15:58:48.606Z [INFO] 0.175 runpod-worker-comfy: restoring snapshot: /2025-03-31_12-23-01_snapshot.json
+2026-02-25T15:58:48.606Z [INFO] 0.372 /usr/local/lib/python3.10/dist-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+2026-02-25T15:58:48.606Z [INFO] 0.372   warnings.warn(
+2026-02-25T15:58:48.606Z [INFO] Aborted.
+2026-02-25T15:58:48.606Z [INFO] WARNING: current commit information was not captured by the build: git was not found in the system: exec: "git": executable file not found in $PATH
+2026-02-25T15:58:48.609Z [INFO]  [33m5 warnings found (use docker --debug to expand):
+2026-02-25T15:58:48.609Z [INFO] [0m - FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 2)
+2026-02-25T15:58:48.609Z [INFO]  - FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 97)
+2026-02-25T15:58:48.609Z [INFO]  - FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 110)
+2026-02-25T15:58:48.609Z [INFO]  - SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ARG "GITHUB_TOKEN") (line 83)
+2026-02-25T15:58:48.609Z [INFO]  - SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ENV "GITHUB_TOKEN_ENV") (line 84)
+2026-02-25T15:58:48.610Z [INFO] Dockerfile:91
+2026-02-25T15:58:48.610Z [INFO] --------------------
+2026-02-25T15:58:48.610Z [INFO]   89 |
+2026-02-25T15:58:48.610Z [INFO]   90 |     # Restore the snapshot to install custom nodes
+2026-02-25T15:58:48.610Z [INFO]   91 | >>> RUN /restore_snapshot.sh
+2026-02-25T15:58:48.610Z [INFO]   92 |
+2026-02-25T15:58:48.610Z [INFO]   93 |     # Start container
+2026-02-25T15:58:48.611Z [ERROR] ERROR: failed to build: failed to solve: process "/bin/sh -c /restore_snapshot.sh" did not complete successfully: exit code: 1
+2026-02-25T15:58:48.617Z [ERROR] Build finished with wrong exit code: Please view the logs to find out what went wrong.
+2026-02-25T15:58:48.636Z [ERROR] None
+None

@@ -2,7 +2,20 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "WebFetch(domain:docs.runpod.io)"
+      "WebFetch(domain:docs.runpod.io)",
+      "Bash(git checkout -b blackwell)",
+      "Bash(git add Dockerfile)",
+      "Bash(git commit:*)",
+      "Bash(git push -u origin blackwell)",
+      "Bash(git log --oneline --remotes=\"*/qwenVTON\")",
+      "Bash(git pull)",
+      "Bash(git add src/restore_snapshot.sh)",
+      "Bash(git push)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git add Dockerfile src/restore_snapshot.sh)",
+      "Bash(gh api repos/comfyanonymous/ComfyUI/commits/main --jq '.sha')",
+      "WebFetch(domain:api.github.com)"
     ],
     "deny": [],
     "ask": []

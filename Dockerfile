@@ -42,9 +42,8 @@ RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 # Install PyTorch 2.10+ nightly with CUDA 12.8 support
 # Use pytorch-nightly-cu128 for Blackwell support or fallback to torch 2.7 if needed
 # Set environment variables for CUDA compatibility with Blackwell (SM_120)
-ENV CUDA_VISIBLE_DEVICES=0
-RUN pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir || \
-    pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
+RUN CUDA_VISIBLE_DEVICES=0 pip install --pre torch torchaudio torchvision --index-url https://download.pytorch.org/whl/nightly/cu128 --no-cache-dir || \
+    CUDA_VISIBLE_DEVICES=0 pip install torch==2.7.1 torchaudio torchvision --index-url https://download.pytorch.org/whl/cu128
 
 # Install ComfyUI from git (latest)
 RUN git clone https://github.com/comfyanonymous/ComfyUI.git /comfyui
